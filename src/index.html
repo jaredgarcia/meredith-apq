@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-vue/dist/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../node_modules/pdfjs-dist/web/pdf_viewer.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <title>WOOD Archive</title>
+</head>
+
+<body>
+  <div id="app">
+    <router-view></router-view>
+  </div>
+  <script src="../node_modules/vue/dist/vue.min.js"></script>
+  <script src="../node_modules/bootstrap-vue/dist/bootstrap-vue.min.js"></script>
+  <script src="../node_modules/vue-router/dist/vue-router.js"></script>
+
+  <script type="text/x-template" id="home">
+    <b-container fluid>
+      <nav class="navbar navbar-light bg-light fixed-top">
+        <b-row class="w-100">
+          <b-col class="d-flex flex-row justify-content-start align-items-center">
+            <a class="navbar-brand">
+              <b-img src="assets/images/apqLogo.png" width="240" height="40" alt="Home" v-b-tooltip.hover title="Return to Home view" @click="resetSearchFilter">
+            </a>
+            <input class="form-control mx-2" type="search" placeholder="Enter Keywords" aria-label="Search" v-model="searchParams.searchTerm" v-on:keydown.enter="doSearch"/>
+            <div>
+              <b-dropdown split split-variant="danger" variant="danger" text="Search" ref="searchRef"  right="Right align" @click="doSearch">
+                <div class="container">
+                  <b-dropdown-form class="search-dropdown">
+                    <h5>FILTER YOUR SEARCH</h5>
+                    <b-form-radio-group v-model="searchParams.searchType" class="mb-1">
+                      <b-form-radio value="exact">Exact Match</b-form-radio>
+                      <b-form-radio value="or">Or</b-form-radio>
+                      <b-form-radio value="and">And</b-form-radio>
+                    </b-form-radio-group>
+                    <div class="d-flex flex-row justify-content-start">
+                      <b-form-checkbox class="mr-3" value="active" unchecked-value="inactive" v-model="searchParams.searchUseTitle" :disabled=searchParams.searchFullText>Title and Sub-Title</b-form-checkbox>
+                      <b-form-checkbox value="active" unchecked-value="inactive" v-model="searchParams.searchUseKeywords" :disabled=searchParams.searchFullText>Keywords</b-form-checkbox>
+                    </div>
+                    <b-form-checkbox value="title" class="mb-1" v-model="searchParams.searchFullText">Full Text</b-form-checkbox>
+                    <b-form-checkbox value="articleType" class="mb-1" v-model="searchParams.articleTypeFilter" :disabled=searchParams.searchFullText>Article Type</b-form-checkbox>
+                    <b-form-group  v-if="searchParams.articleTypeFilter" class="p-2 bg-light">
+                      <b-form-checkbox-group stacked v-model="searchParams.articleTypeFilters" name="article_type">
+                        <b-form-checkbox value="1" :disabled=searchParams.searchFullText>Ask WOOD</b-form-checkbox>
+                        <b-form-checkbox value="2" :disabled=searchParams.searchFullText>Projects</b-form-checkbox>
+                        <b-form-checkbox value="3" :disabled=searchParams.searchFullText>Shop Tips</b-form-checkbox>
+                        <b-form-checkbox value="4" :disabled=searchParams.searchFullText>Techniques</b-form-checkbox>
+                        <b-form-checkbox value="5" :disabled=searchParams.searchFullText>Tool Reviews</b-form-checkbox>
+                        <b-form-checkbox value="6" :disabled=searchParams.searchFullText>Tool Use</b-form-checkbox>
+                        <b-form-checkbox value="7" :disabled=searchParams.searchFullText>Wood and Supplies</b-form-checkbox>
+                      </b-form-checkbox-group>
+                    </b-form-group>
+                    <b-form-checkbox value="projectType" class="mb-1" v-model="searchParams.projectTypeFilter" :disabled=searchParams.searchFullText>Project Type</b-form-checkbox>
+                    <b-form-group v-if="searchParams.projectTypeFilter" class="p-2 bg-light">
+                      <b-form-checkbox-group stacked v-model="searchParams.projectTypeFilters" name="project_type">
+                        <b-form-checkbox value="1" :disabled=searchParams.searchFullText>Furniture</b-form-checkbox>
+                        <b-form-checkbox value="2" :disabled=searchParams.searchFullText>Gifts and Decoration</b-form-checkbox>
+                        <b-form-checkbox value="3" :disabled=searchParams.searchFullText>Holiday Decor</b-form-checkbox>
+                        <b-form-checkbox value="4" :disabled=searchParams.searchFullText>Outdoor</b-form-checkbox>
+                        <b-form-checkbox value="5" :disabled=searchParams.searchFullText>Toys and Kids Furniture</b-form-checkbox>
+                        <b-form-checkbox value="6" :disabled=searchParams.searchFullText>Turning Projects</b-form-checkbox>
+                        <b-form-checkbox value="7" :disabled=searchParams.searchFullText>Workshop and Jigs</b-form-checkbox>
+                      </b-form-checkbox-group>
+                    </b-form-group>
+                    <div class="form-inline d-flex flex-row justify-content-start">
+                      <span class="mr-2">Date Range:</span>
+                      <b-form-select class="mx-1" v-model="searchParams.startYear" :options="startYearOptions" />
+                      <span class="mx-2">to</span>
+                      <b-form-select class="mx-1" v-model="searchParams.endYear" :options="endYearOptions" />
+                    </div>
+                    <div>
+                      <b-button variant="danger" class ="resetSearch mt-2" size="sm" @click="resetSearchFilter">Reset</b-button>
+                    </div>
+                  </b-dropdown-form>
+                </div>
+              </b-dropdown>
+            </div>
+          </b-col>
+          <b-col class="d-flex flex-row justify-content-end align-items-center">
+            <b-button v-b-tooltip.hover title="Return to Home view" class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" @click="resetSearchFilter">Home</b-button>
+            <button class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" @click="toggleDisplayBookmarks" v-b-tooltip.hover title="Open Bookmarks">Bookmarks</button>
+            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'about-viewer'}" v-b-tooltip.hover
+              title="About this Archive">About</router-link>
+            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'help-viewer'}" v-b-tooltip.hover
+              title="View the Help">Help</router-link>
+          </b-col>
+        </b-row>
+      </nav>
+      <div class="bookmarks-container" v-if="displayBookmarks">
+        <nav class="bookmarks-header d-flex flex-row justify-content-between align-items-center">
+          <span class="text-white font-weight-bold pl-3">My Bookmarks</span>
+          <button class="btn btn-outline" @click="toggleDisplayBookmarks">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </button>
+        </nav>
+        <div class="bookmarks-scroller no-control-box">
+          <div class="container-fluid pt-3 px-3">
+            <div class="row">
+              <div class="col">
+                <div v-for="bookmark in bookmarks">
+                  <div v-if="bookmark.is_folder" class="my-1">
+                    <div class="form-inline d-flex flex-row justify-content-between">
+                      <button class="btn btn-sm btn-outline" @click="toggleBookmarkFolder(bookmark)">
+                        <span v-if="bookmark.collapsed">
+                          <i class="fa fa-caret-right" aria-hidden="true"></i>
+                          <i class="fa fa-folder"></i>
+                        </span>
+                        <span v-else>
+                          <i class="fa fa-caret-down" aria-hidden="true"></i>
+                          <i class="fa fa-folder-open"></i>
+                        </span>
+                        {{ bookmark.tag }}
+                      </button>
+                      <div>
+                          <b-button size="sm" variant="danger" @click="deleteFolder(bookmark.id)"><i class="fa fa-trash" aria-hidden="true"></i></b-button>
+                      </div>
+                    </div>
+                    <b-collapse v-bind:id="bookmark.id" class="mt-2">
+                      <div v-for="bm in bookmark.bookmarks" class="d-flex flex-row justify-content-between align-items-center">
+                        <router-link class="btn btn-sm btn-outline pl-3 bookmark-item foldered" :to="{ name: 'ebook-viewer', params: { id: bm.issue, page: bm.page }}">
+                          <i class="fa fa-bookmark" aria-hidden="true"></i> <span class="font-weight-bold">{{ bm.tag }}</span>
+                        </router-link>
+                        <button class="btn btn-sm btn-outline" @click="deleteFolderedBookmark(bookmark.id, bm.id)">
+                          <i class="fa fa-trash" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                    </b-collapse>
+                  </div>
+                  <div v-else class="d-flex flex-row justify-content-between align-items-center">
+                    <router-link class="btn btn-sm btn-outline pl-3 bookmark-item" :to="{ name: 'ebook-viewer', params: { id: bookmark.issue, page: bookmark.page }}">
+                      <i class="fa fa-bookmark" aria-hidden="true"></i> <span class="font-weight-bold">{{ bookmark.tag }}</span>
+                    </router-link>
+                    <button class="btn btn-sm btn-outline" @click="deleteBookmark(bookmark.id)">
+                      <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bookshelf" v-if="showSearchResults">
+        <b-row class="bookshelf-controls p-2">
+          <b-col cols="5" class="d-flex justify-content-start">
+            <b-button-group size="sm" class="ml-4">
+              <b-button variant="light" :pressed="thumnailViewEnabled" :disabled=thumnailViewEnabled @click="toggleBookShelfDisplay">
+                <i class="fa fa-th mr-1" aria-hidden="true" variant="light"></i>Thumbnail</b-button>
+              <b-button variant="light" :pressed="listViewEnabled" :disabled=listViewEnabled @click="toggleBookShelfDisplay">
+                <i class="fa fa-th-list mr-1" aria-hidden="true" variant="light"></i>List View</b-button>
+            </b-button-group>
+          </b-col>
+          <b-col cols="2 search-result-count" class="d-flex justify-content-center align-items-center">
+            {{ searchParams.searchResultCount }} Results
+          </b-col>
+          <b-col cols="5" class="d-flex justify-content-end">
+            <div class="form-inline">
+              <label class="filter-label">Sort by</label>
+              <b-button-group size="sm" class="mr-4">
+                <b-button variant="light" :disabled=sortOrderSearchNewestFirst @click="setSortOrderSearch(1)">
+                  <i class="fa fa-arrow-down mr-1" aria-hidden="true" variant="light"></i>Newest First</b-button>
+                <b-button variant="light" :disabled=sortOrderSearchOldestFirst @click="setSortOrderSearch(2)">
+                  <i class="fa fa-arrow-up mr-1" aria-hidden="true" variant="light"></i>Oldest
+                  First</b-button>
+                <b-button variant="light" :disabled=sortOrderSearchA2Z @click="setSortOrderSearch(4)">
+                  <i class="fa fa fa-arrow-up mr-1" aria-hidden="true" variant="light"></i>A - Z</b-button>
+                <b-button variant="light" :disabled=sortOrderSearchZ2A @click="setSortOrderSearch(3)">
+                  <i class="fa fa fa-arrow-down mr-1" aria-hidden="true" variant="light"></i>Z - A</b-button>
+              </b-button-group>
+            </div>
+          </b-col>
+        </b-row>
+        <div class="book-showcase">
+          <div class="container-fluid">
+            <b-row class="pt-5" v-if="showBookCover">
+              <b-col md="3" lg="2" v-for="article in searchParams.searchResults" class="d-flex justify-content-center">
+                <div class="py-3">
+                  <router-link class="btn btn-link thumb-link-container" :to="{ name: 'ebook-viewer', params: { id: article.issue, page: article.dest }}">
+                    <img :data-src="getPagePreview(article.issue, article.dest)" class="book img-responsive sr-lazy-thumb">
+                    <div class="book-description-layer">
+                      <p class="book-description">Issue #{{article.issue}}<br /></p>
+                    </div>
+                  </router-link>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-else>
+              <b-col cols="12" class="d-flex justify-content-center">
+                <b-table ref="tblSearchResults" striped hover :items="searchParams.searchResults" :fields="searchResultfields">
+                  <template slot="issue" slot-scope="data">
+                    Issue #{{ data.item.issue }} ({{ data.item.issue_month }} {{ data.item.issue_year }})
+                  </template>
+                  <template slot="page" slot-scope="data">
+                    {{ (data.item.dest < 3) ? "Cover " + data.item.dest : data.item.dest - 2}}
+                  </template>
+                  <template slot="action" slot-scope="data">
+                    <router-link class="btn btn-sm customBtnColor" :to="{ name: 'ebook-viewer', params: { id: data.item.issue, page: data.item.dest }}">
+                      View
+                    </router-link>
+                  </template>
+                </b-table>
+              </b-col>
+            </b-row>
+          </div>
+        </div>
+      </div>
+      <div class="bookshelf" v-else>
+        <b-row class="bookshelf-controls p-2">
+          <b-col cols="5" class="d-flex justify-content-start">
+            <b-button-group size="sm" class="ml-4">
+              <b-button variant="light" :pressed="thumnailViewEnabled" :disabled=thumnailViewEnabled @click="toggleBookShelfDisplay">
+                <i class="fa fa-th mr-1" aria-hidden="true"></i>Thumbnail</b-button>
+              <b-button variant="light" :pressed="listViewEnabled" :disabled=listViewEnabled @click="toggleBookShelfDisplay">
+                <i class="fa fa-th-list mr-1" aria-hidden="true"></i>List View</b-button>
+            </b-button-group>
+          </b-col>
+          <b-col cols="2 search-result-count" class="d-flex justify-content-center align-items-center">
+            {{ issueCount }} Results
+          </b-col>
+          <b-col cols="5" class="d-flex justify-content-end">
+            <div class="form-inline">
+              <label class="filter-label">Sort by</label>
+              <b-button-group size="sm" class="mr-4">
+                <b-button variant="light" :disabled=sortOrderNewestFirst @click="toggleSortOrderIssues">
+                  <i class="fa fa-arrow-down mr-1" aria-hidden="true" variant="light"></i>Newest First</b-button>
+                <b-button variant="light" :disabled=sortOrderOldestFirst @click="toggleSortOrderIssues">
+                  <i class="fa fa-arrow-up mr-1" aria-hidden="true" variant="light"></i>Oldest
+                  First</b-button>
+              </b-button-group>
+            </div>
+          </b-col>
+        </b-row>
+        <div class="book-showcase">
+          <div class="container-fluid">
+            <b-row class="pt-5" v-if="showBookCover">
+              <b-col md="3" lg="2" v-for="issue in issues" class="d-flex justify-content-center">
+                <div class="py-3">
+                  <router-link class="btn btn-link thumb-link-container" :to="{ name: 'ebook-viewer', params: { id: issue.id, page: 1 }}">
+                    <img :data-src="thumb(issue.id)" class="img-responsive book bs-lazy-thumb">
+                    <div class="book-description-layer">
+                      <p class="book-description">Issue #{{issue.id}}<br />{{issue.month}} {{issue.year}}</p>
+                    </div>
+                  </router-link>
+                  <div class="shelf"></div>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-else>
+              <b-col cols="12" class="d-flex justify-content-center">
+                <b-table ref="tblWoodIssues" striped hover :items="issues" :fields="fields">
+                  <template slot="action" slot-scope="data">
+                    <router-link class="btn btn-sm customBtnColor" :to="{ name: 'ebook-viewer', params: { id: data.item.id, page: 1 }}">
+                      View
+                    </router-link>
+                  </template>
+                </b-table>
+              </b-col>
+            </b-row>
+          </div>
+        </div>
+      </div>
+    </b-container>
+  </script>
+
+  <script type="text/x-template" id="ebook-viewer">
+    <div class="container-fluid" v-if="issue">
+      <nav class="navbar navbar-light bg-light fixed-top" v-bind:class="{ 'fullscreen': isFullscreenMode  }">
+        <b-row class="w-100">
+          <b-col class="d-flex flex-row justify-content-start align-items-center">
+            <router-link class="navbar-brand" :to="{ name: 'home'}">
+              <img src="assets/images/apqLogo.png" width="240" height="40" alt="Home" v-b-tooltip.hover title="Return to Home view">
+            </router-link>
+            <div class="form-inline">
+              <input class="form-control mx-2" type="search" placeholder="Enter Keywords" aria-label="Search" v-model="issueSearchTerm" v-on:keydown.enter="doFind">
+              <button v-b-tooltip.hover title="Find"class="btn customBtnColor" @click="doFind"><i class="fa fa-search" aria-hidden="true"></i>
+                Find
+              </button>
+            </div>
+          </b-col>
+          <b-col class="d-flex flex-row justify-content-end align-items-center">
+            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}"v-b-tooltip.hover title="Return to Home view">
+                Home
+            </router-link>
+            <button class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" @click="toggleDisplayBookmarks" v-b-tooltip.hover title="Open Bookmarks">Bookmarks</button>
+            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'about-viewer'}" v-b-tooltip.hover title="About this Archive">About</router-link>
+            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'help-viewer'}" v-b-tooltip.hover title="View the Help">Help</router-link>
+          </b-col>
+        </b-row>
+      </nav>
+      <div class="bookmarks-container"  v-if="displayBookmarks">
+        <nav class="bookmarks-header d-flex flex-row justify-content-between align-items-center">
+          <span class="text-white font-weight-bold pl-3">My Bookmarks</span>
+          <button class="btn btn-outline" @click="toggleDisplayBookmarks">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </button>
+        </nav>
+        <nav class="bookmarks-control-box d-flex flex-row justify-content-center align-items-center py-2">
+          <button class="btn btn-sm customBtnColor px-2 mx-2" @click="addBookmark">
+            <i class="fa fa-bookmark-o" aria-hidden="true"></i> Add
+          </button>
+          <button class="btn btn-sm customBtnColor px-2 mx-2" @click="toggleBookmarkFolderForm">
+            <i class="fa fa-folder-o" aria-hidden="true"></i> New Folder
+          </button>
+        </nav>
+        <div class="bookmarks-scroller">
+          <div class="container-fluid pt-3 px-3">
+            <div class="row">
+              <div class="col">
+                <div class="form-inline d-flex flex-row justify-content-between" v-if="askForBookmarkFolderName">
+                  <b-form-input id="input-small" size="sm" type="text" placeholder="Enter Label" v-model="bookmarkFolderName" />
+                  <div>
+                      <b-button size="sm" variant="success" @click="createBookmarkFolder">Save</b-button>
+                      <b-button size="sm" variant="danger" @click="toggleBookmarkFolderForm">Cancel</b-button>
+                  </div>
+                </div>
+                <div v-for="bookmark in bookmarks">
+                  <div v-if="bookmark.is_folder" class="my-1">
+                    <div class="form-inline d-flex flex-row justify-content-between">
+                      <button class="btn btn-sm btn-outline" @click="toggleBookmarkFolder(bookmark)">
+                        <span v-if="bookmark.collapsed">
+                          <i class="fa fa-caret-right" aria-hidden="true"></i>
+                          <i class="fa fa-folder"></i>
+                        </span>
+                        <span v-else>
+                          <i class="fa fa-caret-down" aria-hidden="true"></i>
+                          <i class="fa fa-folder-open"></i>
+                        </span>
+                        {{ bookmark.tag }}
+                      </button>
+                      <div>
+                          <b-button size="sm" variant="success" @click="addFolderedBookmark(bookmark.id)"><i class="fa fa-bookmark-o" aria-hidden="true"></i></b-button>
+                          <b-button size="sm" variant="danger" @click="deleteFolder(bookmark.id)"><i class="fa fa-trash" aria-hidden="true"></i></b-button>
+                      </div>
+                    </div>
+                    <b-collapse v-bind:id="bookmark.id" class="mt-2">
+                      <div v-for="bm in bookmark.bookmarks" class="d-flex flex-row justify-content-between align-items-center">
+                        <router-link class="btn btn-sm btn-outline pl-3 bookmark-item foldered" :to="{ name: 'ebook-bm-loader', params: { id: bm.issue, page: bm.page }}">
+                          <i class="fa fa-bookmark" aria-hidden="true"></i> <span class="font-weight-bold">{{ bm.tag }}</span>
+                        </router-link>
+                        <button class="btn btn-sm btn-outline" @click="deleteFolderedBookmark(bookmark.id, bm.id)">
+                          <i class="fa fa-trash" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                    </b-collapse>
+                  </div>
+                  <div v-else class="d-flex flex-row justify-content-between align-items-center">
+                    <router-link class="btn btn-sm btn-outline pl-3 bookmark-item" :to="{ name: 'ebook-bm-loader', params: { id: bookmark.issue, page: bookmark.page }}">
+                      <i class="fa fa-bookmark" aria-hidden="true"></i> <span class="font-weight-bold">{{ bookmark.tag }}</span>
+                    </router-link>
+                    <button class="btn btn-sm btn-outline" @click="deleteBookmark(bookmark.id)">
+                      <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="toc-container shadow" v-if="displayTOC">
+        <nav class="toc-header d-flex flex-row justify-content-between align-items-center">
+          <span class="text-white font-weight-bold pl-3">Table of Contents</span>
+          <button class="btn btn-outline" @click="toggleTOCDisplay">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </button>
+        </nav>
+        <div class="toc-scroller">
+          <div class="container-fluid pt-3 px-3">
+            <div class="row">
+              <div class="col">
+                <ul class="toc-links">
+                  <li v-for="page in issue.toc" @click="gotoPage(page.dest)" class="mb-2">
+                    <span>{{ page.title }}</span>
+                    <span>{{ page.dest - 2}}</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-viewer-header"  v-bind:class="{ 'fullscreen': isFullscreenMode  }">
+        <b-row class="w-100">
+          <b-col class="d-flex flex-row justify-content-start align-items-center">
+            <router-link class="btn btn-outline" :to="{ name: 'home'}" v-b-tooltip.hover title="Return to Home view">
+              <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </router-link>
+          </b-col>
+          <b-col class="d-flex flex-row justify-content-center align-items-center">
+            <div class="issue-title mx-auto">
+              {{ issue.title }}
+            </div>
+          </b-col>
+          <b-col class="d-flex flex-row justify-content-end align-items-center">
+            <button v-b-tooltip.hover title="Open Bookmarks" class="btn btn-outline ml-1" @click="toggleDisplayBookmarks">
+              <i class="fa fa-bookmark" aria-hidden="true"></i>
+            </button>
+            <button v-b-tooltip.hover title="Table of contents" class="btn btn-outline ml-1" @click="toggleTOCDisplay">
+              <i class="fa fa-list" aria-hidden="true"></i>
+            </button>
+            <button v-b-tooltip.hover title="Full screen" class="btn btn-outline ml-1"@click="toggleFullscreenMode">
+              <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+            </button>
+          </b-col>
+        </b-row>
+      </div>
+      <div id="page-viewer" class="page-viewer d-flex flex-row"
+        v-bind:class="{ 'flex-justify-start': flexJustifyContentStart, 'show-pages': showPagePreview, 'fullscreen': isFullscreenMode }">
+        <button class="btn btn-outline prev-page-btn" @click="previousPage" :disabled=isFirstPage v-b-tooltip.hover title="Previous Page">
+          <img src="assets/images/prev-page-big.svg" height="50" width="50">
+        </button>
+        <div class="canvas-container">
+          <canvas id="left-page-1" class="left-page active"></canvas>
+          <canvas id="left-page-2" class="left-page preload"></canvas>
+          <div id="left-page-text-layer" class="page-text-layer textLayer" v-bind:class="{ 'rendering': isPageRendering  }"></div>
+        </div>
+        <div class="canvas-container" v-bind:class="{ 'd-none': singlePageView }">
+          <canvas id="right-page-1" class="right-page active"></canvas>
+          <canvas id="right-page-2" class="right-page preload"></canvas>
+          <div id="right-page-text-layer" class="page-text-layer textLayer" v-bind:class="{ 'rendering': isPageRendering  }"></div>
+        </div>
+        <canvas class="left-preload-page d-none"></canvas>
+        <canvas class="right-preload-page d-none"></canvas>
+        <canvas id="print-page-one" class="d-none"></canvas>
+        <canvas id="print-page-two" class="d-none"></canvas>
+        <button class="btn btn-outline next-page-btn" @click="nextPage" :disabled=isLastPage v-b-tooltip.hover title="Next Page">
+          <img src="assets/images/next-page-big.svg" height="50" width="50">
+        </button>
+      </div>
+      <div class="page-viewer-footer" v-bind:class="{ 'show-pages': showPagePreview  }">
+        <b-row class="w-100">
+          <b-col class="d-flex flex-row justify-content-center align-items-center">
+            <button class="btn btn-outline" @click="printPDF" v-b-tooltip.hover title="Print">
+                <img src="assets/images/print.png" width="30" height="30" alt="Print">
+            </button>
+            <button class="btn btn-outline" v-bind:class="{ 'text-danger': !issueHasNoAttachment }" :disabled=issueHasNoAttachment @click="viewAttachment(issue.filename)" v-b-tooltip.hover title="Open the issue's full-size patterns as PDF">
+              <img src="assets/images/pdf-file.svg" width="30" height="30" alt="Open the issue's full-size patterns as PDF">
+            </button>
+            <button class="btn btn-outline ml-4" :disabled=singlePageView @click="togglePageViewDisplay" v-b-tooltip.hover title="Display Single-Page View">
+              <img src="assets/images/single-page.svg" width="30" height="30" alt="Display Single-Page View">
+            </button>
+            <button class="btn btn-outline" :disabled=disableDoubleViewButton @click="togglePageViewDisplay" v-b-tooltip.hover title="Display Double-Page View">
+              <img src="assets/images/double-page.png" width="45" height="25" alt="Display Double-Page View">
+            </button>
+            <button class="btn btn-outline ml-4" @click="firstPage" :disabled=isFirstPage v-b-tooltip.hover title="First Page">
+                <img src="assets/images/first-page.svg" width="25" height="28" alt="First Page">
+            </button>
+            <button class="btn btn-outline" @click="previousPage" :disabled=isFirstPage v-b-tooltip.hover title="Previous Page">
+                <img src="assets/images/prev-page.svg" width="25" height="28" alt="Previous Page">
+            </button>
+            <div class="page-select ml-3 mr-1">
+              <b-form-select v-model="selectedPage" :options="pageSelectOptions" />
+            </div>
+            <div class="page-info ml-1 mr-3">
+                ({{ pageDisplay }} of {{ ebookPageCount }})
+            </div>
+            <button class="btn btn-outline" @click="nextPage" :disabled=isLastPage v-b-tooltip.hover title="Next Page">
+                <img src="assets/images/next-page.svg" width="25" height="28" alt="Next Page">
+            </button>
+            <button class="btn btn-outline mr-4" @click="lastPage" :disabled=isLastPage v-b-tooltip.hover title="Last Page">
+                <img src="assets/images/last-page.svg" width="25" height="27" alt="Last Page">
+            </button>
+            <button class="btn btn-outline"  @click="zoomFitScreen"  :disabled=isFitScreen v-b-tooltip.hover title="Fit Screen">
+                <img src="assets/images/fit-screen.svg" width="37" height="37" alt="Fit Screen">
+            </button>
+            <button class="btn btn-outline mr-4" @click="zoomFitWidth" :disabled=isFitWidth v-b-tooltip.hover title="Fit Width">
+                <img src="assets/images/fit-width.svg" width="40" height="40" alt="Fit Width">
+            </button>
+            <button class="btn btn-outline" @click="zoomIn" :disabled=isZoomIn v-b-tooltip.hover title="Zoom In">
+                <img src="assets/images/zoom-in.svg" width="30" height="30" alt="Zoom In">
+            </button>
+            <button class="btn btn-outline" @click="zoomOut" :disabled=isZoomOut v-b-tooltip.hover title="Zoom Out">
+                <img src="assets/images/zoom-out.svg" width="30" height="30" alt="Zoom Out">
+            </button>
+            <button class="btn btn-outline btn-lg preview-btn" @click="togglePagePreview" v-if="showPagePreview" v-b-tooltip.hover title="View Pages">
+                <img src="assets/images/view-pages-down.svg" width="40" height="40" alt="View Pages">
+            </button>
+            <button class="btn btn-outline btn-lg preview-btn" @click="togglePagePreview" v-else v-b-tooltip.hover title="View Pages">
+                <img src="assets/images/view-pages-up.svg" width="40" height="40" alt="View Pages">
+            </button>
+          </b-col>
+        </b-row>
+      </div>
+      <div class="page-preview d-flex flex-row align-items-center" v-if="showPagePreview">
+        <div class="page-preview-container mx-2" v-for="p in ebookPageCount">
+          <div class="page-preview-overlay" v-bind:class="{ 'selected': isCurrentPage(p) }">
+
+          </div>
+          <button class="btn btn-link p-0" @click="gotoPage(p)" v-bind:id="generateThumbnailId(issue.id, p)">
+            <img v-bind:src="getPagePreview(issue.id, p)">
+          </button>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <script type="text/x-template" id="about-viewer">
+    <b-container>
+      <nav class="navbar navbar-light bg-light fixed-top">
+        <b-row class="w-100">
+          <b-col class="d-flex flex-row justify-content-start align-items-center">
+            <router-link class="navbar-brand" :to="{ name: 'home'}">
+              <img src="assets/images/apqLogo.png" width="240" height="40" alt="Home" v-b-tooltip.hover title="Go back to Home view">
+            </router-link>
+          </b-col>
+          <b-col class="d-flex flex-row justify-content-end align-items-center">
+            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}" v-b-tooltip.hover title="Return to Home view">
+              Home
+            </router-link>
+          </b-col>
+        </b-row>
+      </nav>
+      <div class="page-viewer-header">
+        <b-row class="w-100">
+          <b-col class="d-flex flex-row justify-content-start align-items-center">
+            <router-link class="btn btn-outline" :to="{ name: 'home'}" v-b-tooltip.hover title="Return to Home view">
+              <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </router-link>
+          </b-col>
+          <b-col class="d-flex flex-row justify-content-center align-items-center">
+            <div class="page-title mx-auto">
+              ABOUT THIS ARCHIVE
+            </div>
+          </b-col>
+          <b-col class="d-flex flex-row justify-content-end align-items-center">
+          </b-col>
+        </b-row>
+      </div>
+      <div class="about-content p-3 mt-5">
+        <p>
+          Welcome to The Archive, the complete history of American Patchwork & Quilting® and Quilts 
+          and More magazines! This massive collection is printer-friendly, fully
+          searchable, and contains high-quality illustrations and photos.
+        </p>
+        <div>The Archive features:</div>
+        <div class="app-features ml-5 mt-2 mb-3">
+          <div>Search all issues with any term or topic</div>
+          <div>Easy to find any pattern, designer, and tips</div>
+          <div>Thumbnail previews of each article or pattern</div>
+          <div>Browse the magazines by year, issue, quilt designer or quilt size</div>
+          <div>One click takes you to the information you need</div>
+          <div>Compatible with PC and Mac</div>
+        </div>
+        <p>Patterns and content may be used for personal use only. Reproduction in whole or in  part without permission
+          is prohibited. No electronic or printed reproduction permitted without prior written consent of Meredith
+          corporation. Meredith Corporation 2019. All rights reserved®.
+        </p>
+        <p>
+          It is expressly prohibited to reprint any patterns or content and sell for profit.
+        </p>
+        <p>
+          It is permissable to make publicly display a single finished product of any project on The Archive, including
+          for purposes of competitive winnings up to $1,000, so long as visible credit is given to the designer and
+          American Patchwork and Quilting or Quilts and More magazine.
+        </p>
+        <p>
+          Please contact 1-888-636-4478 if your interest in purchasing a license agreement to use The Archive for
+          education purposes.
+        </p>  
+        <p>
+          Powered by Reach eLibrary, a product from Integration New Media Inc. (INM)
+        </p>
+      </div>
+    </b-container>
+  </script>
+
+  <script type="text/x-template" id="help-viewer">
+    <div id="container-fluid">
+      <nav class="navbar navbar-light bg-light fixed-top">
+        <b-row class="w-100">
+          <b-col class="d-flex flex-row justify-content-start align-items-center">
+            <router-link class="navbar-brand" :to="{ name: 'home'}">
+              <img src="assets/images/apqLogo.png" width="240" height="40" alt="Home" v-b-tooltip.hover title="Go back to Home view">
+            </router-link>
+          </b-col>
+          <b-col class="d-flex flex-row justify-content-end align-items-center">
+            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}" v-b-tooltip.hover title="Return to Home view">
+              Home
+            </router-link>
+          </b-col>
+        </b-row>
+      </nav>
+      <div class="page-viewer-header">
+        <b-row class="w-100">
+          <b-col class="d-flex flex-row justify-content-start align-items-center">
+            <router-link class="btn btn-outline" :to="{ name: 'home'}" v-b-tooltip.hover title="Return to Home view">
+              <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </router-link>
+          </b-col>
+          <b-col class="d-flex flex-row justify-content-center align-items-center">
+            <div class="page-title mx-auto">
+              HELP
+            </div>
+          </b-col>
+          <b-col class="d-flex flex-row justify-content-end align-items-center">
+          </b-col>
+        </b-row>
+      </div>
+      <div id="page-viewer" class="page-viewer d-flex flex-row align-items-center"
+        v-bind:class="{ 'flex-justify-start': flexJustifyContentStart }">
+          <div class="canvas-container">
+            <canvas id="left-page"></canvas>
+            <div id="left-page-text-layer" class="page-text-layer textLayer"></div>
+          </div>
+          <div class="canvas-container" v-bind:class="{ 'd-none': singlePageView }">
+              <canvas id="right-page"></canvas>
+              <div id="right-page-text-layer" class="page-text-layer textLayer"></div>
+          </div>
+          <canvas id="preload-page" class="d-none"></canvas>
+          <canvas id="print-page-one" class="d-none"></canvas>
+      </div>
+      <div class="help-page-viewer-footer">
+        <b-row class="w-100">
+          <b-col class="d-flex flex-row justify-content-center align-items-center">
+           <button class="btn btn-outline" @click="printPDF" v-b-tooltip.hover title="Print">
+             <b-img src="assets/images/print.png" width="30" height="30" alt="Print">
+           </button>
+           <button class="btn btn-outline ml-4" @click="firstPage" :disabled=isFirstPage v-b-tooltip.hover title="First Page">
+             <b-img src="assets/images/first-page.svg" width="25" height="28" alt="First Page">
+           </button>
+           <button class="btn btn-outline" @click="previousPage" :disabled=isFirstPage v-b-tooltip.hover title="Previous Page">
+             <b-img src="assets/images/prev-page.svg" width="25" height="28" alt="Previous Page">
+           </button>
+           <button class="btn btn-outline" @click="nextPage" :disabled=isLastPage v-b-tooltip.hover title="Next Page">
+            <b-img src="assets/images/next-page.svg" width="25" height="28" alt="Next Page">
+          </button>
+          <button class="btn btn-outline mr-4" @click="lastPage" :disabled=isLastPage v-b-tooltip.hover title="Last Page">
+            <b-img src="assets/images/last-page.svg" width="25" height="27" alt="Last Page">
+          </button>
+          </b-col>
+        </b-row>
+      </div>
+    </div>
+  </script>
+
+  <script type="text/x-template" id="splashscreen">
+    <div class="splashscreen">
+
+    </div>
+  </script>
+  <script type="text/javascript">
+    require("./renderer.js")
+  </script>
+
+</body>
+
+</html>
