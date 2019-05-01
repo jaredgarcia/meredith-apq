@@ -453,3 +453,20 @@ ul.toc-links span+span {
     background-color: #023c6f;
     border-color: #023c6f;
 }
+
+.customBtnColorFind{
+    color: rgb(12, 12, 12);
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.btnClose{
+    color: #fff;
+    background-color: #002366;
+    border-color: #002366;
+}
+
+.customBtnHover:hover{
+    color: #fff;
+    background-color: #777777;
+}
