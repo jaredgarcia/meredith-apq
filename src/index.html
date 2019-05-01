@@ -30,7 +30,7 @@
             </a>
             <input class="form-control mx-2" type="search" placeholder="Enter Keywords" aria-label="Search" v-model="searchParams.searchTerm" v-on:keydown.enter="doSearch"/>
             <div>
-              <b-dropdown split split-variant="danger" variant="danger" text="Search" ref="searchRef"  right="Right align" @click="doSearch">
+              <b-dropdown split split-variant="warning" variant="warning" text="Search" ref="searchRef"  right="Right align" @click="doSearch">
                 <div class="container">
                   <b-dropdown-form class="search-dropdown">
                     <h5>FILTER YOUR SEARCH</h5>
@@ -75,7 +75,7 @@
                       <b-form-select class="mx-1" v-model="searchParams.endYear" :options="endYearOptions" />
                     </div>
                     <div>
-                      <b-button variant="danger" class ="resetSearch mt-2" size="sm" @click="resetSearchFilter">Reset</b-button>
+                      <b-button variant="warning" class ="resetSearch mt-2" size="sm" @click="resetSearchFilter">Reset</b-button>
                     </div>
                   </b-dropdown-form>
                 </div>
@@ -83,11 +83,11 @@
             </div>
           </b-col>
           <b-col class="d-flex flex-row justify-content-end align-items-center">
-            <b-button v-b-tooltip.hover title="Return to Home view" class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" @click="resetSearchFilter">Home</b-button>
-            <button class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" @click="toggleDisplayBookmarks" v-b-tooltip.hover title="Open Bookmarks">Bookmarks</button>
-            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'about-viewer'}" v-b-tooltip.hover
+            <b-button v-b-tooltip.hover title="Return to Home view" class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" @click="resetSearchFilter">Home</b-button>
+            <button class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" @click="toggleDisplayBookmarks" v-b-tooltip.hover title="Open Bookmarks">Bookmarks</button>
+            <router-link class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'about-viewer'}" v-b-tooltip.hover
               title="About this Archive">About</router-link>
-            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'help-viewer'}" v-b-tooltip.hover
+            <router-link class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'help-viewer'}" v-b-tooltip.hover
               title="View the Help">Help</router-link>
           </b-col>
         </b-row>
@@ -95,7 +95,7 @@
       <div class="bookmarks-container" v-if="displayBookmarks">
         <nav class="bookmarks-header d-flex flex-row justify-content-between align-items-center">
           <span class="text-white font-weight-bold pl-3">My Bookmarks</span>
-          <button class="btn btn-outline" @click="toggleDisplayBookmarks">
+          <button class="btnClose btn-outline" @click="toggleDisplayBookmarks">
             <i class="fa fa-times" aria-hidden="true"></i>
           </button>
         </nav>
@@ -278,25 +278,25 @@
             </router-link>
             <div class="form-inline">
               <input class="form-control mx-2" type="search" placeholder="Enter Keywords" aria-label="Search" v-model="issueSearchTerm" v-on:keydown.enter="doFind">
-              <button v-b-tooltip.hover title="Find"class="btn customBtnColor" @click="doFind"><i class="fa fa-search" aria-hidden="true"></i>
+              <button v-b-tooltip.hover title="Find"class="btn customBtnColorFind" @click="doFind"><i class="fa fa-search" aria-hidden="true"></i>
                 Find
               </button>
             </div>
           </b-col>
           <b-col class="d-flex flex-row justify-content-end align-items-center">
-            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}"v-b-tooltip.hover title="Return to Home view">
+            <router-link class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}"v-b-tooltip.hover title="Return to Home view">
                 Home
             </router-link>
-            <button class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" @click="toggleDisplayBookmarks" v-b-tooltip.hover title="Open Bookmarks">Bookmarks</button>
-            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'about-viewer'}" v-b-tooltip.hover title="About this Archive">About</router-link>
-            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'help-viewer'}" v-b-tooltip.hover title="View the Help">Help</router-link>
+            <button class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" @click="toggleDisplayBookmarks" v-b-tooltip.hover title="Open Bookmarks">Bookmarks</button>
+            <router-link class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'about-viewer'}" v-b-tooltip.hover title="About this Archive">About</router-link>
+            <router-link class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'help-viewer'}" v-b-tooltip.hover title="View the Help">Help</router-link>
           </b-col>
         </b-row>
       </nav>
       <div class="bookmarks-container"  v-if="displayBookmarks">
         <nav class="bookmarks-header d-flex flex-row justify-content-between align-items-center">
           <span class="text-white font-weight-bold pl-3">My Bookmarks</span>
-          <button class="btn btn-outline" @click="toggleDisplayBookmarks">
+          <button class="btnClose btn-outline" @click="toggleDisplayBookmarks">
             <i class="fa fa-times" aria-hidden="true"></i>
           </button>
         </nav>
@@ -366,7 +366,7 @@
       <div class="toc-container shadow" v-if="displayTOC">
         <nav class="toc-header d-flex flex-row justify-content-between align-items-center">
           <span class="text-white font-weight-bold pl-3">Table of Contents</span>
-          <button class="btn btn-outline" @click="toggleTOCDisplay">
+          <button class="btnClose btn-outline" @click="toggleTOCDisplay">
             <i class="fa fa-times" aria-hidden="true"></i>
           </button>
         </nav>
@@ -510,7 +510,7 @@
             </router-link>
           </b-col>
           <b-col class="d-flex flex-row justify-content-end align-items-center">
-            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}" v-b-tooltip.hover title="Return to Home view">
+            <router-link class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}" v-b-tooltip.hover title="Return to Home view">
               Home
             </router-link>
           </b-col>
@@ -534,8 +534,8 @@
       </div>
       <div class="about-content p-3 mt-5">
         <p>
-          Welcome to The Archive, the complete history of American Patchwork & Quilting® and Quilts 
-          and More magazines! This massive collection is printer-friendly, fully
+          Welcome to The Archive, the complete history of <i>American Patchwork & Quilting® and Quilts 
+          and More™</i> magazines! This massive collection is printer-friendly, fully
           searchable, and contains high-quality illustrations and photos.
         </p>
         <div>The Archive features:</div>
@@ -549,22 +549,22 @@
         </div>
         <p>Patterns and content may be used for personal use only. Reproduction in whole or in  part without permission
           is prohibited. No electronic or printed reproduction permitted without prior written consent of Meredith
-          corporation. Meredith Corporation 2019. All rights reserved®.
+          corporation. ©Meredith Corporation 2019. All rights reserved.
         </p>
         <p>
           It is expressly prohibited to reprint any patterns or content and sell for profit.
         </p>
         <p>
-          It is permissable to make publicly display a single finished product of any project on The Archive, including
+          It is permissable to make and publicly display a single finished product of any project on The Archive, including
           for purposes of competitive winnings up to $1,000, so long as visible credit is given to the designer and
-          American Patchwork and Quilting or Quilts and More magazine.
+          <i>American Patchwork and Quilting or Quilts and More</i> magazine.
         </p>
         <p>
           Please contact 1-888-636-4478 if your interest in purchasing a license agreement to use The Archive for
           education purposes.
         </p>  
-        <p>
-          Powered by Reach eLibrary, a product from Integration New Media Inc. (INM)
+        <p style="font-size:80%;">
+          <strong>Powered by Reach eLibrary, a product from Integration New Media Inc. (INM)</strong>
         </p>
       </div>
     </b-container>
@@ -580,7 +580,7 @@
             </router-link>
           </b-col>
           <b-col class="d-flex flex-row justify-content-end align-items-center">
-            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}" v-b-tooltip.hover title="Return to Home view">
+            <router-link class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}" v-b-tooltip.hover title="Return to Home view">
               Home
             </router-link>
           </b-col>
