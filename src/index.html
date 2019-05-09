@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../node_modules/pdfjs-dist/web/pdf_viewer.css">
   <link rel="stylesheet" href="assets/css/app.css">
-  <title>WOOD Archive</title>
+  <title>AP&Q Archive</title>
 </head>
 
 <body>
@@ -75,7 +75,7 @@
                       <b-form-select class="mx-1" v-model="searchParams.endYear" :options="endYearOptions" />
                     </div>
                     <div>
-                      <b-button variant="warning" class ="resetSearch mt-2" size="sm" @click="resetSearchFilter">Reset</b-button>
+                      <b-button variant="danger" class ="resetSearch mt-2" size="sm" @click="resetSearchFilter">Reset</b-button>
                     </div>
                   </b-dropdown-form>
                 </div>
@@ -83,11 +83,11 @@
             </div>
           </b-col>
           <b-col class="d-flex flex-row justify-content-end align-items-center">
-            <b-button v-b-tooltip.hover title="Return to Home view" class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" @click="resetSearchFilter">Home</b-button>
-            <button class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" @click="toggleDisplayBookmarks" v-b-tooltip.hover title="Open Bookmarks">Bookmarks</button>
-            <router-link class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'about-viewer'}" v-b-tooltip.hover
+            <b-button v-b-tooltip.hover title="Return to Home view" class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" @click="resetSearchFilter">Home</b-button>
+            <button class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" @click="toggleDisplayBookmarks" v-b-tooltip.hover title="Open Bookmarks">Bookmarks</button>
+            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'about-viewer'}" v-b-tooltip.hover
               title="About this Archive">About</router-link>
-            <router-link class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'help-viewer'}" v-b-tooltip.hover
+            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'help-viewer'}" v-b-tooltip.hover
               title="View the Help">Help</router-link>
           </b-col>
         </b-row>
@@ -95,7 +95,7 @@
       <div class="bookmarks-container" v-if="displayBookmarks">
         <nav class="bookmarks-header d-flex flex-row justify-content-between align-items-center">
           <span class="text-white font-weight-bold pl-3">My Bookmarks</span>
-          <button class="btnClose btn-outline" @click="toggleDisplayBookmarks">
+          <button class="btn btn-outline customCloseBtnColor" @click="toggleDisplayBookmarks">
             <i class="fa fa-times" aria-hidden="true"></i>
           </button>
         </nav>
@@ -210,7 +210,15 @@
           </div>
         </div>
       </div>
+
       <div class="bookshelf" v-else>
+          <div>
+              <b-row class="topButtons d-flex flex-row justify-content-center align-items-center">
+                  <b-button variant="warning" class="m-2 customBtnColorTab">All Issues</b-button>
+                  <b-button variant="warning" class="m-2 customBtnColorTab">American Patchwork & Quilting</b-button>
+                  <b-button variant="warning" class="m-2 customBtnColorTab">Quilts and More</b-button>
+              </b-row>
+          </div>
         <b-row class="bookshelf-controls p-2">
           <b-col cols="5" class="d-flex justify-content-start">
             <b-button-group size="sm" class="ml-4">
@@ -278,25 +286,25 @@
             </router-link>
             <div class="form-inline">
               <input class="form-control mx-2" type="search" placeholder="Enter Keywords" aria-label="Search" v-model="issueSearchTerm" v-on:keydown.enter="doFind">
-              <button v-b-tooltip.hover title="Find"class="btn customBtnColorFind" @click="doFind"><i class="fa fa-search" aria-hidden="true"></i>
+              <button v-b-tooltip.hover title="Find"class="btn customBtnColor" @click="doFind"><i class="fa fa-search" aria-hidden="true"></i>
                 Find
               </button>
             </div>
           </b-col>
           <b-col class="d-flex flex-row justify-content-end align-items-center">
-            <router-link class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}"v-b-tooltip.hover title="Return to Home view">
+            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}"v-b-tooltip.hover title="Return to Home view">
                 Home
             </router-link>
-            <button class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" @click="toggleDisplayBookmarks" v-b-tooltip.hover title="Open Bookmarks">Bookmarks</button>
-            <router-link class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'about-viewer'}" v-b-tooltip.hover title="About this Archive">About</router-link>
-            <router-link class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'help-viewer'}" v-b-tooltip.hover title="View the Help">Help</router-link>
+            <button class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" @click="toggleDisplayBookmarks" v-b-tooltip.hover title="Open Bookmarks">Bookmarks</button>
+            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'about-viewer'}" v-b-tooltip.hover title="About this Archive">About</router-link>
+            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'help-viewer'}" v-b-tooltip.hover title="View the Help">Help</router-link>
           </b-col>
         </b-row>
       </nav>
       <div class="bookmarks-container"  v-if="displayBookmarks">
         <nav class="bookmarks-header d-flex flex-row justify-content-between align-items-center">
           <span class="text-white font-weight-bold pl-3">My Bookmarks</span>
-          <button class="btnClose btn-outline" @click="toggleDisplayBookmarks">
+          <button class="btn btn-outline customCloseBtnColor" @click="toggleDisplayBookmarks">
             <i class="fa fa-times" aria-hidden="true"></i>
           </button>
         </nav>
@@ -366,7 +374,7 @@
       <div class="toc-container shadow" v-if="displayTOC">
         <nav class="toc-header d-flex flex-row justify-content-between align-items-center">
           <span class="text-white font-weight-bold pl-3">Table of Contents</span>
-          <button class="btnClose btn-outline" @click="toggleTOCDisplay">
+          <button class="btn btn-outline customCloseBtnColor" @click="toggleTOCDisplay">
             <i class="fa fa-times" aria-hidden="true"></i>
           </button>
         </nav>
@@ -510,7 +518,7 @@
             </router-link>
           </b-col>
           <b-col class="d-flex flex-row justify-content-end align-items-center">
-            <router-link class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}" v-b-tooltip.hover title="Return to Home view">
+            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}" v-b-tooltip.hover title="Return to Home view">
               Home
             </router-link>
           </b-col>
@@ -534,37 +542,30 @@
       </div>
       <div class="about-content p-3 mt-5">
         <p>
-          Welcome to The Archive, the complete history of <i>American Patchwork & Quilting® and Quilts 
-          and More™</i> magazines! This massive collection is printer-friendly, fully
+          Welcome to the WOOD® magazine back issue archive. This massive collection is printer-friendly, fully
           searchable, and contains high-quality illustrations and photos.
         </p>
-        <div>The Archive features:</div>
+        <div>The archive features:</div>
         <div class="app-features ml-5 mt-2 mb-3">
-          <div>Search all issues with any term or topic</div>
-          <div>Easy to find any pattern, designer, and tips</div>
-          <div>Thumbnail previews of each article or pattern</div>
-          <div>Browse the magazines by year, issue, quilt designer or quilt size</div>
-          <div>One click takes you to the information you need</div>
-          <div>Compatible with PC and Mac</div>
+          <div>Issues searchable by any term or topic</div>
+          <div>Thumbnail previews of each article or project</div>
+          <div>Articles and issues browsable by year, issue, or article type</div>
+          <div>Mac and PC compatibility</div>
         </div>
-        <p>Patterns and content may be used for personal use only. Reproduction in whole or in  part without permission
-          is prohibited. No electronic or printed reproduction permitted without prior written consent of Meredith
-          corporation. ©Meredith Corporation 2019. All rights reserved.
+        <p>These magazines are presented as they were published, often many years ago. As such, any offers,
+          sources, kits, products, buying guides, reviews, and information from advertisers may be out-of-date,
+          defunct, or invalid. WOOD®
+          magazine does not keep updated sourcing information.
         </p>
         <p>
-          It is expressly prohibited to reprint any patterns or content and sell for profit.
+          Notice: Reproduction or distribution of the content of this product is strictly prohibited. Purchase
+          of this product does not transfer any title or rights of ownership in the content to the purchaser. The
+          content of this product is
+          protected by copyright and may not be used for any other purpose without the written permission of the
+          copyright owner.
         </p>
         <p>
-          It is permissable to make and publicly display a single finished product of any project on The Archive, including
-          for purposes of competitive winnings up to $1,000, so long as visible credit is given to the designer and
-          <i>American Patchwork and Quilting or Quilts and More</i> magazine.
-        </p>
-        <p>
-          Please contact 1-888-636-4478 if your interest in purchasing a license agreement to use The Archive for
-          education purposes.
-        </p>  
-        <p style="font-size:80%;">
-          <strong>Powered by Reach eLibrary, a product from Integration New Media Inc. (INM)</strong>
+          © Copyright Meredith Corporation 2019. All rights reserved. Produced in the USA.
         </p>
       </div>
     </b-container>
@@ -580,7 +581,7 @@
             </router-link>
           </b-col>
           <b-col class="d-flex flex-row justify-content-end align-items-center">
-            <router-link class="btn customBtnHover customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}" v-b-tooltip.hover title="Return to Home view">
+            <router-link class="btn customBtnColor btn-sm rounded-pill ml-1 px-3" :to="{ name: 'home'}" v-b-tooltip.hover title="Return to Home view">
               Home
             </router-link>
           </b-col>

@@ -18,7 +18,7 @@
 
 .book-showcase {
     position: absolute;
-    top: 47px;
+    top: 101px;
     left: 0;
     bottom: 0;
     right: 0;
@@ -186,6 +186,7 @@ a:hover .book-description {
     left: 0;
     right: 0;
     padding: .5rem 1rem;
+    /* background-color: #ba2231; */
     background-color: #023c6f;
 }
 
@@ -257,7 +258,8 @@ a:hover .book-description {
     left: 0;
     right: 0;
     height: 40px;
-    background-color:#002366;
+    /* background-color: #ba2231; */
+    background-color: #023c6f;
 }
 
 .toc-scroller {
@@ -275,7 +277,7 @@ ul.toc-links {
     padding: 0;
     overflow-x: hidden;
     list-style: none;
-    color: #002366;
+    color: #023c6f;
     font-weight: bold;
     cursor: pointer;
 }
@@ -328,7 +330,7 @@ ul.toc-links span+span {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #023c6f;
+    background-color: #ba2231;
     opacity: 0.3;
     display: none;
 }
@@ -394,7 +396,8 @@ ul.toc-links span+span {
     left: 0;
     right: 0;
     height: 40px;
-    background-color: #002366;
+    /* background-color: #ba2231; */
+    background-color: #023c6f;
 }
 
 .bookmarks-control-box {
@@ -420,7 +423,7 @@ ul.toc-links span+span {
 }
 
 .bookmark-item {
-    color: #002366;
+    color: #ba2231;
 }
 
 .bookmark-item.foldered {
@@ -449,24 +452,27 @@ ul.toc-links span+span {
 }
 
 .customBtnColor{
+    color: #fff !important;
+    background-color: #023c6f !important;
+    border-color: #023c6f !important;
+}
+
+.customBtnColorTab{
+    color: #fff !important;
+    background-color: #023c6f !important;
+    border-color: #023c6f !important;
+}
+
+.customBtnColorTab:hover{
+    color: #ffc107 !important;
+}
+
+
+.customCloseBtnColor{
     color: #fff;
+}
+
+
+.topButtons{
     background-color: #023c6f;
-    border-color: #023c6f;
-}
-
-.customBtnColorFind{
-    color: rgb(12, 12, 12);
-    background-color: #f0ad4e;
-    border-color: #f0ad4e;
-}
-
-.btnClose{
-    color: #fff;
-    background-color: #002366;
-    border-color: #002366;
-}
-
-.customBtnHover:hover{
-    color: #fff;
-    background-color: #777777;
 }
