@@ -1,5 +1,5 @@
 {
-  "name": "meredith-wood",
+  "name": "meredith-apq",
   "productName": "APQ-Archive",
   "version": "1.0.0",
   "description": "APQ Archive",
@@ -34,7 +34,7 @@
         "icon": "src/assets/icons/icon"
       },
       "electronWinstallerConfig": {
-        "name": "meredith_APQ"
+        "name": "meredith_apq"
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
@@ -44,7 +44,7 @@
       },
       "windowsStoreConfig": {
         "packageName": "",
-        "name": "meredithwood"
+        "name": "meredithapq"
       }
     }
   },
