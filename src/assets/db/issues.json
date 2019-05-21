@@ -1,5 +1,4 @@
-[
-  {
+[{
     "id": "1",
     "year": 1993,
     "month": "April",
@@ -8,8 +7,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 32,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Letter From The Editor",
         "Page Number": 4
       },
@@ -52,8 +50,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 32,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Letter From The Editor",
         "Page Number": 4
       },
@@ -96,8 +93,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 32,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Letter From The Editor",
         "Page Number": 4
       },
@@ -140,8 +136,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 32,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Letter From The Editor",
         "Page Number": 4
       },
@@ -184,8 +179,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 32,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilt Guild Profile",
         "Page Number": 6
       },
@@ -224,8 +218,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 32,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Rotary Basics",
         "Page Number": 5
       },
@@ -268,8 +261,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 32,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Technique",
         "Page Number": 6
       },
@@ -312,8 +304,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 40,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Scraps of Wisdom",
         "Page Number": 6
       },
@@ -368,8 +359,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 40,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Scraps of Wisdom",
         "Page Number": 6
       },
@@ -424,8 +414,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 40,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Scraps of Wisdom",
         "Page Number": 6
       },
@@ -484,8 +473,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 40,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Scraps of Wisdom",
         "Page Number": 6
       },
@@ -540,8 +528,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 40,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilts & Quotes",
         "Page Number": 10
       },
@@ -600,8 +587,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 40,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Scraps Of Wisdom",
         "Page Number": 6
       },
@@ -660,8 +646,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 40,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Scraps Of Wisdom",
         "Page Number": 6
       },
@@ -720,8 +705,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 40,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Scraps Of Wisdom",
         "Page Number": 6
       },
@@ -780,8 +764,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 40,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Scraps Of Wisdom",
         "Page Number": 6
       },
@@ -844,8 +827,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 40,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Scraps Of Wisdom",
         "Page Number": 6
       },
@@ -904,8 +886,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 52,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Time For Tea",
         "Page Number": 6
       },
@@ -976,8 +957,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 52,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Coffee Time",
         "Page Number": 6
       },
@@ -1044,8 +1024,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 52,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Biggest Outdoor Quilt Show In The West",
         "Page Number": 6
       },
@@ -1104,8 +1083,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 52,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Globy Be!",
         "Page Number": 8
       },
@@ -1168,8 +1146,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 68,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Second Annual Homes & Gardens Challenge",
         "Page Number": 6
       },
@@ -1248,8 +1225,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 52,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Second Annual Homes & Gardens Challenge",
         "Page Number": 6
       },
@@ -1320,8 +1296,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 52,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Second Annual Homes & Gardens Challenge",
         "Page Number": 6
       },
@@ -1393,8 +1368,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 52,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Sewing Roll",
         "Page Number": 6
       },
@@ -1461,8 +1435,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 52,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Grape Baskets",
         "Page Number": 6
       },
@@ -1525,8 +1498,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 52,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": ".Quilts & Quotes",
         "Page Number": 6
       },
@@ -1589,8 +1561,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 70,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": ".Quilts & Quotes",
         "Page Number": 6
       },
@@ -1669,8 +1640,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 68,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilter's Market",
         "Page Number": 10
       },
@@ -1745,8 +1715,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 68,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilter's Market",
         "Page Number": 10
       },
@@ -1825,8 +1794,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 84,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Collectors' Legacy",
         "Page Number": 14
       },
@@ -1913,8 +1881,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 84,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilts From The Mormon Trail",
         "Page Number": 8
       },
@@ -1997,8 +1964,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 84,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "At Home With Laura",
         "Page Number": 8
       },
@@ -2077,8 +2043,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 84,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Tattered Toby",
         "Page Number": 10
       },
@@ -2161,8 +2126,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 84,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Reverse Applique",
         "Page Number": 8
       },
@@ -2237,8 +2201,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 84,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Anne Orr",
         "Page Number": 8
       },
@@ -2321,8 +2284,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 84,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Sunflower Pincushion",
         "Page Number": 8
       },
@@ -2397,8 +2359,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 92,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Fondness For Folk Art",
         "Page Number": 10
       },
@@ -2497,8 +2458,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 84,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Web Update",
         "Page Number": 8
       },
@@ -2577,8 +2537,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 84,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilters Against Breast Cancer",
         "Page Number": 8
       },
@@ -2669,8 +2628,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 100,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "The Museum Of The American Quilter's Society",
         "Page Number": 12
       },
@@ -2765,8 +2723,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 84,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Thimbles Through Time",
         "Page Number": 8
       },
@@ -2849,8 +2806,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 84,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilt Sampler® Nominations",
         "Page Number": 8
       },
@@ -2941,8 +2897,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 92,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Summertime Banner",
         "Page Number": 8
       },
@@ -3025,8 +2980,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 84,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Tribute To Nature",
         "Page Number": 8
       },
@@ -3113,8 +3067,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 100,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Cyber-Quilting",
         "Page Number": 8
       },
@@ -3205,8 +3158,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilts and Quotes",
         "Page Number": 10
       },
@@ -3301,8 +3253,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 86,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilts And Quotes",
         "Page Number": 12
       },
@@ -3397,8 +3348,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 84,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter ": "Quilts And Quotes",
         "Page Number": 12
       },
@@ -3481,8 +3431,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 92,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilts And Quotes",
         "Page Number": 8
       },
@@ -3557,8 +3506,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 84,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilts And Quotes",
         "Page Number": 6
       },
@@ -3645,8 +3593,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilts And Quotes",
         "Page Number": 8
       },
@@ -3745,8 +3692,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 100,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilts And Quotes",
         "Page Number": 8
       },
@@ -3841,8 +3787,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 94,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilts And Quotes",
         "Page Number": 6
       },
@@ -3937,8 +3882,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 92,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Unfinished Business",
         "Page Number": 6
       },
@@ -4017,8 +3961,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 100,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Unfinished Business",
         "Page Number": 8
       },
@@ -4105,8 +4048,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 92,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Unfinished Business",
         "Page Number": 6
       },
@@ -4189,8 +4131,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Unfinished Business",
         "Page Number": 6
       },
@@ -4289,8 +4230,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 104,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Unfinished Business",
         "Page Number": 9
       },
@@ -4377,8 +4317,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 92,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Unfinished Business",
         "Page Number": 8
       },
@@ -4461,8 +4400,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 96,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -4557,8 +4495,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 92,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 8
       },
@@ -4657,8 +4594,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 8
       },
@@ -4745,8 +4681,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 8
       },
@@ -4833,8 +4768,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -4921,8 +4855,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 100,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -5009,8 +4942,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -5105,8 +5037,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -5201,8 +5132,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -5297,8 +5227,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -5393,8 +5322,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 8
       },
@@ -5481,8 +5409,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -5569,8 +5496,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -5657,8 +5583,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 124,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -5761,8 +5686,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -5853,8 +5777,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -5945,8 +5868,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 124,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "from the editor",
         "Page Number": 6
       },
@@ -6041,8 +5963,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "from the editor",
         "Page Number": 6
       },
@@ -6137,8 +6058,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "from the editor",
         "Page Number": 6
       },
@@ -6233,8 +6153,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "from the editor",
         "Page Number": 6
       },
@@ -6329,8 +6248,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "from the editor",
         "Page Number": 6
       },
@@ -6417,8 +6335,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilt Pink",
         "Page Number": 3
       },
@@ -6517,8 +6434,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "APQ Club",
         "Page Number": 3
       },
@@ -6617,8 +6533,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "APQ Club",
         "Page Number": 3
       },
@@ -6709,8 +6624,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editor",
         "Page Number": 8
       },
@@ -6805,8 +6719,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "APQ Club",
         "Page Number": 3
       },
@@ -6905,8 +6818,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "AllPeopleQuilt.com",
         "Page Number": 6
       },
@@ -6989,8 +6901,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "APQ Club",
         "Page Number": 3
       },
@@ -7093,8 +7004,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "APQ Club",
         "Page Number": 3
       },
@@ -7197,8 +7107,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter ": "APQ Club",
         "Page Number": 3
       },
@@ -7289,8 +7198,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "APQ Club",
         "Page Number": 3
       },
@@ -7377,8 +7285,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 124,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "APQ Club",
         "Page Number": 3
       },
@@ -7473,8 +7380,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "APQ Club",
         "Page Number": 3
       },
@@ -7553,8 +7459,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "APQ Club",
         "Page Number": 3
       },
@@ -7641,8 +7546,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "APQ Club",
         "Page Number": 3
       },
@@ -7725,8 +7629,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -7809,8 +7712,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -7893,8 +7795,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -7985,8 +7886,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything",
         "Page Number": 3
       },
@@ -8069,8 +7969,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter ": "Quilting Changes Everything",
         "Page Number": 3
       },
@@ -8157,8 +8056,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything",
         "Page Number": 3
       },
@@ -8249,8 +8147,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything",
         "Page Number": 3
       },
@@ -8337,8 +8234,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything",
         "Page Number": 3
       },
@@ -8413,8 +8309,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything",
         "Page Number": 3
       },
@@ -8505,8 +8400,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything",
         "Page Number": 3
       },
@@ -8581,8 +8475,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything",
         "Page Number": 3
       },
@@ -8665,8 +8558,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything",
         "Page Number": 3
       },
@@ -8745,8 +8637,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything",
         "Page Number": 3
       },
@@ -8829,8 +8720,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything",
         "Page Number": 3
       },
@@ -8893,8 +8783,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter ": "Quilting Changes Everything",
         "Page Number": 3
       },
@@ -8981,8 +8870,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything®",
         "Page Number": 3
       },
@@ -9065,8 +8953,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything®",
         "Page Number": 3
       },
@@ -9149,8 +9036,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything®",
         "Page Number": 3
       },
@@ -9229,8 +9115,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything®",
         "Page Number": 3
       },
@@ -9305,8 +9190,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything®",
         "Page Number": 3
       },
@@ -9381,8 +9265,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -9469,8 +9352,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything®",
         "Page Number": 3
       },
@@ -9545,8 +9427,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything®",
         "Page Number": 3
       },
@@ -9625,8 +9506,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -9709,8 +9589,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter ": "Quilting Changes Everything®",
         "Page Number": 3
       },
@@ -9793,8 +9672,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -9881,8 +9759,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -9973,8 +9850,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything®",
         "Page Number": 3
       },
@@ -10049,8 +9925,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Quilting Changes Everything®",
         "Page Number": 3
       },
@@ -10137,8 +10012,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Gift Guide",
         "Page Number": 3
       },
@@ -10229,8 +10103,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -10309,8 +10182,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -10393,8 +10265,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -10486,8 +10357,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editor",
         "Page Number": 6
       },
@@ -10567,8 +10437,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter ": "From the Editor",
         "Page Number": 6
       },
@@ -10664,8 +10533,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editor",
         "Page Number": 6
       },
@@ -10749,8 +10617,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 110,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 8
       },
@@ -10822,8 +10689,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -10899,8 +10765,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -10980,8 +10845,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -11049,8 +10913,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -11130,8 +10993,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -11206,8 +11068,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Fabric Shopping 101",
         "Page Number": 8
       },
@@ -11282,8 +11143,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -11391,8 +11251,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter ": "From The Editors",
         "Page Number": 3
       },
@@ -11504,8 +11363,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -11633,8 +11491,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -11749,8 +11606,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -11858,8 +11714,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -11966,8 +11821,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -12071,8 +11925,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -12179,8 +12032,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 3
       },
@@ -12295,8 +12147,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 3
       },
@@ -12408,8 +12259,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 3
       },
@@ -12529,8 +12379,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter ": "From The Editor",
         "Page Number": 3
       },
@@ -12638,8 +12487,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 120,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 3
       },
@@ -12742,8 +12590,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 3
       },
@@ -12839,8 +12686,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 3
       },
@@ -12948,8 +12794,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 3
       },
@@ -13049,8 +12894,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "Hello, Yellow",
         "Page Number": 12
       },
@@ -13142,8 +12986,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 3
       },
@@ -13239,8 +13082,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 3
       },
@@ -13348,8 +13190,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -13453,8 +13294,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -13546,8 +13386,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter ": "From The Editors",
         "Page Number": 3
       },
@@ -13643,8 +13482,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -13740,8 +13578,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -13841,8 +13678,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 6
       },
@@ -13938,8 +13774,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 6
       },
@@ -14031,8 +13866,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 6
       },
@@ -14124,8 +13958,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 6
       },
@@ -14225,8 +14058,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -14318,8 +14150,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -14415,8 +14246,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -14516,8 +14346,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter ": "From The Editors",
         "Page Number": 3
       },
@@ -14617,8 +14446,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 3
       },
@@ -14722,8 +14550,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -14835,8 +14662,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -14944,8 +14770,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 3
       },
@@ -15049,8 +14874,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -15150,8 +14974,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -15251,8 +15074,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 3
       },
@@ -15356,8 +15178,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -15453,8 +15274,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -15522,8 +15342,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter ": "From the Editors",
         "Page Number": 6
       },
@@ -15607,8 +15426,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -15676,8 +15494,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From the Editors",
         "Page Number": 6
       },
@@ -15749,8 +15566,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -15826,8 +15642,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -15891,8 +15706,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -15992,8 +15806,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -16089,8 +15902,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -16174,8 +15986,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -16271,8 +16082,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 6
       },
@@ -16332,8 +16142,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter ": "From The Editors",
         "Page Number": 6
       },
@@ -16401,8 +16210,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 6
       },
@@ -16470,8 +16278,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -16539,8 +16346,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 116,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors ",
         "Page Number": 6
       },
@@ -16616,8 +16422,7 @@
     "tab": 1,
     "offset": "0",
     "pageCount": 132,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 6
       },
@@ -16701,8 +16506,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -16798,8 +16602,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 3
       },
@@ -16899,8 +16702,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editor",
         "Page Number": 3
       },
@@ -17016,8 +16818,7 @@
     "tab": 2,
     "offset": "0",
     "pageCount": 108,
-    "toc": [
-      {
+    "toc": [{
         "Book Chapter": "From The Editors",
         "Page Number": 3
       },
@@ -17106,5 +16907,449 @@
         "Page Number": 106
       }
     ]
+  },
+  {
+    "id": "199",
+    "title": "",
+    "year": 2018,
+    "month": "February",
+    "hasAttachment": 1,
+    "filename": "0199.pdf",
+    "tab": 2,
+    "offset": "0",
+    "pageCount": 108,
+    "toc": [{
+        "Book Chapter": "Editor’s Letter",
+        "Page Number": 4
+      },
+      {
+        "Book Chapter": "Sew In The Know",
+        "Page Number": 8
+      },
+      {
+        "Book Chapter": "Reader Tips",
+        "Page Number": 14
+      },
+      {
+        "Book Chapter": "Designer Spotlight",
+        "Page Number": 16
+      },
+      {
+        "Book Chapter": "Back To Basics",
+        "Page Number": 98
+      },
+      {
+        "Book Chapter": "Collector’s Corner",
+        "Page Number": 104
+      }
+    ]
+  },
+  {
+    "id": "200",
+    "title": "",
+    "year": 2018,
+    "month": "April",
+    "hasAttachment": 1,
+    "filename": "0200.pdf",
+    "tab": 2,
+    "offset": "0",
+    "pageCount": 116,
+    "toc": [{
+        "Book Chapter ": "From The Editor",
+        "Page Number": 4
+      },
+      {
+        "Book Chapter ": "Celebrating 25 Years!",
+        "Page Number": 8
+      },
+      {
+        "Book Chapter ": "Sew In The Know",
+        "Page Number": 12
+      },
+      {
+        "Book Chapter ": "Reader Tips",
+        "Page Number": 20
+      },
+      {
+        "Book Chapter ": "From Our Readers",
+        "Page Number": 22
+      },
+      {
+        "Book Chapter ": "Back To Basics",
+        "Page Number": 106
+      },
+      {
+        "Book Chapter ": "Collector’S Corner",
+        "Page Number": 112
+      }
+    ]
+
+  },
+  {
+    "id": "201",
+    "title": "",
+    "year": 2018,
+    "month": "June",
+    "hasAttachment": 1,
+    "filename": "0201.pdf",
+    "tab": 2,
+    "offset": "0",
+    "pageCount": 132,
+    "toc": [{
+        "Book Chapter": "From The Editor",
+        "Page Number": 1
+      },
+      {
+        "Book Chapter": "Sew In The Know",
+        "Page Number": 6
+      },
+      {
+        "Book Chapter": "Reader Tips",
+        "Page Number": 12
+      },
+      {
+        "Book Chapter": "Designer Spotlight",
+        "Page Number": 14
+      },
+      {
+        "Book Chapter": "Back To Basics",
+        "Page Number": 124
+      },
+      {
+        "Book Chapter": "Collector’S Corner",
+        "Page Number": 128
+      }
+    ]
+
+  },
+  {
+    "id": "202",
+    "title": "",
+    "year": 2018,
+    "month": "August",
+    "hasAttachment": 1,
+    "filename": "0202.pdf",
+    "tab": 2,
+    "offset": "0",
+    "pageCount": 108,
+    "toc": [{
+        "Book Chapter": "From The Editor",
+        "Page Number": 1
+      },
+      {
+        "Book Chapter": "Sew In The Know",
+        "Page Number": 6
+      },
+      {
+        "Book Chapter": "Reader Tips",
+        "Page Number": 12
+      },
+      {
+        "Book Chapter": "Designer Spotlight",
+        "Page Number": 14
+      },
+      {
+        "Book Chapter": "Back To Basics",
+        "Page Number": 100
+      },
+      {
+        "Book Chapter": "Collector’S Corner",
+        "Page Number": 104
+      }
+    ]
+
+  },
+  {
+    "id": "203",
+    "title": "",
+    "year": 2018,
+    "month": "October",
+    "hasAttachment": 1,
+    "filename": "0203.pdf",
+    "tab": 2,
+    "offset": "0",
+    "pageCount": 116,
+    "toc": [{
+        "Book Chapter": "From The Editor",
+        "Page Number": 1
+      },
+      {
+        "Book Chapter": "Sew In The Know",
+        "Page Number": 6
+      },
+      {
+        "Book Chapter": "Reader Tips",
+        "Page Number": 14
+      },
+      {
+        "Book Chapter": "Designer Spotlight",
+        "Page Number": 16
+      },
+      {
+        "Book Chapter": "Back To Basics",
+        "Page Number": 108
+      },
+      {
+        "Book Chapter": "Collector’S Corner",
+        "Page Number": 112
+      }
+    ]
+
+  },
+  {
+    "id": "204",
+    "title": "",
+    "year": 2018,
+    "month": "December",
+    "hasAttachment": 1,
+    "filename": "0204.pdf",
+    "tab": 2,
+    "offset": "0",
+    "pageCount": 116,
+    "toc": [{
+        "Book Chapter": "From The Editor",
+        "Page Number": 1
+      },
+      {
+        "Book Chapter": "Sew In The Know",
+        "Page Number": 6
+      },
+      {
+        "Book Chapter": "Reader Tips",
+        "Page Number": 14
+      },
+      {
+        "Book Chapter": "Designer Spotlight",
+        "Page Number": 16
+      },
+      {
+        "Book Chapter": "Back To Basics",
+        "Page Number": 124
+      },
+      {
+        "Book Chapter": "Collector’S Corner",
+        "Page Number": 128
+      }
+    ]
+
+  },
+  {
+    "id": "205",
+    "title": "",
+    "year": 2018,
+    "month": "Spring",
+    "hasAttachment": 1,
+    "filename": "0205.pdf",
+    "tab": 2,
+    "offset": "0",
+    "pageCount": 108,
+    "toc": [{
+        "Book Chapter": "From The Editors",
+        "Page Number": 1
+      },
+      {
+        "Book Chapter": "Allpeoplequilt.Com",
+        "Page Number": 6
+      },
+      {
+        "Book Chapter": "Stuff We Love",
+        "Page Number": 8
+      },
+      {
+        "Book Chapter": "1 Block 3 Ways",
+        "Page Number": 10
+      },
+      {
+        "Book Chapter": "Getting To Know",
+        "Page Number": 12
+      },
+      {
+        "Book Chapter": "Scrap Savvy",
+        "Page Number": 104
+      },
+      {
+        "Book Chapter": "Cutting On The Bias",
+        "Page Number": 43
+      },
+      {
+        "Book Chapter": "What Are Templates?",
+        "Page Number": 62
+      },
+      {
+        "Book Chapter": "Back To Basics",
+        "Page Number": 96
+      }
+    ]
+
+  },
+
+  {
+    "id": "206",
+    "title": "",
+    "year": 2018,
+    "month": "Summer",
+    "hasAttachment": 1,
+    "filename": "0206.pdf",
+    "tab": 2,
+    "offset": "0",
+    "pageCount": 108,
+    "toc": [{
+        "Book Chapter": "From The Editors",
+        "Page Number": 1
+      },
+      {
+        "Book Chapter": "Allpeoplequilt.Com",
+        "Page Number": 6
+      },
+      {
+        "Book Chapter": "Stuff We Love",
+        "Page Number": 8
+      },
+      {
+        "Book Chapter": "1 Block 3 Ways",
+        "Page Number": 10
+      },
+      {
+        "Book Chapter": "Getting To Know",
+        "Page Number": 12
+      },
+      {
+        "Book Chapter": "Better Machine Applique",
+        "Page Number": 31
+      },
+      {
+        "Book Chapter": "Cutting On The Bias",
+        "Page Number": 57
+      },
+      {
+        "Book Chapter": "What Are Templates?",
+        "Page Number": 83
+      },
+      {
+        "Book Chapter": "Embroidery Stitches",
+        "Page Number": 88
+      },
+      {
+        "Book Chapter": "Back To Basics",
+        "Page Number": 96
+      },
+      {
+        "Book Chapter": "Scrap Savvy",
+        "Page Number": 104
+      }
+    ]
+
+  },
+
+  {
+    "id": "207",
+    "title": "",
+    "year": 2018,
+    "month": "Fall",
+    "hasAttachment": 1,
+    "filename": "0207.pdf",
+    "tab": 2,
+    "offset": "0",
+    "pageCount": 108,
+    "toc": [{
+        "Book Chapter": "1 From The Editor",
+        "Page Number": 1
+      },
+      {
+        "Book Chapter": "6 Allpeoplequilt.Com",
+        "Page Number": 6
+      },
+      {
+        "Book Chapter": "8 Stuff We Love",
+        "Page Number": 8
+      },
+      {
+        "Book Chapter": "10 1 Block 3 Ways",
+        "Page Number": 10
+      },
+      {
+        "Book Chapter": "12 Getting To Know",
+        "Page Number": 12
+      },
+      {
+        "Book Chapter": "14 Sharpen Your Skills",
+        "Page Number": 14
+      },
+      {
+        "Book Chapter": "50 Embroidery Stitches",
+        "Page Number": 50
+      },
+      {
+        "Book Chapter": "72 Better Machine AppliquÉ",
+        "Page Number": 72
+      },
+      {
+        "Book Chapter": "87 What Are Templates?",
+        "Page Number": 87
+      },
+      {
+        "Book Chapter": "96 Back To Basics",
+        "Page Number": 96
+      },
+      {
+        "Book Chapter": "104 Scrap Savvy",
+        "Page Number": 104
+      }
+    ]
+
+  },
+
+  {
+    "id": "208",
+    "title": "",
+    "year": 2019,
+    "month": "Winter",
+    "hasAttachment": 1,
+    "filename": "0208.pdf",
+    "tab": 2,
+    "offset": "0",
+    "pageCount": 108,
+    "toc": [{
+        "Book Chapter": "From The Editor",
+        "Page Number": 1
+      },
+      {
+        "Book Chapter": "Allpeoplequilt.Com",
+        "Page Number": 6
+      },
+      {
+        "Book Chapter": "Stuff We Love",
+        "Page Number": 8
+      },
+      {
+        "Book Chapter": "1 Block 3 Ways",
+        "Page Number": 10
+      },
+      {
+        "Book Chapter": "Getting To Know",
+        "Page Number": 12
+      },
+      {
+        "Book Chapter": "What Are Templates?",
+        "Page Number": 52
+      },
+      {
+        "Book Chapter": "Better Machine AppliquÉ",
+        "Page Number": 83
+      },
+      {
+        "Book Chapter": "Cutting On The Bias",
+        "Page Number": 95
+      },
+      {
+        "Book Chapter": "Back To Basics",
+        "Page Number": 96
+      },
+      {
+        "Book Chapter": "Scrap Savvy",
+        "Page Number": 104
+      }
+    ]
+
   }
 ]
