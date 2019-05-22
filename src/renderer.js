@@ -22,7 +22,7 @@ let searchParams = {
   articleTypeFilters: [],
   projectTypeFilter: false,
   projectTypeFilters: [],
-  startYear: '1984',
+  startYear: '1993',
   endYear: '2019',
   sortOrder: 1,
   searchResultCount: 0,
@@ -171,7 +171,7 @@ const Home = {
       this.searchParams.articleTypeFilters = [];
       this.searchParams.projectTypeFilter = false;
       this.searchParams.projectTypeFilters = [];
-      this.searchParams.startYear = '1984';
+      this.searchParams.startYear = '1993';
       this.searchParams.endYear = '2019';
       this.searchParams.sortOrder = 1;
       this.searchParams.searchResultCount = 0;
