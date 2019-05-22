@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": "1",
     "year": 1993,
     "month": "April",
@@ -6,8 +7,8 @@
     "filename": "0001.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 32,
-    "toc": [{
+    "toc": [
+      {
         "title": "Letter From The Editor",
         "dest": 4
       },
@@ -39,7 +40,9 @@
         "title": "Marvelous Machine Quilting",
         "dest": 28
       }
-    ]
+    ],
+    "title": "AMQ-1993-04-001",
+    "pageCount": 32
   },
   {
     "id": "2",
@@ -49,8 +52,8 @@
     "filename": "0002.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 32,
-    "toc": [{
+    "toc": [
+      {
         "title": "Letter From The Editor",
         "dest": 4
       },
@@ -82,7 +85,9 @@
         "title": "Scrap Lover's Delight",
         "dest": 28
       }
-    ]
+    ],
+    "title": "AMQ-1993-06-002",
+    "pageCount": 32
   },
   {
     "id": "3",
@@ -92,8 +97,8 @@
     "filename": "0003.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 32,
-    "toc": [{
+    "toc": [
+      {
         "title": "Letter From The Editor",
         "dest": 4
       },
@@ -125,7 +130,9 @@
         "title": "Rotary Magic",
         "dest": 28
       }
-    ]
+    ],
+    "title": "AMQ-1993-08-003",
+    "pageCount": 32
   },
   {
     "id": "4",
@@ -135,8 +142,8 @@
     "filename": "0004.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 32,
-    "toc": [{
+    "toc": [
+      {
         "title": "Letter From The Editor",
         "dest": 4
       },
@@ -168,7 +175,9 @@
         "title": "Weekend Project",
         "dest": 28
       }
-    ]
+    ],
+    "title": "AMQ-1993-10-004",
+    "pageCount": 32
   },
   {
     "id": "5",
@@ -178,8 +187,8 @@
     "filename": "0005.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 32,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilt Guild Profile",
         "dest": 6
       },
@@ -207,7 +216,9 @@
         "title": "Weekend Project",
         "dest": 28
       }
-    ]
+    ],
+    "title": "AMQ-1993-12-005",
+    "pageCount": 32
   },
   {
     "id": "6",
@@ -217,8 +228,8 @@
     "filename": "0006.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 32,
-    "toc": [{
+    "toc": [
+      {
         "title": "Rotary Basics",
         "dest": 5
       },
@@ -250,7 +261,9 @@
         "title": "Weekend Project",
         "dest": 28
       }
-    ]
+    ],
+    "title": "AMQ-1994-02-006",
+    "pageCount": 32
   },
   {
     "id": "7",
@@ -260,8 +273,8 @@
     "filename": "0007.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 32,
-    "toc": [{
+    "toc": [
+      {
         "title": "Technique",
         "dest": 6
       },
@@ -293,7 +306,9 @@
         "title": "Weekend Project",
         "dest": 28
       }
-    ]
+    ],
+    "title": "AMQ-1994-04-007",
+    "pageCount": 32
   },
   {
     "id": "8",
@@ -303,8 +318,8 @@
     "filename": "0008.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 40,
-    "toc": [{
+    "toc": [
+      {
         "title": "Scraps of Wisdom",
         "dest": 6
       },
@@ -348,7 +363,9 @@
         "title": "The Quilter's Market",
         "dest": 38
       }
-    ]
+    ],
+    "title": "AMQ-1994-06-008",
+    "pageCount": 40
   },
   {
     "id": "9",
@@ -358,8 +375,8 @@
     "filename": "0009.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 40,
-    "toc": [{
+    "toc": [
+      {
         "title": "Scraps of Wisdom",
         "dest": 6
       },
@@ -403,7 +420,9 @@
         "title": "The Quilter's Market",
         "dest": 38
       }
-    ]
+    ],
+    "title": "AMQ-1994-08-009",
+    "pageCount": 40
   },
   {
     "id": "10",
@@ -413,8 +432,8 @@
     "filename": "0010.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 40,
-    "toc": [{
+    "toc": [
+      {
         "title": "Scraps of Wisdom",
         "dest": 6
       },
@@ -462,7 +481,9 @@
         "title": "The Quilter's Market",
         "dest": 38
       }
-    ]
+    ],
+    "title": "AMQ-1994-10-010",
+    "pageCount": 40
   },
   {
     "id": "11",
@@ -472,8 +493,8 @@
     "filename": "0011.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 40,
-    "toc": [{
+    "toc": [
+      {
         "title": "Scraps of Wisdom",
         "dest": 6
       },
@@ -517,7 +538,9 @@
         "title": "The Quilter's Market",
         "dest": 38
       }
-    ]
+    ],
+    "title": "AMQ-1994-12-011",
+    "pageCount": 40
   },
   {
     "id": "12",
@@ -527,8 +550,8 @@
     "filename": "0012.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 40,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilts & Quotes",
         "dest": 10
       },
@@ -576,7 +599,9 @@
         "title": "The Quilter's Market.",
         "dest": 38
       }
-    ]
+    ],
+    "title": "AMQ-1995-02-012",
+    "pageCount": 40
   },
   {
     "id": "13",
@@ -586,8 +611,8 @@
     "filename": "0013.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 40,
-    "toc": [{
+    "toc": [
+      {
         "title": "Scraps Of Wisdom",
         "dest": 6
       },
@@ -635,7 +660,9 @@
         "title": "The Quilter's Market",
         "dest": 38
       }
-    ]
+    ],
+    "title": "AMQ-1995-04-013",
+    "pageCount": 40
   },
   {
     "id": "14",
@@ -645,8 +672,8 @@
     "filename": "0014.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 40,
-    "toc": [{
+    "toc": [
+      {
         "title": "Scraps Of Wisdom",
         "dest": 6
       },
@@ -694,7 +721,9 @@
         "title": "The Quilter's Market",
         "dest": 38
       }
-    ]
+    ],
+    "title": "AMQ-1995-06-014",
+    "pageCount": 40
   },
   {
     "id": "15",
@@ -704,8 +733,8 @@
     "filename": "0015.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 40,
-    "toc": [{
+    "toc": [
+      {
         "title": "Scraps Of Wisdom",
         "dest": 6
       },
@@ -753,7 +782,9 @@
         "title": "The Quilter's Market",
         "dest": 38
       }
-    ]
+    ],
+    "title": "AMQ-1995-08-015",
+    "pageCount": 40
   },
   {
     "id": "16",
@@ -763,8 +794,8 @@
     "filename": "0016.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 40,
-    "toc": [{
+    "toc": [
+      {
         "title": "Scraps Of Wisdom",
         "dest": 6
       },
@@ -816,7 +847,9 @@
         "title": "The Quilter's Market",
         "dest": 38
       }
-    ]
+    ],
+    "title": "AMQ-1995-10-016",
+    "pageCount": 40
   },
   {
     "id": "17",
@@ -826,8 +859,8 @@
     "filename": "0017.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 40,
-    "toc": [{
+    "toc": [
+      {
         "title": "Scraps Of Wisdom",
         "dest": 6
       },
@@ -875,7 +908,9 @@
         "title": "The Quilter's Market",
         "dest": 38
       }
-    ]
+    ],
+    "title": "AMQ-1995-12-017",
+    "pageCount": 40
   },
   {
     "id": "18",
@@ -885,8 +920,8 @@
     "filename": "0018.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 52,
-    "toc": [{
+    "toc": [
+      {
         "title": "Time For Tea",
         "dest": 6
       },
@@ -946,7 +981,9 @@
         "title": "Index",
         "dest": 49
       }
-    ]
+    ],
+    "title": "AMQ-1996-02-018",
+    "pageCount": 52
   },
   {
     "id": "19",
@@ -956,8 +993,8 @@
     "filename": "0019.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 52,
-    "toc": [{
+    "toc": [
+      {
         "title": "Coffee Time",
         "dest": 6
       },
@@ -1013,7 +1050,9 @@
         "title": "The Quilter's Market",
         "dest": 48
       }
-    ]
+    ],
+    "title": "AMQ-1996-04-019",
+    "pageCount": 52
   },
   {
     "id": "20",
@@ -1023,8 +1062,8 @@
     "filename": "0020.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 52,
-    "toc": [{
+    "toc": [
+      {
         "title": "Biggest Outdoor Quilt Show In The West",
         "dest": 6
       },
@@ -1072,7 +1111,9 @@
         "title": "The Quilter's Market",
         "dest": 48
       }
-    ]
+    ],
+    "title": "AMQ-1996-06-020",
+    "pageCount": 52
   },
   {
     "id": "21",
@@ -1082,8 +1123,8 @@
     "filename": "0021.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 52,
-    "toc": [{
+    "toc": [
+      {
         "title": "Globy Be!",
         "dest": 8
       },
@@ -1135,7 +1176,9 @@
         "title": "Quilter's Mabket",
         "dest": 50
       }
-    ]
+    ],
+    "title": "AMQ-1996-08-021",
+    "pageCount": 52
   },
   {
     "id": "22",
@@ -1145,8 +1188,8 @@
     "filename": "0022.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 68,
-    "toc": [{
+    "toc": [
+      {
         "title": "Second Annual Homes & Gardens Challenge",
         "dest": 6
       },
@@ -1214,7 +1257,9 @@
         "title": "Quilter's Market",
         "dest": 64
       }
-    ]
+    ],
+    "title": "AMQ-1996-10-022",
+    "pageCount": 68
   },
   {
     "id": "23",
@@ -1224,8 +1269,8 @@
     "filename": "0023.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 52,
-    "toc": [{
+    "toc": [
+      {
         "title": "Second Annual Homes & Gardens Challenge",
         "dest": 6
       },
@@ -1285,7 +1330,9 @@
         "title": "Quilter's Market",
         "dest": 48
       }
-    ]
+    ],
+    "title": "AMQ-1996-12-023",
+    "pageCount": 52
   },
   {
     "id": "24",
@@ -1295,8 +1342,8 @@
     "filename": "0024.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 52,
-    "toc": [{
+    "toc": [
+      {
         "title": "Second Annual Homes & Gardens Challenge",
         "dest": 6
       },
@@ -1356,19 +1403,20 @@
         "title": "Quilter's Market",
         "dest": 48
       }
-    ]
+    ],
+    "title": "AMQ-1997-02-024",
+    "pageCount": 52
   },
   {
     "id": "25",
-    "title": "",
     "year": 1997,
     "month": "April",
     "hasAttachment": 1,
     "filename": "0025.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 52,
-    "toc": [{
+    "toc": [
+      {
         "title": "Sewing Roll",
         "dest": 6
       },
@@ -1424,7 +1472,9 @@
         "title": "Quilter's Market",
         "dest": 49
       }
-    ]
+    ],
+    "title": "AMQ-1997-04-025",
+    "pageCount": 52
   },
   {
     "id": "26",
@@ -1434,8 +1484,8 @@
     "filename": "0026.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 52,
-    "toc": [{
+    "toc": [
+      {
         "title": "Grape Baskets",
         "dest": 6
       },
@@ -1487,7 +1537,9 @@
         "title": "Quilter's Market",
         "dest": 50
       }
-    ]
+    ],
+    "title": "AMQ-1997-06-026",
+    "pageCount": 52
   },
   {
     "id": "27",
@@ -1497,8 +1549,8 @@
     "filename": "0027.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 52,
-    "toc": [{
+    "toc": [
+      {
         "title": ".Quilts & Quotes",
         "dest": 6
       },
@@ -1550,7 +1602,9 @@
         "title": "Quilter's Market",
         "dest": 50
       }
-    ]
+    ],
+    "title": "AMQ-1997-08-027",
+    "pageCount": 52
   },
   {
     "id": "28",
@@ -1560,8 +1614,8 @@
     "filename": "0028.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 70,
-    "toc": [{
+    "toc": [
+      {
         "title": ".Quilts & Quotes",
         "dest": 6
       },
@@ -1629,7 +1683,9 @@
         "title": "Quilter's Market",
         "dest": 66
       }
-    ]
+    ],
+    "title": "AMQ-1997-10-028",
+    "pageCount": 70
   },
   {
     "id": "29",
@@ -1639,8 +1695,8 @@
     "filename": "0029.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 68,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilter's Market",
         "dest": 10
       },
@@ -1704,7 +1760,9 @@
         "title": "Quilts & Quotes",
         "dest": 66
       }
-    ]
+    ],
+    "title": "AMQ-1997-12-029",
+    "pageCount": 68
   },
   {
     "id": "30",
@@ -1714,8 +1772,8 @@
     "filename": "0030.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 68,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilter's Market",
         "dest": 10
       },
@@ -1783,7 +1841,9 @@
         "title": "Quilts & Quotes",
         "dest": 66
       }
-    ]
+    ],
+    "title": "AMQ-1998-02-030",
+    "pageCount": 68
   },
   {
     "id": "31",
@@ -1793,8 +1853,8 @@
     "filename": "0031.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 84,
-    "toc": [{
+    "toc": [
+      {
         "title": "Collectors' Legacy",
         "dest": 14
       },
@@ -1870,7 +1930,9 @@
         "title": "Quilter's Market",
         "dest": 82
       }
-    ]
+    ],
+    "title": "AMQ-1998-04-031",
+    "pageCount": 84
   },
   {
     "id": "32",
@@ -1880,8 +1942,8 @@
     "filename": "0032.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 84,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilts From The Mormon Trail",
         "dest": 8
       },
@@ -1953,7 +2015,9 @@
         "title": "Quilter's Market",
         "dest": 82
       }
-    ]
+    ],
+    "title": "AMQ-1998-06-032",
+    "pageCount": 84
   },
   {
     "id": "33",
@@ -1963,8 +2027,8 @@
     "filename": "0033.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 84,
-    "toc": [{
+    "toc": [
+      {
         "title": "At Home With Laura",
         "dest": 8
       },
@@ -2032,7 +2096,9 @@
         "title": "Quilter's Market",
         "dest": 82
       }
-    ]
+    ],
+    "title": "AMQ-1998-08-033",
+    "pageCount": 84
   },
   {
     "id": "34",
@@ -2042,8 +2108,8 @@
     "filename": "0034.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 84,
-    "toc": [{
+    "toc": [
+      {
         "title": "Tattered Toby",
         "dest": 10
       },
@@ -2115,7 +2181,9 @@
         "title": "Quilter's Market",
         "dest": 82
       }
-    ]
+    ],
+    "title": "AMQ-1998-10-034",
+    "pageCount": 84
   },
   {
     "id": "35",
@@ -2125,8 +2193,8 @@
     "filename": "0035.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 84,
-    "toc": [{
+    "toc": [
+      {
         "title": "Reverse Applique",
         "dest": 8
       },
@@ -2190,7 +2258,9 @@
         "title": "Quilter's Market",
         "dest": 82
       }
-    ]
+    ],
+    "title": "AMQ-1998-12-035",
+    "pageCount": 84
   },
   {
     "id": "36",
@@ -2200,8 +2270,8 @@
     "filename": "0036.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 84,
-    "toc": [{
+    "toc": [
+      {
         "title": "Anne Orr",
         "dest": 8
       },
@@ -2273,7 +2343,9 @@
         "title": "Quilter's Market",
         "dest": 82
       }
-    ]
+    ],
+    "title": "AMQ-1999-02-036",
+    "pageCount": 84
   },
   {
     "id": "37",
@@ -2283,8 +2355,8 @@
     "filename": "0037.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 84,
-    "toc": [{
+    "toc": [
+      {
         "title": "Sunflower Pincushion",
         "dest": 8
       },
@@ -2348,7 +2420,9 @@
         "title": "Quilter's Market",
         "dest": 82
       }
-    ]
+    ],
+    "title": "AMQ-1999-04-037",
+    "pageCount": 84
   },
   {
     "id": "38",
@@ -2358,8 +2432,8 @@
     "filename": "0038.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 92,
-    "toc": [{
+    "toc": [
+      {
         "title": "Fondness For Folk Art",
         "dest": 10
       },
@@ -2447,7 +2521,9 @@
         "title": "Quilter's Market",
         "dest": 90
       }
-    ]
+    ],
+    "title": "AMQ-1999-06-038",
+    "pageCount": 92
   },
   {
     "id": "39",
@@ -2457,8 +2533,8 @@
     "filename": "0039.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 84,
-    "toc": [{
+    "toc": [
+      {
         "title": "Web Update",
         "dest": 8
       },
@@ -2526,7 +2602,9 @@
         "title": "Quilter's Market",
         "dest": 82
       }
-    ]
+    ],
+    "title": "AMQ-1999-08-039",
+    "pageCount": 84
   },
   {
     "id": "40",
@@ -2536,8 +2614,8 @@
     "filename": "0040.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 84,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilters Against Breast Cancer",
         "dest": 8
       },
@@ -2617,7 +2695,9 @@
         "title": "Quilter's Market",
         "dest": 82
       }
-    ]
+    ],
+    "title": "AMQ-1999-10-040",
+    "pageCount": 84
   },
   {
     "id": "41",
@@ -2627,8 +2707,8 @@
     "filename": "0041.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 100,
-    "toc": [{
+    "toc": [
+      {
         "title": "The Museum Of The American Quilter's Society",
         "dest": 12
       },
@@ -2712,7 +2792,9 @@
         "title": "Quilter's Market",
         "dest": 98
       }
-    ]
+    ],
+    "title": "AMQ-1999-12-041",
+    "pageCount": 100
   },
   {
     "id": "42",
@@ -2722,8 +2804,8 @@
     "filename": "0042.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 84,
-    "toc": [{
+    "toc": [
+      {
         "title": "Thimbles Through Time",
         "dest": 8
       },
@@ -2795,7 +2877,9 @@
         "title": "Quilter's Market",
         "dest": 82
       }
-    ]
+    ],
+    "title": "AMQ-2000-02-042",
+    "pageCount": 84
   },
   {
     "id": "43",
@@ -2805,8 +2889,8 @@
     "filename": "0043.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 84,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilt Sampler® Nominations",
         "dest": 8
       },
@@ -2886,7 +2970,9 @@
         "title": "Quilter's Market",
         "dest": 82
       }
-    ]
+    ],
+    "title": "AMQ-2000-04-043",
+    "pageCount": 84
   },
   {
     "id": "44",
@@ -2896,8 +2982,8 @@
     "filename": "0044.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 92,
-    "toc": [{
+    "toc": [
+      {
         "title": "Summertime Banner",
         "dest": 8
       },
@@ -2969,7 +3055,9 @@
         "title": "Quilter's Market",
         "dest": 90
       }
-    ]
+    ],
+    "title": "AMQ-2000-06-044",
+    "pageCount": 92
   },
   {
     "id": "45",
@@ -2979,8 +3067,8 @@
     "filename": "0045.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 84,
-    "toc": [{
+    "toc": [
+      {
         "title": "Tribute To Nature",
         "dest": 8
       },
@@ -3056,7 +3144,9 @@
         "title": "Quilter's Market",
         "dest": 82
       }
-    ]
+    ],
+    "title": "AMQ-2000-08-045",
+    "pageCount": 84
   },
   {
     "id": "46",
@@ -3066,8 +3156,8 @@
     "filename": "0046.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 100,
-    "toc": [{
+    "toc": [
+      {
         "title": "Cyber-Quilting",
         "dest": 8
       },
@@ -3147,7 +3237,9 @@
         "title": "Quilter's Market",
         "dest": 98
       }
-    ]
+    ],
+    "title": "AMQ-2000-10-046",
+    "pageCount": 100
   },
   {
     "id": "47",
@@ -3157,8 +3249,8 @@
     "filename": "0047.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilts and Quotes",
         "dest": 10
       },
@@ -3242,7 +3334,9 @@
         "title": "Quilter's Market",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2000-12-047",
+    "pageCount": 108
   },
   {
     "id": "48",
@@ -3252,8 +3346,8 @@
     "filename": "0048.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 86,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilts And Quotes",
         "dest": 12
       },
@@ -3337,7 +3431,9 @@
         "title": "Quilter's Market",
         "dest": 84
       }
-    ]
+    ],
+    "title": "AMQ-2001-02-048",
+    "pageCount": 86
   },
   {
     "id": "49",
@@ -3347,80 +3443,64 @@
     "filename": "0049.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 84,
-    "toc": [{
-        "title ": "Quilts And Quotes",
+    "toc": [
+      {
         "dest": 12
       },
       {
-        "title ": "Scraps Of Wisdom",
         "dest": 16
       },
       {
-        "title ": "Quilt Shows",
         "dest": 18
       },
       {
-        "title ": "Quilt Sampler® Announcement",
         "dest": 24
       },
       {
-        "title ": "Book Review",
         "dest": 26
       },
       {
-        "title ": "What's New @Quiltvillage.Com",
         "dest": 28
       },
       {
-        "title ": "Destinations",
         "dest": 29
       },
       {
-        "title ": "Token Quilts",
         "dest": 30
       },
       {
-        "title ": "Rescue Mission",
         "dest": 34
       },
       {
-        "title ": "Spring Leaves",
         "dest": 40
       },
       {
-        "title ": "Rule The Roost",
         "dest": 46
       },
       {
-        "title ": "Blue Sunshine",
         "dest": 50
       },
       {
-        "title ": "Homespun Hollow",
         "dest": 54
       },
       {
-        "title ": "Sunny Lanes",
         "dest": 60
       },
       {
-        "title ": "Gathering Baskets",
         "dest": 64
       },
       {
-        "title ": "Welcome Home",
         "dest": 70
       },
       {
-        "title ": "Quilter's Schoolhouse",
         "dest": 74
       },
       {
-        "title ": "Quilter's Market",
         "dest": 84
       }
-    ]
+    ],
+    "title": "AMQ-2001-04-049",
+    "pageCount": 84
   },
   {
     "id": "50",
@@ -3430,8 +3510,8 @@
     "filename": "0050.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 92,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilts And Quotes",
         "dest": 8
       },
@@ -3495,7 +3575,9 @@
         "title": "Quilter's Market",
         "dest": 89
       }
-    ]
+    ],
+    "title": "AMQ-2001-06-050",
+    "pageCount": 92
   },
   {
     "id": "51",
@@ -3505,8 +3587,8 @@
     "filename": "0051.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 84,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilts And Quotes",
         "dest": 6
       },
@@ -3582,7 +3664,9 @@
         "title": "Quilter's Market",
         "dest": 80
       }
-    ]
+    ],
+    "title": "AMQ-2001-08-051",
+    "pageCount": 84
   },
   {
     "id": "52",
@@ -3592,8 +3676,8 @@
     "filename": "0052.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilts And Quotes",
         "dest": 8
       },
@@ -3681,7 +3765,9 @@
         "title": "Quilter's Market",
         "dest": 104
       }
-    ]
+    ],
+    "title": "AMQ-2001-10-052",
+    "pageCount": 108
   },
   {
     "id": "53",
@@ -3691,8 +3777,8 @@
     "filename": "0053.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 100,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilts And Quotes",
         "dest": 8
       },
@@ -3776,7 +3862,9 @@
         "title": "Quilter's Market",
         "dest": 96
       }
-    ]
+    ],
+    "title": "AMQ-2001-12-053",
+    "pageCount": 100
   },
   {
     "id": "54",
@@ -3786,8 +3874,8 @@
     "filename": "0054.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 94,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilts And Quotes",
         "dest": 6
       },
@@ -3871,7 +3959,9 @@
         "title": "Quilter's Market",
         "dest": 88
       }
-    ]
+    ],
+    "title": "AMQ-2002-02-054",
+    "pageCount": 94
   },
   {
     "id": "55",
@@ -3881,8 +3971,8 @@
     "filename": "0055.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 92,
-    "toc": [{
+    "toc": [
+      {
         "title": "Unfinished Business",
         "dest": 6
       },
@@ -3950,7 +4040,9 @@
         "title": "Quilter's Market",
         "dest": 88
       }
-    ]
+    ],
+    "title": "AMQ-2002-04-055",
+    "pageCount": 92
   },
   {
     "id": "56",
@@ -3960,8 +4052,8 @@
     "filename": "0056.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 100,
-    "toc": [{
+    "toc": [
+      {
         "title": "Unfinished Business",
         "dest": 8
       },
@@ -4037,7 +4129,9 @@
         "title": "Quilter's Market",
         "dest": 96
       }
-    ]
+    ],
+    "title": "AMQ-2002-06-056",
+    "pageCount": 100
   },
   {
     "id": "57",
@@ -4047,8 +4141,8 @@
     "filename": "0057.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 92,
-    "toc": [{
+    "toc": [
+      {
         "title": "Unfinished Business",
         "dest": 6
       },
@@ -4120,7 +4214,9 @@
         "title": "Quilter's Market",
         "dest": 88
       }
-    ]
+    ],
+    "title": "AMQ-2002-08-057",
+    "pageCount": 92
   },
   {
     "id": "58",
@@ -4130,8 +4226,8 @@
     "filename": "0058.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "Unfinished Business",
         "dest": 6
       },
@@ -4219,7 +4315,9 @@
         "title": "Quilter's Market",
         "dest": 104
       }
-    ]
+    ],
+    "title": "AMQ-2002-10-058",
+    "pageCount": 108
   },
   {
     "id": "59",
@@ -4229,8 +4327,8 @@
     "filename": "0059.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 104,
-    "toc": [{
+    "toc": [
+      {
         "title": "Unfinished Business",
         "dest": 9
       },
@@ -4306,7 +4404,9 @@
         "title": "Quilter's Market",
         "dest": 100
       }
-    ]
+    ],
+    "title": "AMQ-2002-12-059",
+    "pageCount": 104
   },
   {
     "id": "60",
@@ -4316,8 +4416,8 @@
     "filename": "0060.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 92,
-    "toc": [{
+    "toc": [
+      {
         "title": "Unfinished Business",
         "dest": 8
       },
@@ -4389,7 +4489,9 @@
         "title": "Great Idea",
         "dest": 88
       }
-    ]
+    ],
+    "title": "AMQ-2003-02-060",
+    "pageCount": 92
   },
   {
     "id": "61",
@@ -4399,8 +4501,8 @@
     "filename": "0061.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 96,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -4484,7 +4586,9 @@
         "title": "Great Idea",
         "dest": 94
       }
-    ]
+    ],
+    "title": "AMQ-2003-04-061",
+    "pageCount": 96
   },
   {
     "id": "62",
@@ -4494,8 +4598,8 @@
     "filename": "0062.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 92,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 8
       },
@@ -4583,7 +4687,9 @@
         "title": "Great Idea",
         "dest": 90
       }
-    ]
+    ],
+    "title": "AMQ-2003-06-062",
+    "pageCount": 92
   },
   {
     "id": "63",
@@ -4593,8 +4699,8 @@
     "filename": "0063.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 8
       },
@@ -4670,7 +4776,9 @@
         "title": "Great Idea",
         "dest": 94
       }
-    ]
+    ],
+    "title": "AMQ-2003-08-063",
+    "pageCount": 108
   },
   {
     "id": "64",
@@ -4680,8 +4788,8 @@
     "filename": "0064.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 8
       },
@@ -4757,7 +4865,9 @@
         "title": "Great Idea",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2003-10-064",
+    "pageCount": 108
   },
   {
     "id": "65",
@@ -4767,8 +4877,8 @@
     "filename": "0065.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -4844,7 +4954,9 @@
         "title": "Great Idea",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2003-12-065",
+    "pageCount": 108
   },
   {
     "id": "66",
@@ -4854,8 +4966,8 @@
     "filename": "0066.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 100,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -4931,7 +5043,9 @@
         "title": "Great Idea",
         "dest": 98
       }
-    ]
+    ],
+    "title": "AMQ-2004-02-066",
+    "pageCount": 100
   },
   {
     "id": "67",
@@ -4941,8 +5055,8 @@
     "filename": "0067.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -5026,7 +5140,9 @@
         "title": "Great Idea",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2004-04-067",
+    "pageCount": 116
   },
   {
     "id": "68",
@@ -5036,8 +5152,8 @@
     "filename": "0068.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -5121,7 +5237,9 @@
         "title": "Great Idea",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2004-06-068",
+    "pageCount": 116
   },
   {
     "id": "69",
@@ -5131,8 +5249,8 @@
     "filename": "0069.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -5216,7 +5334,9 @@
         "title": "Great Idea",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2004-08-069",
+    "pageCount": 116
   },
   {
     "id": "70",
@@ -5226,8 +5346,8 @@
     "filename": "0070.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -5311,7 +5431,9 @@
         "title": "Great Idea",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2004-10-070",
+    "pageCount": 116
   },
   {
     "id": "71",
@@ -5321,8 +5443,8 @@
     "filename": "0071.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 8
       },
@@ -5398,7 +5520,9 @@
         "title": "Great Idea",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2004-12-071",
+    "pageCount": 116
   },
   {
     "id": "72",
@@ -5408,8 +5532,8 @@
     "filename": "0072.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -5485,7 +5609,9 @@
         "title": "Great Idea",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2005-02-072",
+    "pageCount": 108
   },
   {
     "id": "73",
@@ -5495,8 +5621,8 @@
     "filename": "0073.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -5572,7 +5698,9 @@
         "title": "Great Idea",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2005-04-073",
+    "pageCount": 116
   },
   {
     "id": "74",
@@ -5582,8 +5710,8 @@
     "filename": "0074.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 124,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -5675,7 +5803,9 @@
         "title": "Great Ideas",
         "dest": 122
       }
-    ]
+    ],
+    "title": "AMQ-2005-06-074",
+    "pageCount": 124
   },
   {
     "id": "75",
@@ -5685,8 +5815,8 @@
     "filename": "0075.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -5766,7 +5896,9 @@
         "title": "Great Ideas",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2005-08-075",
+    "pageCount": 108
   },
   {
     "id": "76",
@@ -5776,8 +5908,8 @@
     "filename": "0076.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -5857,7 +5989,9 @@
         "title": "Great Ideas",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2005-10-076",
+    "pageCount": 116
   },
   {
     "id": "77",
@@ -5867,8 +6001,8 @@
     "filename": "0077.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 124,
-    "toc": [{
+    "toc": [
+      {
         "title": "from the editor",
         "dest": 6
       },
@@ -5952,7 +6086,9 @@
         "title": "great ideas",
         "dest": 122
       }
-    ]
+    ],
+    "title": "AMQ-2005-12-077",
+    "pageCount": 124
   },
   {
     "id": "78",
@@ -5962,8 +6098,8 @@
     "filename": "0078.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "from the editor",
         "dest": 6
       },
@@ -6047,7 +6183,9 @@
         "title": "great ideas",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2006-02-078",
+    "pageCount": 108
   },
   {
     "id": "79",
@@ -6057,8 +6195,8 @@
     "filename": "0079.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "from the editor",
         "dest": 6
       },
@@ -6142,7 +6280,9 @@
         "title": "great ideas",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2006-04-079",
+    "pageCount": 116
   },
   {
     "id": "80",
@@ -6152,8 +6292,8 @@
     "filename": "0080.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "from the editor",
         "dest": 6
       },
@@ -6237,7 +6377,9 @@
         "title": "great ideas",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2006-06-080",
+    "pageCount": 132
   },
   {
     "id": "81",
@@ -6247,8 +6389,8 @@
     "filename": "0081.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "from the editor",
         "dest": 6
       },
@@ -6324,7 +6466,9 @@
         "title": "great ideas",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2006-08-081",
+    "pageCount": 116
   },
   {
     "id": "82",
@@ -6334,8 +6478,8 @@
     "filename": "0082.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilt Pink",
         "dest": 3
       },
@@ -6423,7 +6567,9 @@
         "title": "The Best Thing",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2006-10-082",
+    "pageCount": 116
   },
   {
     "id": "83",
@@ -6433,8 +6579,8 @@
     "filename": "0083.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "APQ Club",
         "dest": 3
       },
@@ -6522,7 +6668,9 @@
         "title": "The Best Thing",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2006-12-083",
+    "pageCount": 132
   },
   {
     "id": "84",
@@ -6532,8 +6680,8 @@
     "filename": "0084.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "APQ Club",
         "dest": 3
       },
@@ -6613,7 +6761,9 @@
         "title": "The Best Thing",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2007-02-084",
+    "pageCount": 108
   },
   {
     "id": "85",
@@ -6623,8 +6773,8 @@
     "filename": "0085.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editor",
         "dest": 8
       },
@@ -6708,7 +6858,9 @@
         "title": "The Best Thing",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2007-04-085",
+    "pageCount": 116
   },
   {
     "id": "86",
@@ -6718,8 +6870,8 @@
     "filename": "0086.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "APQ Club",
         "dest": 3
       },
@@ -6807,7 +6959,9 @@
         "title": "The Best Thing",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2007-06-086",
+    "pageCount": 132
   },
   {
     "id": "87",
@@ -6817,8 +6971,8 @@
     "filename": "0087.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "AllPeopleQuilt.com",
         "dest": 6
       },
@@ -6890,7 +7044,9 @@
         "title": "The Best Thing",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2007-08-087",
+    "pageCount": 108
   },
   {
     "id": "88",
@@ -6900,8 +7056,8 @@
     "filename": "0088.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "APQ Club",
         "dest": 3
       },
@@ -6993,7 +7149,9 @@
         "title": "The Best Thing",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2007-10-088",
+    "pageCount": 116
   },
   {
     "id": "89",
@@ -7003,8 +7161,8 @@
     "filename": "0089.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "APQ Club",
         "dest": 3
       },
@@ -7096,7 +7254,9 @@
         "title": "The Best Thing",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2007-12-089",
+    "pageCount": 132
   },
   {
     "id": "90",
@@ -7106,88 +7266,70 @@
     "filename": "0090.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
-        "title ": "APQ Club",
+    "toc": [
+      {
         "dest": 3
       },
       {
-        "title ": "From the Editor",
         "dest": 8
       },
       {
-        "title ": "Contributors",
         "dest": 10
       },
       {
-        "title ": "From Our Readers",
         "dest": 12
       },
       {
-        "title ": "Tips from Readers",
         "dest": 14
       },
       {
-        "title ": "Favorite Finds",
         "dest": 16
       },
       {
-        "title ": "Finish it Up",
         "dest": 18
       },
       {
-        "title ": "Kaye England",
         "dest": 20
       },
       {
-        "title ": "Solid Ideas",
         "dest": 28
       },
       {
-        "title ": "Past and Present",
         "dest": 36
       },
       {
-        "title ": "Heart to Heart",
         "dest": 42
       },
       {
-        "title ": "Bohemian Charm",
         "dest": 52
       },
       {
-        "title ": "Square Roots",
         "dest": 60
       },
       {
-        "title ": "Windy by the Lake",
         "dest": 64
       },
       {
-        "title ": "Rolling Stones",
         "dest": 72
       },
       {
-        "title ": "Gone to Pieces",
         "dest": 78
       },
       {
-        "title ": "Indigo & Gold",
         "dest": 84
       },
       {
-        "title ": "Star Treatment",
         "dest": 90
       },
       {
-        "title ": "Back to Basics",
         "dest": 98
       },
       {
-        "title ": "The Best Thing",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2008-02-090",
+    "pageCount": 108
   },
   {
     "id": "91",
@@ -7197,8 +7339,8 @@
     "filename": "0091.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "APQ Club",
         "dest": 3
       },
@@ -7274,7 +7416,9 @@
         "title": "The Best Thing",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2008-04-091",
+    "pageCount": 116
   },
   {
     "id": "92",
@@ -7284,8 +7428,8 @@
     "filename": "0092.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 124,
-    "toc": [{
+    "toc": [
+      {
         "title": "APQ Club",
         "dest": 3
       },
@@ -7369,7 +7513,9 @@
         "title": "The Best Thing",
         "dest": 122
       }
-    ]
+    ],
+    "title": "AMQ-2008-06-092",
+    "pageCount": 124
   },
   {
     "id": "93",
@@ -7379,8 +7525,8 @@
     "filename": "0093.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "APQ Club",
         "dest": 3
       },
@@ -7448,7 +7594,9 @@
         "title": "The Best Thing",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2008-08-093",
+    "pageCount": 108
   },
   {
     "id": "94",
@@ -7458,8 +7606,8 @@
     "filename": "0094.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "APQ Club",
         "dest": 3
       },
@@ -7535,7 +7683,9 @@
         "title": "The Best Thing",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2008-10-094",
+    "pageCount": 116
   },
   {
     "id": "95",
@@ -7545,8 +7695,8 @@
     "filename": "0095.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "APQ Club",
         "dest": 3
       },
@@ -7618,7 +7768,9 @@
         "title": "The Best Thing",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2008-12-095",
+    "pageCount": 132
   },
   {
     "id": "96",
@@ -7628,8 +7780,8 @@
     "filename": "0096.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -7701,7 +7853,9 @@
         "title": "Global Perspective",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2009-02-096",
+    "pageCount": 108
   },
   {
     "id": "97",
@@ -7711,8 +7865,8 @@
     "filename": "0097.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -7784,7 +7938,9 @@
         "title": "Global Perspective",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2009-04-097",
+    "pageCount": 116
   },
   {
     "id": "98",
@@ -7794,8 +7950,8 @@
     "filename": "0098.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -7875,7 +8031,9 @@
         "title": "Global Perspective",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2009-06-098",
+    "pageCount": 132
   },
   {
     "id": "99",
@@ -7885,8 +8043,8 @@
     "filename": "0099.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything",
         "dest": 3
       },
@@ -7958,7 +8116,9 @@
         "title": "Global Perspective",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2009-08-099",
+    "pageCount": 108
   },
   {
     "id": "100",
@@ -7968,84 +8128,67 @@
     "filename": "0100.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
-        "title ": "Quilting Changes Everything",
+    "toc": [
+      {
         "dest": 3
       },
       {
-        "title ": "From the Editors",
         "dest": 6
       },
       {
-        "title ": "Contributors",
         "dest": 10
       },
       {
-        "title ": "I Arn a Quilter",
         "dest": 12
       },
       {
-        "title ": "Tips from Readers",
         "dest": 14
       },
       {
-        "title ": "Favorite Finds",
         "dest": 16
       },
       {
-        "title ": "World of Treasures",
         "dest": 18
       },
       {
-        "title ": "Log Cabin Stars",
         "dest": 28
       },
       {
-        "title ": "Ahead of the Curve",
         "dest": 40
       },
       {
-        "title ": "Friendship Album",
         "dest": 48
       },
       {
-        "title ": "Everything's Blooming",
         "dest": 54
       },
       {
-        "title ": "Color Courage",
         "dest": 64
       },
       {
-        "title ": "Wildest Dreams",
         "dest": 68
       },
       {
-        "title ": "Stepping Stones",
         "dest": 76
       },
       {
-        "title ": "Sew Your Seeds",
         "dest": 82
       },
       {
-        "title ": "Scattered Leaves",
         "dest": 88
       },
       {
-        "title ": "Woven Wonder",
         "dest": 96
       },
       {
-        "title ": "Back to Basics",
         "dest": 104
       },
       {
-        "title ": "Global Perspective",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2009-10-100",
+    "pageCount": 116
   },
   {
     "id": "101",
@@ -8055,8 +8198,8 @@
     "filename": "0101.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything",
         "dest": 3
       },
@@ -8136,7 +8279,9 @@
         "title": "Global Perspective",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2009-12-101",
+    "pageCount": 132
   },
   {
     "id": "102",
@@ -8146,8 +8291,8 @@
     "filename": "0102.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything",
         "dest": 3
       },
@@ -8223,7 +8368,9 @@
         "title": "Global Perspective",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2010-02-102",
+    "pageCount": 108
   },
   {
     "id": "103",
@@ -8233,8 +8380,8 @@
     "filename": "0103.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything",
         "dest": 3
       },
@@ -8298,7 +8445,9 @@
         "title": "Global Perspective",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2010-04-103",
+    "pageCount": 116
   },
   {
     "id": "104",
@@ -8308,8 +8457,8 @@
     "filename": "0104.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything",
         "dest": 3
       },
@@ -8389,7 +8538,9 @@
         "title": "Global Perspective",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2010-06-104",
+    "pageCount": 132
   },
   {
     "id": "105",
@@ -8399,8 +8550,8 @@
     "filename": "0105.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything",
         "dest": 3
       },
@@ -8464,7 +8615,9 @@
         "title": "Global Perspective",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2010-08-105",
+    "pageCount": 108
   },
   {
     "id": "106",
@@ -8474,8 +8627,8 @@
     "filename": "0106.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything",
         "dest": 3
       },
@@ -8547,7 +8700,9 @@
         "title": "Nurturing Creativity",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2010-10-106",
+    "pageCount": 116
   },
   {
     "id": "107",
@@ -8557,8 +8712,8 @@
     "filename": "0107.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything",
         "dest": 3
       },
@@ -8626,7 +8781,9 @@
         "title": "Global Perspective",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2010-12-107",
+    "pageCount": 132
   },
   {
     "id": "108",
@@ -8636,8 +8793,8 @@
     "filename": "0108.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything",
         "dest": 3
       },
@@ -8709,7 +8866,9 @@
         "title": "Global Perspective",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2011-02-108",
+    "pageCount": 108
   },
   {
     "id": "109",
@@ -8719,8 +8878,8 @@
     "filename": "0109.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything",
         "dest": 3
       },
@@ -8772,7 +8931,9 @@
         "title": "Caramel & Cocoa",
         "dest": 92
       }
-    ]
+    ],
+    "title": "AMQ-2011-04-109",
+    "pageCount": 116
   },
   {
     "id": "110",
@@ -8782,84 +8943,67 @@
     "filename": "0110.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
-        "title ": "Quilting Changes Everything",
+    "toc": [
+      {
         "dest": 3
       },
       {
-        "title ": "From the Editors",
         "dest": 6
       },
       {
-        "title ": "I Arn a Quilter",
         "dest": 10
       },
       {
-        "title ": "Favorite Finds",
         "dest": 12
       },
       {
-        "title ": "Tips from Readers",
         "dest": 14
       },
       {
-        "title ": "The Quilting Tradition of Making Do",
         "dest": 16
       },
       {
-        "title ": "Simply Remarkable",
         "dest": 22
       },
       {
-        "title ": "Twist on Tradition",
         "dest": 32
       },
       {
-        "title ": "Sweet Sachets",
         "dest": 44
       },
       {
-        "title ": "X's and O's",
         "dest": 48
       },
       {
-        "title ": "Flying Free",
         "dest": 58
       },
       {
-        "title ": "Yo-Yo Rows",
         "dest": 66
       },
       {
-        "title ": "Nine-Patch Delight",
         "dest": 74
       },
       {
-        "title ": "Added Interest",
         "dest": 82
       },
       {
-        "title ": "Embrace Your Curves",
         "dest": 92
       },
       {
-        "title ": "Attention to Detail",
         "dest": 100
       },
       {
-        "title ": "Batik to Nature",
         "dest": 110
       },
       {
-        "title ": "Back to Basics",
         "dest": 120
       },
       {
-        "title ": "Global Perspective",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2011-06-110",
+    "pageCount": 132
   },
   {
     "id": "111",
@@ -8869,8 +9013,8 @@
     "filename": "0111.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything®",
         "dest": 3
       },
@@ -8942,7 +9086,9 @@
         "title": "Global Perspective",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2011-08-111",
+    "pageCount": 108
   },
   {
     "id": "112",
@@ -8952,8 +9098,8 @@
     "filename": "0112.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything®",
         "dest": 3
       },
@@ -9025,7 +9171,9 @@
         "title": "Global Perspective",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2011-10-112",
+    "pageCount": 116
   },
   {
     "id": "113",
@@ -9035,8 +9183,8 @@
     "filename": "0113.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything®",
         "dest": 3
       },
@@ -9104,7 +9252,9 @@
         "title": "Global Perspective",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2011-12-113",
+    "pageCount": 132
   },
   {
     "id": "114",
@@ -9114,8 +9264,8 @@
     "filename": "0114.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything®",
         "dest": 3
       },
@@ -9179,7 +9329,9 @@
         "title": "Start Today, Finish Tomorrow",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2012-02-114",
+    "pageCount": 108
   },
   {
     "id": "115",
@@ -9189,8 +9341,8 @@
     "filename": "0115.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything®",
         "dest": 3
       },
@@ -9254,7 +9406,9 @@
         "title": "Start Today, Finish Tomorrow",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2012-04-115",
+    "pageCount": 116
   },
   {
     "id": "116",
@@ -9264,8 +9418,8 @@
     "filename": "0116.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -9341,7 +9495,9 @@
         "title": "Start Today, Finish Tomorrow",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2012-06-116",
+    "pageCount": 132
   },
   {
     "id": "117",
@@ -9351,8 +9507,8 @@
     "filename": "0117.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything®",
         "dest": 3
       },
@@ -9416,7 +9572,9 @@
         "title": "Start Today, Finish Tomorrow",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2012-08-117",
+    "pageCount": 108
   },
   {
     "id": "118",
@@ -9426,8 +9584,8 @@
     "filename": "0118.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything®",
         "dest": 3
       },
@@ -9495,7 +9653,9 @@
         "title": "Start Today, Finish Tomorrow",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2012-10-118",
+    "pageCount": 116
   },
   {
     "id": "119",
@@ -9505,8 +9665,8 @@
     "filename": "0119.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -9578,7 +9738,9 @@
         "title": "Mystery Revealed",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2012-12-119",
+    "pageCount": 132
   },
   {
     "id": "120",
@@ -9588,80 +9750,64 @@
     "filename": "0120.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
-        "title ": "Quilting Changes Everything®",
+    "toc": [
+      {
         "dest": 3
       },
       {
-        "title ": "From the Editors",
         "dest": 6
       },
       {
-        "title ": "Tips from Readers",
         "dest": 10
       },
       {
-        "title ": "Social Life",
         "dest": 12
       },
       {
-        "title ": "Favorite Finds",
         "dest": 14
       },
       {
-        "title ": "I Am a Quilter",
         "dest": 16
       },
       {
-        "title ": "Color Inspiration",
         "dest": 18
       },
       {
-        "title ": "Ready, Set, Quilt",
         "dest": 23
       },
       {
-        "title ": "Butter Churn",
         "dest": 30
       },
       {
-        "title ": "Back to Nature",
         "dest": 38
       },
       {
-        "title ": "Mix Master",
         "dest": 46
       },
       {
-        "title ": "S'mores",
         "dest": 56
       },
       {
-        "title ": "Here Goes the Neighborhood",
         "dest": 66
       },
       {
-        "title ": "Cutting Edge",
         "dest": 76
       },
       {
-        "title ": "Sawtooth Surround",
         "dest": 82
       },
       {
-        "title ": "Way Around",
         "dest": 88
       },
       {
-        "title ": "Back to Basics",
         "dest": 95
       },
       {
-        "title ": "Live It, Love It",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2013-02-120",
+    "pageCount": 108
   },
   {
     "id": "121",
@@ -9671,8 +9817,8 @@
     "filename": "0121.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -9748,7 +9894,9 @@
         "title": "Live It, Love It",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2013-04-121",
+    "pageCount": 116
   },
   {
     "id": "122",
@@ -9758,8 +9906,8 @@
     "filename": "0122.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -9839,7 +9987,9 @@
         "title": "Live It, Love It!",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2013-06-122",
+    "pageCount": 132
   },
   {
     "id": "123",
@@ -9849,8 +9999,8 @@
     "filename": "0123.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything®",
         "dest": 3
       },
@@ -9914,7 +10064,9 @@
         "title": "Live It, Love It!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2013-08-123",
+    "pageCount": 108
   },
   {
     "id": "124",
@@ -9924,8 +10076,8 @@
     "filename": "0124.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "Quilting Changes Everything®",
         "dest": 3
       },
@@ -10001,7 +10153,9 @@
         "title": "A Different Path",
         "dest": 100
       }
-    ]
+    ],
+    "title": "AMQ-2013-10-124",
+    "pageCount": 116
   },
   {
     "id": "125",
@@ -10011,8 +10165,8 @@
     "filename": "0125.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "Gift Guide",
         "dest": 3
       },
@@ -10092,7 +10246,9 @@
         "title": "Live It, Love It!",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2013-12-125",
+    "pageCount": 132
   },
   {
     "id": "126",
@@ -10102,8 +10258,8 @@
     "filename": "0126.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -10171,7 +10327,9 @@
         "title": "STITCHES TO SAVOR",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2014-02-126",
+    "pageCount": 108
   },
   {
     "id": "127",
@@ -10181,8 +10339,8 @@
     "filename": "0127.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -10254,7 +10412,9 @@
         "title": "STITCHES TO SAVOR",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2014-04-127",
+    "pageCount": 116
   },
   {
     "id": "128",
@@ -10264,8 +10424,8 @@
     "filename": "0128.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -10345,19 +10505,20 @@
         "title": "Stitches to Savor",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2014-06-128",
+    "pageCount": 132
   },
   {
     "id": "129",
-    "title": "",
     "year": 2014,
     "month": "August",
     "hasAttachment": 1,
     "filename": "0129.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editor",
         "dest": 6
       },
@@ -10425,115 +10586,96 @@
         "title": "Stitches to Savor",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2014-08-129",
+    "pageCount": 108
   },
   {
     "id": "130",
-    "title": "",
     "year": 2014,
     "month": "October",
     "hasAttachment": 1,
     "filename": "0130.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
-        "title ": "From the Editor",
+    "toc": [
+      {
         "dest": 6
       },
       {
-        "title ": "Social Life",
         "dest": 10
       },
       {
-        "title ": "Tips from Readers",
         "dest": 12
       },
       {
-        "title ": "Sneak Peek",
         "dest": 14
       },
       {
-        "title ": "Quilting Changes Everything®",
         "dest": 16
       },
       {
-        "title ": "Favorite Finds",
         "dest": 18
       },
       {
-        "title ": "I Am a Quilter",
         "dest": 20
       },
       {
-        "title ": "Staying Power",
         "dest": 22
       },
       {
-        "title ": "Happy Halloween",
         "dest": 32
       },
       {
-        "title ": "Little House on the Square",
         "dest": 40
       },
       {
-        "title ": "Another Angle",
         "dest": 50
       },
       {
-        "title ": "Fall’s Bounty",
         "dest": 59
       },
       {
-        "title ": "Pieceful Waters",
         "dest": 64
       },
       {
-        "title ": "Technique: Trimming for Foundation Piecing",
         "dest": 74
       },
       {
-        "title ": "Autumn Quartet",
         "dest": 77
       },
       {
-        "title ": "Technique: Tying a Quilt",
         "dest": 81
       },
       {
-        "title ": "Rustic Stars",
         "dest": 82
       },
       {
-        "title ": "Attention Getter",
         "dest": 90
       },
       {
-        "title ": "The Secret’s in the Sashing",
         "dest": 96
       },
       {
-        "title ": "Back to Basics",
         "dest": 106
       },
       {
-        "title ": "Stitches to Savor",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2014-10-130",
+    "pageCount": 116
   },
   {
     "id": "131",
-    "title": "",
     "year": 2014,
     "month": "December",
     "hasAttachment": 1,
     "filename": "0131.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editor",
         "dest": 6
       },
@@ -10605,19 +10747,20 @@
         "title": "Stitches to Savor",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2014-12-131",
+    "pageCount": 132
   },
   {
     "id": "132",
-    "title": "",
     "year": 2015,
     "month": "February",
     "hasAttachment": 1,
     "filename": "0132.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 110,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 8
       },
@@ -10677,19 +10820,20 @@
         "title": "Make It Mini",
         "dest": 108
       }
-    ]
+    ],
+    "title": "AMQ-2015-02-132",
+    "pageCount": 110
   },
   {
     "id": "133",
-    "title": "APQ0415_stitched.pdf",
     "year": 2015,
     "month": "April",
     "hasAttachment": 1,
     "filename": "0133.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -10753,19 +10897,20 @@
         "title": "Make It Mini",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2015-04-133",
+    "pageCount": 116
   },
   {
     "id": "134",
-    "title": "APQ0615_stitched.pdf",
     "year": 2015,
     "month": "June",
     "hasAttachment": 1,
     "filename": "0134.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -10833,19 +10978,20 @@
         "title": "Make It Mini",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2015-06-134",
+    "pageCount": 132
   },
   {
     "id": "135",
-    "title": "APQ0815_stitched_1431437508.pdf",
     "year": 2015,
     "month": "August",
     "hasAttachment": 1,
     "filename": "0135.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -10901,19 +11047,20 @@
         "title": "Make It Mini",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2015-08-135",
+    "pageCount": 108
   },
   {
     "id": "136",
-    "title": "APQ1015_stitched_Section1.pdf",
     "year": 2015,
     "month": "October",
     "hasAttachment": 1,
     "filename": "0136.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -10981,19 +11128,20 @@
         "title": "Make It Mini",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2015-10-136",
+    "pageCount": 116
   },
   {
     "id": "137",
-    "title": "APQ1215_stitched_Section1.pdf",
     "year": 2015,
     "month": "December",
     "hasAttachment": 1,
     "filename": "0137.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -11057,7 +11205,9 @@
         "title": "Make It Mini",
         "dest": 130
       }
-    ]
+    ],
+    "title": "AMQ-2015-12-137",
+    "pageCount": 132
   },
   {
     "id": "138",
@@ -11067,8 +11217,8 @@
     "filename": "0138.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "Fabric Shopping 101",
         "dest": 8
       },
@@ -11132,7 +11282,9 @@
         "title": "Remember When",
         "dest": 114
       }
-    ]
+    ],
+    "title": "AMQ-2016-02-138",
+    "pageCount": 116
   },
   {
     "id": "139",
@@ -11142,8 +11294,8 @@
     "filename": "0139.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -11239,131 +11391,108 @@
         "title": "Coming Soon",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2016-04-139",
+    "pageCount": 108
   },
   {
     "id": "140",
-    "title": "",
     "year": 2006,
     "month": "Summer",
     "hasAttachment": 1,
     "filename": "0140.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
-        "title ": "From The Editors",
+    "toc": [
+      {
         "dest": 3
       },
       {
-        "title ": "Getting To Know Amy Butler",
         "dest": 8
       },
       {
-        "title ": "Comfort Zone",
         "dest": 12
       },
       {
-        "title ": "Make It Personal",
         "dest": 16
       },
       {
-        "title ": "Red And White Romance",
         "dest": 22
       },
       {
-        "title ": "What Are Templates?",
         "dest": 27
       },
       {
-        "title ": "Prints Charming",
         "dest": 28
       },
       {
-        "title ": "Watercolors",
         "dest": 32
       },
       {
-        "title ": "Home And Hospitality",
         "dest": 36
       },
       {
-        "title ": "Tranquility",
         "dest": 42
       },
       {
-        "title ": "Lazy Days Tote",
         "dest": 46
       },
       {
-        "title ": "Hint Of Tint",
         "dest": 50
       },
       {
-        "title ": "I Spy",
         "dest": 54
       },
       {
-        "title ": "Pretty In Pink",
         "dest": 60
       },
       {
-        "title ": "Better Machine Applique",
         "dest": 65
       },
       {
-        "title ": "Calypso",
         "dest": 66
       },
       {
-        "title ": "Quilts Al Fresco",
         "dest": 72
       },
       {
-        "title ": "Splish Splash",
         "dest": 76
       },
       {
-        "title ": "Seasons For Change",
         "dest": 80
       },
       {
-        "title ": "Seams Right",
         "dest": 84
       },
       {
-        "title ": "City Blocks",
         "dest": 86
       },
       {
-        "title ": "Back To Basics",
         "dest": 91
       },
       {
-        "title ": "Reader Survey",
         "dest": 101
       },
       {
-        "title ": "Resources",
         "dest": 103
       },
       {
-        "title ": "Inspiration Abounds",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2016-06-140",
+    "pageCount": 108
   },
   {
     "id": "141",
-    "title": "",
     "year": 2006,
     "month": "Spring",
     "hasAttachment": 1,
     "filename": "0141.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -11479,19 +11608,20 @@
         "title": "Decorating With Quilts",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2016-08-141",
+    "pageCount": 108
   },
   {
     "id": "142",
-    "title": "",
     "year": 2006,
     "month": "Winter",
     "hasAttachment": 1,
     "filename": "0142.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -11595,7 +11725,9 @@
         "title": "Coming Soon",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2016-10-142",
+    "pageCount": 108
   },
   {
     "id": "143",
@@ -11605,8 +11737,8 @@
     "filename": "0143.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -11702,19 +11834,20 @@
         "title": "Coming Soon",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2016-12-143",
+    "pageCount": 108
   },
   {
     "id": "144",
-    "title": "",
     "year": 2007,
     "month": "Summer",
     "hasAttachment": 1,
     "filename": "0144.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -11810,7 +11943,9 @@
         "title": "Coming Soon",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2017-02-144",
+    "pageCount": 108
   },
   {
     "id": "145",
@@ -11820,8 +11955,8 @@
     "filename": "0145.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -11913,19 +12048,20 @@
         "title": "Coming Soon",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2017-04-145",
+    "pageCount": 108
   },
   {
     "id": "146",
-    "title": "",
     "year": 2007,
     "month": "Winter",
     "hasAttachment": 1,
     "filename": "0146.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -12021,7 +12157,9 @@
         "title": "Coming Soon",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2017-06-146",
+    "pageCount": 108
   },
   {
     "id": "147",
@@ -12031,8 +12169,8 @@
     "filename": "0147.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 3
       },
@@ -12136,7 +12274,9 @@
         "title": "Coming Soon",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2017-08-147",
+    "pageCount": 108
   },
   {
     "id": "148",
@@ -12146,8 +12286,8 @@
     "filename": "0148.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 3
       },
@@ -12247,19 +12387,20 @@
         "title": "Coming Soon",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2017-10-148",
+    "pageCount": 108
   },
   {
     "id": "149",
-    "title": "",
     "year": 2008,
     "month": "Summer",
     "hasAttachment": 1,
     "filename": "0149.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 3
       },
@@ -12367,127 +12508,105 @@
         "title": "Coming Soon",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2017-12-149",
+    "pageCount": 108
   },
   {
     "id": "150",
-    "title": "",
     "year": 2008,
     "month": "Winter",
     "hasAttachment": 1,
     "filename": "0150.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
-        "title ": "From The Editor",
+    "toc": [
+      {
         "dest": 3
       },
       {
-        "title ": "Getting To Know: Amy Schimler",
         "dest": 8
       },
       {
-        "title ": "From Me To You",
         "dest": 12
       },
       {
-        "title ": "Vision In Blue",
         "dest": 14
       },
       {
-        "title ": "Truly Gifted",
         "dest": 18
       },
       {
-        "title ": "Sew Easy",
         "dest": 22
       },
       {
-        "title ": "Frill Seeking",
         "dest": 30
       },
       {
-        "title ": "Cutting On The Bias",
         "dest": 35
       },
       {
-        "title ": "Good Cheer",
         "dest": 36
       },
       {
-        "title ": "Over The Top",
         "dest": 42
       },
       {
-        "title ": "Penguin Patrol",
         "dest": 48
       },
       {
-        "title ": "Warm Fuzzies",
         "dest": 54
       },
       {
-        "title ": "Get Scrappy",
         "dest": 58
       },
       {
-        "title ": "Snow Much Fun",
         "dest": 62
       },
       {
-        "title ": "P Is For Pillow",
         "dest": 66
       },
       {
-        "title ": "Cutting Triangles",
         "dest": 70
       },
       {
-        "title ": "Straight To The Point",
         "dest": 72
       },
       {
-        "title ": "Storybook Surprise",
         "dest": 78
       },
       {
-        "title ": "Winter Jewels",
         "dest": 82
       },
       {
-        "title ": "What Are Templates?",
         "dest": 83
       },
       {
-        "title ": "Embroidery Stitches",
         "dest": 94
       },
       {
-        "title ": "Mitering Borders",
         "dest": 96
       },
       {
-        "title ": "Back To Basics",
         "dest": 97
       },
       {
-        "title ": "Coming Soon",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2018-02-150",
+    "pageCount": 108
   },
   {
     "id": "151",
-    "title": "",
     "year": 2009,
     "month": "Fall",
     "hasAttachment": 1,
     "filename": "0151.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 120,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 3
       },
@@ -12579,7 +12698,9 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2018-04-151",
+    "pageCount": 120
   },
   {
     "id": "152",
@@ -12589,8 +12710,8 @@
     "filename": "0152.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 3
       },
@@ -12674,19 +12795,20 @@
         "title": "I Am A Quilter!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2018-06-152",
+    "pageCount": 108
   },
   {
     "id": "153",
-    "title": "",
     "year": 2009,
     "month": "Summer",
     "hasAttachment": 1,
     "filename": "0153.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 3
       },
@@ -12782,19 +12904,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2018-08-153",
+    "pageCount": 108
   },
   {
     "id": "154",
-    "title": "",
     "year": 2009,
     "month": "Winter",
     "hasAttachment": 1,
     "filename": "0154.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 3
       },
@@ -12882,19 +13005,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "AMQ-2018-10-154",
+    "pageCount": 108
   },
   {
     "id": "155",
-    "title": "",
     "year": 2010,
     "month": "Fall",
     "hasAttachment": 1,
     "filename": "0155.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "Hello, Yellow",
         "dest": 12
       },
@@ -12974,19 +13098,20 @@
         "title": "Back To Basics",
         "dest": 98
       }
-    ]
+    ],
+    "title": "AMQ-2018-12-155",
+    "pageCount": 108
   },
   {
     "id": "156",
-    "title": "",
     "year": 2010,
     "month": "Summer",
     "hasAttachment": 1,
     "filename": "0156.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 3
       },
@@ -13070,19 +13195,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-WINTER-2005",
+    "pageCount": 108
   },
   {
     "id": "157",
-    "title": "",
     "year": 2010,
     "month": "Spring",
     "hasAttachment": 1,
     "filename": "0157.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 3
       },
@@ -13178,19 +13304,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-FALL-2006",
+    "pageCount": 108
   },
   {
     "id": "158",
-    "title": "",
     "year": 2010,
     "month": "Winter",
     "hasAttachment": 1,
     "filename": "0158.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -13282,19 +13409,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SUMMER-2006",
+    "pageCount": 108
   },
   {
     "id": "159",
-    "title": "",
     "year": 2011,
     "month": "Fall",
     "hasAttachment": 1,
     "filename": "0159.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -13374,115 +13502,96 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SPRING-2006",
+    "pageCount": 108
   },
   {
     "id": "160",
-    "title": "",
     "year": 2011,
     "month": "Summer",
     "hasAttachment": 1,
     "filename": "0160.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
-        "title ": "From The Editors",
+    "toc": [
+      {
         "dest": 3
       },
       {
-        "title ": "Hot Stuff",
         "dest": 8
       },
       {
-        "title ": "Scrap Lab",
         "dest": 12
       },
       {
-        "title ": "Star-Spangled Summer",
         "dest": 20
       },
       {
-        "title ": "Island Breeze",
         "dest": 29
       },
       {
-        "title ": "Simple Frills",
         "dest": 34
       },
       {
-        "title ": "Pin Party!",
         "dest": 38
       },
       {
-        "title ": "What Are Templates?",
         "dest": 40
       },
       {
-        "title ": "Pick-It Fences",
         "dest": 42
       },
       {
-        "title ": "Bold Statement",
         "dest": 48
       },
       {
-        "title ": "Table Wear",
         "dest": 54
       },
       {
-        "title ": "Cutting On The Bias",
         "dest": 58
       },
       {
-        "title ": "Road Trip",
         "dest": 59
       },
       {
-        "title ": "Baby Steps",
         "dest": 70
       },
       {
-        "title ": "Better Machine Applique",
         "dest": 75
       },
       {
-        "title ": "A Toast To Coasters",
         "dest": 76
       },
       {
-        "title ": "Made In The Shade",
         "dest": 80
       },
       {
-        "title ": "Here's The Scoop",
         "dest": 86
       },
       {
-        "title ": "Soft & Simple",
         "dest": 92
       },
       {
-        "title ": "Back To Basics",
         "dest": 98
       },
       {
-        "title ": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-WINTER-2006",
+    "pageCount": 108
   },
   {
     "id": "161",
-    "title": "",
     "year": 2011,
     "month": "Spring",
     "hasAttachment": 1,
     "filename": "0161.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -13566,19 +13675,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-FALL-2007",
+    "pageCount": 108
   },
   {
     "id": "162",
-    "title": "",
     "year": 2011,
     "month": "Winter",
     "hasAttachment": 1,
     "filename": "0162.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -13666,19 +13776,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SUMMER-2007",
+    "pageCount": 108
   },
   {
     "id": "163",
-    "title": "",
     "year": 2012,
     "month": "Fall",
     "hasAttachment": 1,
     "filename": "0163.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 6
       },
@@ -13762,19 +13873,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SPRING-2007",
+    "pageCount": 108
   },
   {
     "id": "164",
-    "title": "",
     "year": 2012,
     "month": "Summer",
     "hasAttachment": 1,
     "filename": "0164.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 6
       },
@@ -13854,19 +13966,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-WINTER-2007",
+    "pageCount": 108
   },
   {
     "id": "165",
-    "title": "",
     "year": 2012,
     "month": "Spring",
     "hasAttachment": 1,
     "filename": "0165.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 6
       },
@@ -13946,19 +14059,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-FALL-2008",
+    "pageCount": 108
   },
   {
     "id": "166",
-    "title": "",
     "year": 2012,
     "month": "Winter",
     "hasAttachment": 1,
     "filename": "0166.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 6
       },
@@ -14046,19 +14160,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SPRING-2008",
+    "pageCount": 108
   },
   {
     "id": "167",
-    "title": "",
     "year": 2013,
     "month": "Fall",
     "hasAttachment": 1,
     "filename": "0167.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -14138,19 +14253,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SUMMER-2008",
+    "pageCount": 108
   },
   {
     "id": "168",
-    "title": "",
     "year": 2013,
     "month": "Summer",
     "hasAttachment": 1,
     "filename": "0168.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -14234,19 +14350,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-WINTER-2008",
+    "pageCount": 108
   },
   {
     "id": "169",
-    "title": "",
     "year": 2013,
     "month": "Spring",
     "hasAttachment": 1,
     "filename": "0169.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -14334,119 +14451,99 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-FALL-2009",
+    "pageCount": 108
   },
   {
     "id": "170",
-    "title": "",
     "year": 2013,
     "month": "Winter",
     "hasAttachment": 1,
     "filename": "0170.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
-        "title ": "From The Editors",
+    "toc": [
+      {
         "dest": 3
       },
       {
-        "title ": "Hot Stuff",
         "dest": 8
       },
       {
-        "title ": "Bookshelf",
         "dest": 10
       },
       {
-        "title ": "Color Play",
         "dest": 12
       },
       {
-        "title ": "Finish Line",
         "dest": 16
       },
       {
-        "title ": "Scrap Lab",
         "dest": 20
       },
       {
-        "title ": "What Are Templates?",
         "dest": 29
       },
       {
-        "title ": "Frosty Friend",
         "dest": 30
       },
       {
-        "title ": "Sampler Style",
         "dest": 36
       },
       {
-        "title ": "Cutting On The Bias",
         "dest": 43
       },
       {
-        "title ": "Sweet Tangerine",
         "dest": 44
       },
       {
-        "title ": "Ocean View",
         "dest": 48
       },
       {
-        "title ": "We ❤ Ornaments",
         "dest": 52
       },
       {
-        "title ": "Dog On It",
         "dest": 58
       },
       {
-        "title ": "Tree Tops",
         "dest": 62
       },
       {
-        "title ": "’Round The Holidays",
         "dest": 68
       },
       {
-        "title ": "Better Machine Appliqué",
         "dest": 75
       },
       {
-        "title ": "Special Effects",
         "dest": 76
       },
       {
-        "title ": "Nappy Bag",
         "dest": 82
       },
       {
-        "title ": "Rail-Y Cute",
         "dest": 88
       },
       {
-        "title ": "Ready, Set, Sew!",
         "dest": 94
       },
       {
-        "title ": "Back To Basics",
         "dest": 98
       }
-    ]
+    ],
+    "title": "QM-SPRING-2009",
+    "pageCount": 108
   },
   {
     "id": "171",
-    "title": "",
     "year": 2014,
     "month": "Fall",
     "hasAttachment": 1,
     "filename": "0171.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 3
       },
@@ -14538,19 +14635,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SUMMER-2009",
+    "pageCount": 108
   },
   {
     "id": "172",
-    "title": "",
     "year": 2014,
     "month": "Summer",
     "hasAttachment": 1,
     "filename": "0172.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -14650,19 +14748,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-WINTER-2009",
+    "pageCount": 108
   },
   {
     "id": "173",
-    "title": "",
     "year": 2014,
     "month": "Spring",
     "hasAttachment": 1,
     "filename": "0173.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -14758,19 +14857,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-FALL-2010",
+    "pageCount": 108
   },
   {
     "id": "174",
-    "title": "",
     "year": 2014,
     "month": "Winter",
     "hasAttachment": 1,
     "filename": "0174.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 3
       },
@@ -14862,19 +14962,20 @@
         "title": "Make It Tonight!",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SUMMER-2010",
+    "pageCount": 108
   },
   {
     "id": "175",
-    "title": "QMR1815_stitched_Section1.pdf",
     "year": 2015,
     "month": "Fall",
     "hasAttachment": 1,
     "filename": "0175.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -14962,19 +15063,20 @@
         "title": "What Should I Pack?",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SPRING-2010",
+    "pageCount": 108
   },
   {
     "id": "176",
-    "title": "QMR1615_stitched.pdf",
     "year": 2015,
     "month": "Summer",
     "hasAttachment": 1,
     "filename": "0176.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -15062,19 +15164,20 @@
         "title": "What Should I Pack?",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-WINTER-2010",
+    "pageCount": 108
   },
   {
     "id": "177",
-    "title": "QMR1415_stitched.pdf",
     "year": 2015,
     "month": "Spring",
     "hasAttachment": 1,
     "filename": "0177.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 3
       },
@@ -15166,19 +15269,20 @@
         "title": "What Should I Pack?",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-FALL-2011",
+    "pageCount": 108
   },
   {
     "id": "178",
-    "title": "QMR2015_stitched_Section1.pdf",
     "year": 2015,
     "month": "Winter",
     "hasAttachment": 1,
     "filename": "0178.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -15262,19 +15366,20 @@
         "title": "How Should I Store?",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SUMMER-2011",
+    "pageCount": 108
   },
   {
     "id": "179",
-    "title": "APQ0216_stitched_Section1.pdf",
     "year": 2016,
     "month": "February",
     "hasAttachment": 1,
     "filename": "0179.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -15330,103 +15435,87 @@
         "title": "Big Impact",
         "dest": 96
       }
-    ]
+    ],
+    "title": "QM-SPRING-2011",
+    "pageCount": 108
   },
   {
     "id": "180",
-    "title": "APQ0416_stitched_Section1.pdf",
     "year": 2016,
     "month": "April",
     "hasAttachment": 1,
     "filename": "0180.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
-        "title ": "From the Editors",
+    "toc": [
+      {
         "dest": 6
       },
       {
-        "title ": "Sew in the Know",
         "dest": 10
       },
       {
-        "title ": "Tips from Readers",
         "dest": 16
       },
       {
-        "title ": "Trusting Her Instincts",
         "dest": 18
       },
       {
-        "title ": "10 Ways to Find Your Quilting Community",
         "dest": 26
       },
       {
-        "title ": "Happy Tiers",
         "dest": 30
       },
       {
-        "title ": "On the Rails",
         "dest": 36
       },
       {
-        "title ": "It All Adds Up",
         "dest": 47
       },
       {
-        "title ": "Grand Total",
         "dest": 48
       },
       {
-        "title ": "Plus Postage",
         "dest": 56
       },
       {
-        "title ": "All Afl utter",
         "dest": 62
       },
       {
-        "title ": "Bird & Bloom Needle Keeper",
         "dest": 70
       },
       {
-        "title ": "Star-Crossed",
         "dest": 74
       },
       {
-        "title ": "Winning Combination",
         "dest": 84
       },
       {
-        "title ": "Garden Fresh",
         "dest": 92
       },
       {
-        "title ": "Quilt Design Piece by Piece",
         "dest": 98
       },
       {
-        "title ": "Home Stretch",
         "dest": 102
       },
       {
-        "title ": "Back to Basics",
         "dest": 108
       }
-    ]
+    ],
+    "title": "QM-WINTER-2011",
+    "pageCount": 116
   },
   {
     "id": "181",
-    "title": "APQ0616_stitched_Section1.pdf",
     "year": 2016,
     "month": "June",
     "hasAttachment": 1,
     "filename": "0181.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -15482,19 +15571,20 @@
         "title": "Back to Basics",
         "dest": 120
       }
-    ]
+    ],
+    "title": "QM-FALL-2012",
+    "pageCount": 132
   },
   {
     "id": "182",
-    "title": "APQ0816_stitched_Section1.pdf",
     "year": 2016,
     "month": "August",
     "hasAttachment": 1,
     "filename": "0182.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From the Editors",
         "dest": 6
       },
@@ -15554,19 +15644,20 @@
         "title": "Back to Basics",
         "dest": 100
       }
-    ]
+    ],
+    "title": "QM-SUMMER-2012",
+    "pageCount": 108
   },
   {
     "id": "183",
-    "title": "APQ1016_stitched_Section1.pdf",
     "year": 2016,
     "month": "October",
     "hasAttachment": 1,
     "filename": "0183.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -15630,19 +15721,20 @@
         "title": "Back To Basics",
         "dest": 110
       }
-    ]
+    ],
+    "title": "QM-SPRING-2012",
+    "pageCount": 116
   },
   {
     "id": "184",
-    "title": "APQ1216_stitched_Section1.pdf",
     "year": 2016,
     "month": "December",
     "hasAttachment": 1,
     "filename": "0184.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -15694,19 +15786,20 @@
         "title": "Back To Basics",
         "dest": 124
       }
-    ]
+    ],
+    "title": "QM-WINTER-2012",
+    "pageCount": 132
   },
   {
     "id": "185",
-    "title": "QMR1416_stitched_Section1.pdf",
     "year": 2016,
     "month": "Spring",
     "hasAttachment": 1,
     "filename": "0185.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -15794,19 +15887,20 @@
         "title": "Round Up",
         "dest": 88
       }
-    ]
+    ],
+    "title": "QM-FALL-2013",
+    "pageCount": 108
   },
   {
     "id": "186",
-    "title": "QMR1616_stitched_Section1.pdf",
     "year": 2016,
     "month": "Summer",
     "hasAttachment": 1,
     "filename": "0186.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -15890,19 +15984,20 @@
         "title": "Mini Makeover",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SUMMER-2013",
+    "pageCount": 108
   },
   {
     "id": "187",
-    "title": "QMR1816_stitched_Section1.pdf",
     "year": 2016,
     "month": "Fall",
     "hasAttachment": 1,
     "filename": "0187.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -15974,19 +16069,20 @@
         "title": "Mini Makeover",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SPRING-2013",
+    "pageCount": 108
   },
   {
     "id": "188",
-    "title": "QMR2016_stitched_Section1.pdf",
     "year": 2016,
     "month": "Winter",
     "hasAttachment": 1,
     "filename": "0188.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -16070,19 +16166,20 @@
         "title": "Mini Makeover",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-WINTER-2013",
+    "pageCount": 108
   },
   {
     "id": "189",
-    "title": "APQ0217_stitched_Section1.pdf",
     "year": 2017,
     "month": "February",
     "hasAttachment": 1,
     "filename": "0189.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 6
       },
@@ -16130,87 +16227,75 @@
         "title": "Build Your Quilting Skills",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-FALL-2014",
+    "pageCount": 108
   },
   {
     "id": "190",
-    "title": "APQ0417_stitched_Section1.pdf",
     "year": 2017,
     "month": "April",
     "hasAttachment": 1,
     "filename": "0190.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
-        "title ": "From The Editors",
+    "toc": [
+      {
         "dest": 6
       },
       {
-        "title ": "Tips From Readers",
         "dest": 10
       },
       {
-        "title ": "Sew In The Know",
         "dest": 12
       },
       {
-        "title ": "Cross Reference",
         "dest": 22
       },
       {
-        "title ": "Flashback Quilt: Checkmate",
         "dest": 30
       },
       {
-        "title ": "Points Of Interest",
         "dest": 36
       },
       {
-        "title ": "Office Space",
         "dest": 46
       },
       {
-        "title ": "Star Bursts",
         "dest": 60
       },
       {
-        "title ": "String Theory",
         "dest": 72
       },
       {
-        "title ": "Sew Giving",
         "dest": 82
       },
       {
-        "title ": "Petal Power",
         "dest": 86
       },
       {
-        "title ": "Signed, Sealed, Delivered",
         "dest": 96
       },
       {
-        "title ": "Back To Basics",
         "dest": 106
       },
       {
-        "title ": "Build Your Quilting Skills",
         "dest": 114
       }
-    ]
+    ],
+    "title": "QM-SUMMER-2014",
+    "pageCount": 116
   },
   {
     "id": "191",
-    "title": "APQ0617_stitched_Section1.pdf",
     "year": 2017,
     "month": "June",
     "hasAttachment": 1,
     "filename": "0191.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 6
       },
@@ -16266,19 +16351,20 @@
         "title": "Build Your Quilting Skills",
         "dest": 130
       }
-    ]
+    ],
+    "title": "QM-SPRING-2014",
+    "pageCount": 132
   },
   {
     "id": "192",
-    "title": "APQ0817_stitched_Section1.pdf",
     "year": 2017,
     "month": "August",
     "hasAttachment": 1,
     "filename": "0192.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -16334,19 +16420,20 @@
         "title": "Build Your Quilting Skills",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-WINTER-2014",
+    "pageCount": 108
   },
   {
     "id": "193",
-    "title": "APQ1017_stitched_Section1.pdf",
     "year": 2017,
     "month": "October",
     "hasAttachment": 1,
     "filename": "0193.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors ",
         "dest": 6
       },
@@ -16410,19 +16497,20 @@
         "title": "Build Your Quilting Skills",
         "dest": 114
       }
-    ]
+    ],
+    "title": "QM-FALL-2015",
+    "pageCount": 116
   },
   {
     "id": "194",
-    "title": "APQ1217_stitched_Section1.pdf",
     "year": 2017,
     "month": "December",
     "hasAttachment": 1,
     "filename": "0194.pdf",
     "tab": 1,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 6
       },
@@ -16494,19 +16582,20 @@
         "title": "Build Your Quilting Skills",
         "dest": 130
       }
-    ]
+    ],
+    "title": "QM-SUMMER-2015",
+    "pageCount": 132
   },
   {
     "id": "195",
-    "title": "QMR1417_stitched_Section1.pdf",
     "year": 2017,
     "month": "Spring",
     "hasAttachment": 1,
     "filename": "0195.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -16590,19 +16679,20 @@
         "title": "Scrap Savvy",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SPRING-2015",
+    "pageCount": 108
   },
   {
     "id": "196",
-    "title": "QMR1617_stitched_Section1.pdf",
     "year": 2017,
     "month": "Summer",
     "hasAttachment": 1,
     "filename": "0196.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 3
       },
@@ -16690,19 +16780,20 @@
         "title": "Scrap Savvy",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-WINTER-2015",
+    "pageCount": 108
   },
   {
     "id": "197",
-    "title": "QMR1817_stitched_Section1.pdf",
     "year": 2017,
     "month": "Fall",
     "hasAttachment": 1,
     "filename": "0197.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 3
       },
@@ -16806,19 +16897,20 @@
         "title": "Scrap Savvy",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SPRING-2016",
+    "pageCount": 108
   },
   {
     "id": "198",
-    "title": "QMR2018_stitched_Section1.pdf",
     "year": 2017,
     "month": "Winter",
     "hasAttachment": 1,
     "filename": "0198.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 3
       },
@@ -16906,19 +16998,20 @@
         "title": "Scrap Savvy",
         "dest": 106
       }
-    ]
+    ],
+    "title": "QM-SUMMER-2016",
+    "pageCount": 108
   },
   {
     "id": "199",
-    "title": "",
     "year": 2018,
     "month": "February",
     "hasAttachment": 1,
     "filename": "0199.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "Editor’s Letter",
         "dest": 4
       },
@@ -16942,60 +17035,54 @@
         "title": "Collector’s Corner",
         "dest": 104
       }
-    ]
+    ],
+    "title": "QM-FALL-2016",
+    "pageCount": 108
   },
   {
     "id": "200",
-    "title": "",
     "year": 2018,
     "month": "April",
     "hasAttachment": 1,
     "filename": "0200.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
-        "title ": "From The Editor",
+    "toc": [
+      {
         "dest": 4
       },
       {
-        "title ": "Celebrating 25 Years!",
         "dest": 8
       },
       {
-        "title ": "Sew In The Know",
         "dest": 12
       },
       {
-        "title ": "Reader Tips",
         "dest": 20
       },
       {
-        "title ": "From Our Readers",
         "dest": 22
       },
       {
-        "title ": "Back To Basics",
         "dest": 106
       },
       {
-        "title ": "Collector’S Corner",
         "dest": 112
       }
-    ]
-
+    ],
+    "title": "QM-WINTER-2016",
+    "pageCount": 116
   },
   {
     "id": "201",
-    "title": "",
     "year": 2018,
     "month": "June",
     "hasAttachment": 1,
     "filename": "0201.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 132,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 1
       },
@@ -17019,20 +17106,20 @@
         "title": "Collector’S Corner",
         "dest": 128
       }
-    ]
-
+    ],
+    "title": "QM-SPRING-2017",
+    "pageCount": 132
   },
   {
     "id": "202",
-    "title": "",
     "year": 2018,
     "month": "August",
     "hasAttachment": 1,
     "filename": "0202.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 1
       },
@@ -17056,20 +17143,20 @@
         "title": "Collector’S Corner",
         "dest": 104
       }
-    ]
-
+    ],
+    "title": "QM-SUMMER-2017",
+    "pageCount": 108
   },
   {
     "id": "203",
-    "title": "",
     "year": 2018,
     "month": "October",
     "hasAttachment": 1,
     "filename": "0203.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 1
       },
@@ -17093,20 +17180,20 @@
         "title": "Collector’S Corner",
         "dest": 112
       }
-    ]
-
+    ],
+    "title": "QM-FALL-2017",
+    "pageCount": 116
   },
   {
     "id": "204",
-    "title": "",
     "year": 2018,
     "month": "December",
     "hasAttachment": 1,
     "filename": "0204.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 116,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 1
       },
@@ -17130,20 +17217,20 @@
         "title": "Collector’S Corner",
         "dest": 128
       }
-    ]
-
+    ],
+    "title": "QM-WINTER-2017",
+    "pageCount": 132
   },
   {
     "id": "205",
-    "title": "",
     "year": 2018,
     "month": "Spring",
     "hasAttachment": 1,
     "filename": "0205.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 1
       },
@@ -17179,21 +17266,20 @@
         "title": "Back To Basics",
         "dest": 96
       }
-    ]
-
+    ],
+    "title": "QM-SPRING-2018",
+    "pageCount": 108
   },
-
   {
     "id": "206",
-    "title": "",
     "year": 2018,
     "month": "Summer",
     "hasAttachment": 1,
     "filename": "0206.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editors",
         "dest": 1
       },
@@ -17237,79 +17323,77 @@
         "title": "Scrap Savvy",
         "dest": 104
       }
-    ]
-
+    ],
+    "title": "QM-SUMMER-2018",
+    "pageCount": 108
   },
-
   {
     "id": "207",
-    "title": "",
     "year": 2018,
     "month": "Fall",
     "hasAttachment": 1,
     "filename": "0207.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
-        "title": "1 From The Editor",
+    "toc": [
+      {
+        "title": "From The Editor",
         "dest": 1
       },
       {
-        "title": "6 Allpeoplequilt.Com",
+        "title": "Allpeoplequilt.Com",
         "dest": 6
       },
       {
-        "title": "8 Stuff We Love",
+        "title": "Stuff We Love",
         "dest": 8
       },
       {
-        "title": "10 1 Block 3 Ways",
+        "title": "1 Block 3 Ways",
         "dest": 10
       },
       {
-        "title": "12 Getting To Know",
+        "title": "Getting To Know",
         "dest": 12
       },
       {
-        "title": "14 Sharpen Your Skills",
+        "title": "Sharpen Your Skills",
         "dest": 14
       },
       {
-        "title": "50 Embroidery Stitches",
+        "title": "Embroidery Stitches",
         "dest": 50
       },
       {
-        "title": "72 Better Machine AppliquÉ",
+        "title": "Better Machine AppliquÉ",
         "dest": 72
       },
       {
-        "title": "87 What Are Templates?",
+        "title": "What Are Templates?",
         "dest": 87
       },
       {
-        "title": "96 Back To Basics",
+        "title": "Back To Basics",
         "dest": 96
       },
       {
-        "title": "104 Scrap Savvy",
+        "title": "Scrap Savvy",
         "dest": 104
       }
-    ]
-
+    ],
+    "title": "QM-FALL-2018",
+    "pageCount": 108
   },
-
   {
     "id": "208",
-    "title": "",
     "year": 2019,
     "month": "Winter",
     "hasAttachment": 1,
     "filename": "0208.pdf",
     "tab": 2,
     "offset": "0",
-    "pageCount": 108,
-    "toc": [{
+    "toc": [
+      {
         "title": "From The Editor",
         "dest": 1
       },
@@ -17349,7 +17433,8 @@
         "title": "Scrap Savvy",
         "dest": 104
       }
-    ]
-
+    ],
+    "title": "QM-WINTER-2018",
+    "pageCount": 108
   }
 ]
