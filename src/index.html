@@ -44,7 +44,7 @@
                       <b-form-checkbox value="active" unchecked-value="inactive" v-model="searchParams.searchUseKeywords" :disabled=searchParams.searchFullText>Keywords</b-form-checkbox>
                     </div>
                     <b-form-checkbox value="title" class="mb-1" v-model="searchParams.searchFullText">Full Text</b-form-checkbox>
-                    <b-form-checkbox value="articleType" class="mb-1" v-model="searchParams.articleTypeFilter" :disabled=searchParams.searchFullText>Article Type</b-form-checkbox>
+                    <!-- <b-form-checkbox value="articleType" class="mb-1" v-model="searchParams.articleTypeFilter" :disabled=searchParams.searchFullText>Article Type</b-form-checkbox>
                     <b-form-group  v-if="searchParams.articleTypeFilter" class="p-2 bg-light">
                       <b-form-checkbox-group stacked v-model="searchParams.articleTypeFilters" name="article_type">
                         <b-form-checkbox value="1" :disabled=searchParams.searchFullText>Ask WOOD</b-form-checkbox>
@@ -55,17 +55,17 @@
                         <b-form-checkbox value="6" :disabled=searchParams.searchFullText>Tool Use</b-form-checkbox>
                         <b-form-checkbox value="7" :disabled=searchParams.searchFullText>Wood and Supplies</b-form-checkbox>
                       </b-form-checkbox-group>
-                    </b-form-group>
+                    </b-form-group> -->
                     <b-form-checkbox value="projectType" class="mb-1" v-model="searchParams.projectTypeFilter" :disabled=searchParams.searchFullText>Project Type</b-form-checkbox>
                     <b-form-group v-if="searchParams.projectTypeFilter" class="p-2 bg-light">
                       <b-form-checkbox-group stacked v-model="searchParams.projectTypeFilters" name="project_type">
-                        <b-form-checkbox value="1" :disabled=searchParams.searchFullText>Furniture</b-form-checkbox>
-                        <b-form-checkbox value="2" :disabled=searchParams.searchFullText>Gifts and Decoration</b-form-checkbox>
-                        <b-form-checkbox value="3" :disabled=searchParams.searchFullText>Holiday Decor</b-form-checkbox>
-                        <b-form-checkbox value="4" :disabled=searchParams.searchFullText>Outdoor</b-form-checkbox>
-                        <b-form-checkbox value="5" :disabled=searchParams.searchFullText>Toys and Kids Furniture</b-form-checkbox>
-                        <b-form-checkbox value="6" :disabled=searchParams.searchFullText>Turning Projects</b-form-checkbox>
-                        <b-form-checkbox value="7" :disabled=searchParams.searchFullText>Workshop and Jigs</b-form-checkbox>
+                        <b-form-checkbox value="1" :disabled=searchParams.searchFullText>Home Decor</b-form-checkbox>
+                        <b-form-checkbox value="2" :disabled=searchParams.searchFullText>Wall Hangings</b-form-checkbox>
+                        <b-form-checkbox value="3" :disabled=searchParams.searchFullText>Throw Quilts</b-form-checkbox>
+                        <b-form-checkbox value="4" :disabled=searchParams.searchFullText>Table Toppers</b-form-checkbox>
+                        <b-form-checkbox value="5" :disabled=searchParams.searchFullText>Bed Quilts</b-form-checkbox>
+                        <b-form-checkbox value="6" :disabled=searchParams.searchFullText>Tote Bags/Wearables</b-form-checkbox>
+                        <b-form-checkbox value="7" :disabled=searchParams.searchFullText>Baby Quilts</b-form-checkbox>
                       </b-form-checkbox-group>
                     </b-form-group>
                     <div class="form-inline d-flex flex-row justify-content-start">
@@ -286,9 +286,9 @@
             </router-link>
             <div class="form-inline">
               <input class="form-control mx-2" type="search" placeholder="Enter Keywords" aria-label="Search" v-model="issueSearchTerm" v-on:keydown.enter="doFind">
-              <button v-b-tooltip.hover title="Find"class="btn customBtnColor" @click="doFind"><i class="fa fa-search" aria-hidden="true"></i>
+              <b-button  v-b-tooltip.hover title="Find"class="" variant="warning" @click="doFind"><i class="fa fa-search" aria-hidden="true"></i>
                 Find
-              </button>
+              </b-button >
             </div>
           </b-col>
           <b-col class="d-flex flex-row justify-content-end align-items-center">
@@ -542,30 +542,34 @@
       </div>
       <div class="about-content p-3 mt-5">
         <p>
-          Welcome to the WOOD® magazine back issue archive. This massive collection is printer-friendly, fully
-          searchable, and contains high-quality illustrations and photos.
+          Welcome to The Archive, the complete history of American Patchwork & Quilting® and Quilts and
+          More™magazines! This massive collection is printer-friendly, fully searchable, and contains high-quality 
+          illustrations and photos.
         </p>
         <div>The archive features:</div>
         <div class="app-features ml-5 mt-2 mb-3">
-          <div>Issues searchable by any term or topic</div>
-          <div>Thumbnail previews of each article or project</div>
-          <div>Articles and issues browsable by year, issue, or article type</div>
-          <div>Mac and PC compatibility</div>
+            <div>Search all issues with any term or topic</div>
+            <div>Easy to find any pattern, designer, and tips</div>
+            <div>Thumbnail previews of each article or pattern </div>
+            <div>Browse the magazines by year, issue, quilt designer, or quilt size</div>
+            <div>One click takes you to the information you need</div>
+            <div>Compatible with PC and Mac</div>
         </div>
-        <p>These magazines are presented as they were published, often many years ago. As such, any offers,
-          sources, kits, products, buying guides, reviews, and information from advertisers may be out-of-date,
-          defunct, or invalid. WOOD®
-          magazine does not keep updated sourcing information.
+        <p>
+            Patterns and content may be used for personal use only. Reproduction in whole or in part without permission 
+            is prohibited.  No electronic or printed reproduction permitted without the prior written consent of Meredith 
+            Corporation. ©Meredith Corporation 2016, 2017, 2018, 2019. All rights reserved.
         </p>
         <p>
-          Notice: Reproduction or distribution of the content of this product is strictly prohibited. Purchase
-          of this product does not transfer any title or rights of ownership in the content to the purchaser. The
-          content of this product is
-          protected by copyright and may not be used for any other purpose without the written permission of the
-          copyright owner.
+            It is expressly prohibited to reprint any patterns or content and sell for profit.
         </p>
         <p>
-          © Copyright Meredith Corporation 2019. All rights reserved. Produced in the USA.
+            It is permissible to make and publicly display a single finished product of any project on The Archive, including 
+            for purposes of competitive winnings up to $1,000, so long as visible credit is given to the designer and 
+            American Patchwork & Quilting or Quilts and More magazine.
+        </p>
+        <p>
+          Please contact 1-888-636-4478 if your interest in purchasing a license agreement to use The Archive for education purposes.
         </p>
       </div>
     </b-container>
