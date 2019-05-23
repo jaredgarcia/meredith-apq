@@ -147,6 +147,13 @@
         </div>
       </div>
       <div class="bookshelf" v-if="showSearchResults">
+        <div>
+            <b-row class="topButtons d-flex flex-row justify-content-center align-items-center">
+                <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(0)">All Issues</b-button>
+                <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(1)">American Patchwork & Quilting</b-button>
+                <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(2)">Quilts and More</b-button>
+            </b-row>
+        </div>
         <b-row class="bookshelf-controls p-2">
           <b-col cols="5" class="d-flex justify-content-start">
             <b-button-group size="sm" class="ml-4">
@@ -214,9 +221,9 @@
       <div class="bookshelf" v-else>
           <div>
               <b-row class="topButtons d-flex flex-row justify-content-center align-items-center">
-                  <b-button variant="warning" class="m-2 customBtnColorTab">All Issues</b-button>
-                  <b-button variant="warning" class="m-2 customBtnColorTab">American Patchwork & Quilting</b-button>
-                  <b-button variant="warning" class="m-2 customBtnColorTab">Quilts and More</b-button>
+                  <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(0)">All Issues</b-button>
+                  <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(1)">American Patchwork & Quilting</b-button>
+                  <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(2)">Quilts and More</b-button>
               </b-row>
           </div>
         <b-row class="bookshelf-controls p-2">
@@ -247,7 +254,7 @@
         <div class="book-showcase">
           <div class="container-fluid">
             <b-row class="pt-5" v-if="showBookCover">
-              <b-col md="3" lg="2" v-for="issue in issues" class="d-flex justify-content-center">
+              <b-col md="3" lg="2" v-for="issue in issues" class="d-flex justify-content-center" v-bind:class="{'displayNone': (magazineType != 0 && magazineType != issue.type)}">
                 <div class="py-3">
                   <router-link class="btn btn-link thumb-link-container" :to="{ name: 'ebook-viewer', params: { id: issue.id, page: 1 }}">
                     <img :data-src="thumb(issue.id)" class="img-responsive book bs-lazy-thumb">
@@ -261,7 +268,7 @@
             </b-row>
             <b-row v-else>
               <b-col cols="12" class="d-flex justify-content-center">
-                <b-table ref="tblWoodIssues" striped hover :items="issues" :fields="fields">
+                <b-table ref="tblWoodIssues" striped hover :items="issues" :fields="fields" :tbody-tr-class="listViewRowClass">
                   <template slot="action" slot-scope="data">
                     <router-link class="btn btn-sm customBtnColor" :to="{ name: 'ebook-viewer', params: { id: data.item.id, page: 1 }}">
                       View

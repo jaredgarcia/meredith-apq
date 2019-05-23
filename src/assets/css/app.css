@@ -476,3 +476,7 @@ ul.toc-links span+span {
 .topButtons{
     background-color: #023c6f;
 }
+
+.displayNone {
+    display: none !important;
+}

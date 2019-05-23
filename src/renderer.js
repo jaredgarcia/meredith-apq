@@ -87,6 +87,7 @@ const Home = {
     bookmarks: [],
     displayBookmarks: false,
     searchHash: null,
+    magazineType: 0,
   }),
   created: function () {
 
@@ -152,7 +153,18 @@ const Home = {
       return this.searchParams.sortOrder === 3
     },
     issueCount() {
-      return this.issues.length
+      if(this.magazineType == 0) {
+        return this.issues.length
+      } else {
+        const filtered = _.filter(this.issues, (i) => {
+          return i.type == this.magazineType
+        })
+
+        return filtered.length
+      }
+    },
+    magazineTypeToDisplay() {
+      return this.magazineType
     }
   },
   methods: {
@@ -203,6 +215,17 @@ const Home = {
       })
 
       return (filtered.length === needles.length)
+    },
+    setMagazineType(type) {
+      if(this.magazineType != type) {
+        this.magazineType = type
+      }
+    },
+    listViewRowClass( item, type ) {
+        if ( !item )
+          return;
+        if ( this.magazineType != 0 && this.magazineType != item.type)
+          return 'd-none';
     },
     doSearch() {
       this.searchParams.searchTerm = _.trim(this.searchParams.searchTerm)
