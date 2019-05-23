@@ -176,7 +176,8 @@ a:hover .book-description {
     position: relative;
 }
 
-.left-page.preload, .right-page.preload {
+.left-page.preload,
+.right-page.preload {
     display: none
 }
 
@@ -448,32 +449,39 @@ ul.toc-links span+span {
 }
 
 .search-term-highlight {
-    background-color:#f8ed62;
+    background-color: #f8ed62;
 }
 
-.customBtnColor{
+.customBtnColor {
     color: #fff !important;
     background-color: #023c6f !important;
     border-color: #023c6f !important;
 }
 
-.customBtnColorTab{
+.customBtnColorTab {
     color: #fff !important;
     background-color: #023c6f !important;
     border-color: #023c6f !important;
+    outline: none;
 }
 
-.customBtnColorTab:hover{
+.customBtnColorTab:hover {
     color: #ffc107 !important;
 }
 
+.customBtnColorTab.active {
+    color: #ffc107 !important;
+    background-color: #00223e !important;
+    border-color: #00223e !important;
+}
 
-.customCloseBtnColor{
+
+.customCloseBtnColor {
     color: #fff;
 }
 
 
-.topButtons{
+.topButtons {
     background-color: #023c6f;
 }
 

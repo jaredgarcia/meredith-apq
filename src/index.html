@@ -149,9 +149,9 @@
       <div class="bookshelf" v-if="showSearchResults">
         <div>
             <b-row class="topButtons d-flex flex-row justify-content-center align-items-center">
-                <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(0)">All Issues</b-button>
-                <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(1)">American Patchwork & Quilting</b-button>
-                <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(2)">Quilts and More</b-button>
+                <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(0)" v-bind:class="{'active': (magazineType == 0)}">All Issues</b-button>
+                <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(1)" v-bind:class="{'active': (magazineType == 1)}">American Patchwork & Quilting</b-button>
+                <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(2)" v-bind:class="{'active': (magazineType == 2)}">Quilts and More</b-button>
             </b-row>
         </div>
         <b-row class="bookshelf-controls p-2">
@@ -221,9 +221,9 @@
       <div class="bookshelf" v-else>
           <div>
               <b-row class="topButtons d-flex flex-row justify-content-center align-items-center">
-                  <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(0)">All Issues</b-button>
-                  <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(1)">American Patchwork & Quilting</b-button>
-                  <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(2)">Quilts and More</b-button>
+                  <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(0)" v-bind:class="{'active': (magazineType == 0)}">All Issues</b-button>
+                  <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(1)" v-bind:class="{'active': (magazineType == 1)}">American Patchwork & Quilting</b-button>
+                  <b-button variant="warning" class="m-2 customBtnColorTab" @click="setMagazineType(2)" v-bind:class="{'active': (magazineType == 2)}">Quilts and More</b-button>
               </b-row>
           </div>
         <b-row class="bookshelf-controls p-2">
