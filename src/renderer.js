@@ -163,6 +163,17 @@ const Home = {
         return filtered.length
       }
     },
+    searchResultCount() {
+      if(this.magazineType == 0) {
+        return this.searchParams.searchResults.length
+      } else {
+        const filtered = _.filter(this.searchParams.searchResults, (i) => {
+          return i.magazine_type == this.magazineType
+        })
+
+        return filtered.length
+      }
+    },
     magazineTypeToDisplay() {
       return this.magazineType
     }
@@ -226,6 +237,12 @@ const Home = {
           return;
         if ( this.magazineType != 0 && this.magazineType != item.type)
           return 'd-none';
+    },
+    searchResultListViewRowClass( item, type ) {
+      if ( !item )
+        return;
+      if ( this.magazineType != 0 && this.magazineType != item.magazine_type)
+        return 'd-none';
     },
     doSearch() {
       this.searchParams.searchTerm = _.trim(this.searchParams.searchTerm)

@@ -164,7 +164,7 @@
             </b-button-group>
           </b-col>
           <b-col cols="2 search-result-count" class="d-flex justify-content-center align-items-center">
-            {{ searchParams.searchResultCount }} Results
+            {{ searchResultCount }} Results
           </b-col>
           <b-col cols="5" class="d-flex justify-content-end">
             <div class="form-inline">
@@ -186,7 +186,7 @@
         <div class="book-showcase">
           <div class="container-fluid">
             <b-row class="pt-5" v-if="showBookCover">
-              <b-col md="3" lg="2" v-for="article in searchParams.searchResults" class="d-flex justify-content-center">
+              <b-col md="3" lg="2" v-for="article in searchParams.searchResults" class="d-flex justify-content-center" v-bind:class="{'displayNone': (magazineType != 0 && magazineType != article.magazine_type)}">
                 <div class="py-3">
                   <router-link class="btn btn-link thumb-link-container" :to="{ name: 'ebook-viewer', params: { id: article.issue, page: article.dest }}">
                     <img :data-src="getPagePreview(article.issue, article.dest)" class="book img-responsive sr-lazy-thumb">
@@ -199,7 +199,7 @@
             </b-row>
             <b-row v-else>
               <b-col cols="12" class="d-flex justify-content-center">
-                <b-table ref="tblSearchResults" striped hover :items="searchParams.searchResults" :fields="searchResultfields">
+                <b-table ref="tblSearchResults" striped hover :items="searchParams.searchResults" :fields="searchResultfields" :tbody-tr-class="searchResultListViewRowClass">
                   <template slot="issue" slot-scope="data">
                     Issue #{{ data.item.issue }} ({{ data.item.issue_month }} {{ data.item.issue_year }})
                   </template>

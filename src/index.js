@@ -119,8 +119,10 @@ ipcMain.on('fullTextSearch', (event, searchTerm) => {
   const searchResults = []
 
   _.each(rawSearchResults, (r) => {
-    const reference = r.ref.split('')
+    let reference = r.ref.split('')
     const issue = parseInt(_.take(reference, 4).join(''), 10).toString()
+    reference = _.drop(reference, 4)
+    const magazine_type = parseInt(_.take(reference, 4).join(''), 10)
     const page = parseInt(_.takeRight(reference, 4).join(''), 10)
     const pageDisplay = (page > 2) ? "p." + (page - 2) : "Cover " + page
     const article_title = "Issue #" + issue + ", " + pageDisplay
@@ -128,6 +130,7 @@ ipcMain.on('fullTextSearch', (event, searchTerm) => {
     searchResults.push({
       id: r.ref,
       issue,
+      magazine_type,
       page,
       dest: page,
       article_title,
