@@ -289,7 +289,7 @@ const Home = {
           _.each(indexSearchResults, (r) => {
             let article = this.searchIndex.documentStore.getDoc(r.ref)
             if(!article.hasOwnProperty('dest')) {
-              article.dest = article.page + 2
+              article.dest = article.page
             }
             articleBuffer.push(article)
           })
