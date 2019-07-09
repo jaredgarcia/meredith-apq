@@ -180,7 +180,7 @@
                   <router-link class="btn btn-link thumb-link-container" :to="{ name: 'ebook-viewer', params: { id: article.issue, page: article.dest }}">
                     <img :data-src="getPagePreview(article.issue, article.dest)" class="book img-responsive sr-lazy-thumb">
                     <div class="book-description-layer">
-                      <p class="book-description">Issue #{{article.issue}}<br /></p>
+                      <p class="book-description">{{article.issue_month}} {{article.issue_year}}<br /></p>
                     </div>
                   </router-link>
                 </div>
@@ -190,7 +190,7 @@
               <b-col cols="12" class="d-flex justify-content-center">
                 <b-table ref="tblSearchResults" striped hover :items="searchParams.searchResults" :fields="searchResultfields" :tbody-tr-class="searchResultListViewRowClass">
                   <template slot="issue" slot-scope="data">
-                    Issue #{{ data.item.issue }} ({{ data.item.issue_month }} {{ data.item.issue_year }})
+                    {{ data.item.issue_month }} {{ data.item.issue_year }}
                   </template>
                   <template slot="page" slot-scope="data">
                     {{ (data.item.dest < 3) ? "Cover " + data.item.dest : data.item.dest - 2}}

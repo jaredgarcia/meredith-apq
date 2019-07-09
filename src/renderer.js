@@ -50,11 +50,6 @@ const Home = {
         label: 'Year',
       },
       {
-        key: 'id',
-        sortable: false,
-        label: 'Issue',
-      },
-      {
         key: 'action',
         label: 'Action'
       }
