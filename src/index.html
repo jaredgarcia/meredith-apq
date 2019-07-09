@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../node_modules/pdfjs-dist/web/pdf_viewer.css">
   <link rel="stylesheet" href="assets/css/app.css">
-  <title>AP&Q Archive</title>
+  <title>American Patchwork & Quilting Archive</title>
 </head>
 
 <body>
@@ -26,12 +26,12 @@
         <b-row class="w-100">
           <b-col class="d-flex flex-row justify-content-start align-items-center">
             <a class="navbar-brand">
-              <b-img src="assets/images/apqLogo.png" width="240" height="40" alt="Home" v-b-tooltip.hover title="Return to Home view" @click="resetSearchFilter">
+              <b-img src="assets/images/apqLogo.png" width="240" height="40" alt="Home" v-b-tooltip.hover title="Return to Home view" @click="resetSearchFilter" class="apqLogo">
             </a>
             <input class="form-control mx-2" type="search" placeholder="Enter Keywords" aria-label="Search" v-model="searchParams.searchTerm" v-on:keydown.enter="doSearch"/>
             <div>
               <b-dropdown split split-variant="warning" variant="warning" text="Search" ref="searchRef"  right="Right align" @click="doSearch">
-                <div class="container">
+                <div class="container setContSize">
                   <b-dropdown-form class="search-dropdown">
                     <h5>FILTER YOUR SEARCH</h5>
                     <b-form-radio-group v-model="searchParams.searchType" class="mb-1">
@@ -44,18 +44,7 @@
                       <b-form-checkbox value="active" unchecked-value="inactive" v-model="searchParams.searchUseKeywords" :disabled=searchParams.searchFullText>Keywords</b-form-checkbox>
                     </div>
                     <b-form-checkbox value="title" class="mb-1" v-model="searchParams.searchFullText">Full Text</b-form-checkbox>
-                    <!-- <b-form-checkbox value="articleType" class="mb-1" v-model="searchParams.articleTypeFilter" :disabled=searchParams.searchFullText>Article Type</b-form-checkbox>
-                    <b-form-group  v-if="searchParams.articleTypeFilter" class="p-2 bg-light">
-                      <b-form-checkbox-group stacked v-model="searchParams.articleTypeFilters" name="article_type">
-                        <b-form-checkbox value="1" :disabled=searchParams.searchFullText>Ask WOOD</b-form-checkbox>
-                        <b-form-checkbox value="2" :disabled=searchParams.searchFullText>Projects</b-form-checkbox>
-                        <b-form-checkbox value="3" :disabled=searchParams.searchFullText>Shop Tips</b-form-checkbox>
-                        <b-form-checkbox value="4" :disabled=searchParams.searchFullText>Techniques</b-form-checkbox>
-                        <b-form-checkbox value="5" :disabled=searchParams.searchFullText>Tool Reviews</b-form-checkbox>
-                        <b-form-checkbox value="6" :disabled=searchParams.searchFullText>Tool Use</b-form-checkbox>
-                        <b-form-checkbox value="7" :disabled=searchParams.searchFullText>Wood and Supplies</b-form-checkbox>
-                      </b-form-checkbox-group>
-                    </b-form-group> -->
+
                     <b-form-checkbox value="projectType" class="mb-1" v-model="searchParams.projectTypeFilter" :disabled=searchParams.searchFullText>Project Type</b-form-checkbox>
                     <b-form-group v-if="searchParams.projectTypeFilter" class="p-2 bg-light">
                       <b-form-checkbox-group stacked v-model="searchParams.projectTypeFilters" name="project_type">
@@ -259,7 +248,7 @@
                   <router-link class="btn btn-link thumb-link-container" :to="{ name: 'ebook-viewer', params: { id: issue.id, page: 1 }}">
                     <img :data-src="thumb(issue.id)" class="img-responsive book bs-lazy-thumb">
                     <div class="book-description-layer">
-                      <p class="book-description">Issue #{{issue.id}}<br />{{issue.month}} {{issue.year}}</p>
+                      <p class="book-description">{{issue.month}} {{issue.year}}</p>
                     </div>
                   </router-link>
                   <div class="shelf"></div>
@@ -289,7 +278,7 @@
         <b-row class="w-100">
           <b-col class="d-flex flex-row justify-content-start align-items-center">
             <router-link class="navbar-brand" :to="{ name: 'home'}">
-              <img src="assets/images/apqLogo.png" width="240" height="40" alt="Home" v-b-tooltip.hover title="Return to Home view">
+              <img src="assets/images/apqLogo.png" alt="Home" v-b-tooltip.hover title="Return to Home view" class="apqLogo">
             </router-link>
             <div class="form-inline">
               <input class="form-control mx-2" type="search" placeholder="Enter Keywords" aria-label="Search" v-model="issueSearchTerm" v-on:keydown.enter="doFind">
@@ -521,7 +510,7 @@
         <b-row class="w-100">
           <b-col class="d-flex flex-row justify-content-start align-items-center">
             <router-link class="navbar-brand" :to="{ name: 'home'}">
-              <img src="assets/images/apqLogo.png" width="240" height="40" alt="Home" v-b-tooltip.hover title="Go back to Home view">
+              <img src="assets/images/apqLogo.png" width="240" height="40" alt="Home" v-b-tooltip.hover title="Go back to Home view" class="apqLogo">
             </router-link>
           </b-col>
           <b-col class="d-flex flex-row justify-content-end align-items-center">
@@ -588,7 +577,7 @@
         <b-row class="w-100">
           <b-col class="d-flex flex-row justify-content-start align-items-center">
             <router-link class="navbar-brand" :to="{ name: 'home'}">
-              <img src="assets/images/apqLogo.png" width="240" height="40" alt="Home" v-b-tooltip.hover title="Go back to Home view">
+              <img src="assets/images/apqLogo.png" width="240" height="40" alt="Home" v-b-tooltip.hover title="Go back to Home view" class="apqLogo">
             </router-link>
           </b-col>
           <b-col class="d-flex flex-row justify-content-end align-items-center">

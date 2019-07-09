@@ -633,11 +633,11 @@
         "dest": 9
       },
       {
-        "title": "Trip Wtth The Amish",
+        "title": "Trip With The Amish",
         "dest": 10
       },
       {
-        "title": "Littile Fans",
+        "title": "Little Fans",
         "dest": 14
       },
       {
@@ -765,7 +765,7 @@
         "dest": 12
       },
       {
-        "title": "Bic City Quilting",
+        "title": "Big City Quilting",
         "dest": 16
       },
       {
@@ -1021,7 +1021,7 @@
         "dest": 10
       },
       {
-        "title": "Town Square Cottaces",
+        "title": "Town Square Cottages",
         "dest": 12
       },
       {
@@ -1029,7 +1029,7 @@
         "dest": 16
       },
       {
-        "title": "Foh The Love Of Stitching",
+        "title": "For The Love Of Stitching",
         "dest": 20
       },
       {
@@ -1149,7 +1149,7 @@
         "dest": 8
       },
       {
-        "title": "Gabnet Star",
+        "title": "Garnet Star",
         "dest": 12
       },
       {
@@ -1165,7 +1165,7 @@
         "dest": 24
       },
       {
-        "title": "Australian Busi-I Quilt",
+        "title": "Australian Bush Quilt",
         "dest": 28
       },
       {
@@ -1173,7 +1173,7 @@
         "dest": 32
       },
       {
-        "title": "Stabs Ablaze.",
+        "title": "Stars Ablaze",
         "dest": 36
       },
       {
@@ -1181,7 +1181,7 @@
         "dest": 40
       },
       {
-        "title": "2Nd Annual Homes & Gardens Challenge™ Announcement",
+        "title": "2nd Annual Homes & Gardens Challenge™ Announcement",
         "dest": 44
       },
       {
@@ -1189,11 +1189,11 @@
         "dest": 46
       },
       {
-        "title": ".Quilts & Quotes",
+        "title": "Quilts & Quotes",
         "dest": 48
       },
       {
-        "title": "Quilter's Mabket",
+        "title": "Quilter's Market",
         "dest": 50
       }
     ],
@@ -1251,7 +1251,7 @@
         "dest": 40
       },
       {
-        "title": "Rose Star Trellls",
+        "title": "Rose Star Trellis",
         "dest": 44
       },
       {
@@ -1267,7 +1267,7 @@
         "dest": 60
       },
       {
-        "title": ".Quilts & Quotes",
+        "title": "Quilts & Quotes",
         "dest": 62
       },
       {
@@ -1317,7 +1317,7 @@
         "dest": 20
       },
       {
-        "title": "Oriole Cihcle",
+        "title": "Oriole Circle",
         "dest": 22
       },
       {
@@ -1345,7 +1345,7 @@
         "dest": 44
       },
       {
-        "title": ".Quilts & Quotes",
+        "title": "Quilts & Quotes",
         "dest": 46
       },
       {
@@ -1419,7 +1419,7 @@
         "dest": 44
       },
       {
-        "title": ".Quilts & Quotes",
+        "title": "Quilts & Quotes",
         "dest": 46
       },
       {
@@ -1489,7 +1489,7 @@
         "dest": 44
       },
       {
-        "title": ".Quilts & Quotes",
+        "title": "Quilts & Quotes",
         "dest": 46
       },
       {
@@ -1547,11 +1547,11 @@
         "dest": 36
       },
       {
-        "title": "A Trip To An Amlsh Auction",
+        "title": "A Visit To An Amish Auction",
         "dest": 40
       },
       {
-        "title": ".Quilts & Quotes",
+        "title": "Quilts & Quotes",
         "dest": 46
       },
       {
@@ -1577,7 +1577,7 @@
     "offset": "0",
     "toc": [
       {
-        "title": ".Quilts & Quotes",
+        "title": "Quilts & Quotes",
         "dest": 6
       },
       {
@@ -1605,7 +1605,7 @@
         "dest": 28
       },
       {
-        "title": "Patchwork Paths Series",
+        "title": "Patchwork Paths Country Roads",
         "dest": 32
       },
       {
@@ -1643,7 +1643,7 @@
     "offset": "0",
     "toc": [
       {
-        "title": ".Quilts & Quotes",
+        "title": "Quilts & Quotes",
         "dest": 6
       },
       {
@@ -3493,57 +3493,75 @@
     "offset": "0",
     "toc": [
       {
+        "title ": "Quilts And Quotes",
         "dest": 12
       },
       {
+        "title ": "Scraps Of Wisdom",
         "dest": 16
       },
       {
+        "title ": "Quilt Shows",
         "dest": 18
       },
       {
+        "title ": "Quilt Sampler® Announcement",
         "dest": 24
       },
       {
+        "title ": "Book Review",
         "dest": 26
       },
       {
+        "title ": "What's New @Quiltvillage.Com",
         "dest": 28
       },
       {
+        "title ": "Destinations",
         "dest": 29
       },
       {
+        "title ": "Token Quilts",
         "dest": 30
       },
       {
+        "title ": "Rescue Mission",
         "dest": 34
       },
       {
+        "title ": "Spring Leaves",
         "dest": 40
       },
       {
+        "title ": "Rule The Roost",
         "dest": 46
       },
       {
+        "title ": "Blue Sunshine",
         "dest": 50
       },
       {
+        "title ": "Homespun Hollow",
         "dest": 54
       },
       {
+        "title ": "Sunny Lanes",
         "dest": 60
       },
       {
+        "title ": "Gathering Baskets",
         "dest": 64
       },
       {
+        "title ": "Welcome Home",
         "dest": 70
       },
       {
+        "title ": "Quilter's Schoolhouse",
         "dest": 74
       },
       {
+        "title ": "Quilter's Market",
         "dest": 84
       }
     ],
@@ -4161,7 +4179,7 @@
         "dest": 62
       },
       {
-        "title": "A Mother's Work Ls Never Done",
+        "title": "A Mother's Work Is Never Done",
         "dest": 66
       },
       {
@@ -5163,7 +5181,7 @@
         "dest": 50
       },
       {
-        "title": "Dotiy Cabins",
+        "title": "Dotty Cabins",
         "dest": 52
       },
       {
@@ -5535,7 +5553,7 @@
         "dest": 19
       },
       {
-        "title": "Pat's Friendship Cotiages",
+        "title": "Pat's Friendship Cottages",
         "dest": 26
       },
       {
@@ -6119,7 +6137,7 @@
         "dest": 38
       },
       {
-        "title": "a fresh take On the past",
+        "title": "a fresh take on the past",
         "dest": 48
       },
       {
@@ -7357,63 +7375,83 @@
     "offset": "0",
     "toc": [
       {
+        "title ": "APQ Club",
         "dest": 3
       },
       {
+        "title ": "From the Editor",
         "dest": 8
       },
       {
+        "title ": "Contributors",
         "dest": 10
       },
       {
+        "title ": "From Our Readers",
         "dest": 12
       },
       {
+        "title ": "Tips from Readers",
         "dest": 14
       },
       {
+        "title ": "Favorite Finds",
         "dest": 16
       },
       {
+        "title ": "Finish it Up",
         "dest": 18
       },
       {
+        "title ": "Kaye England",
         "dest": 20
       },
       {
+        "title ": "Solid Ideas",
         "dest": 28
       },
       {
+        "title ": "Past and Present",
         "dest": 36
       },
       {
+        "title ": "Heart to Heart",
         "dest": 42
       },
       {
+        "title ": "Bohemian Charm",
         "dest": 52
       },
       {
+        "title ": "Square Roots",
         "dest": 60
       },
       {
+        "title ": "Windy by the Lake",
         "dest": 64
       },
       {
+        "title ": "Rolling Stones",
         "dest": 72
       },
       {
+        "title ": "Gone to Pieces",
         "dest": 78
       },
       {
+        "title ": "Indigo & Gold",
         "dest": 84
       },
       {
+        "title ": "Star Treatment",
         "dest": 90
       },
       {
+        "title ": "Back to Basics",
         "dest": 98
       },
       {
+        "title ": "The Best Thing",
         "dest": 106
       }
     ],
@@ -7795,7 +7833,7 @@
         "dest": 3
       },
       {
-        "title": "From the Editor",
+        "title": "From the Editors",
         "dest": 6
       },
       {
@@ -8113,7 +8151,7 @@
         "dest": 96
       },
       {
-        "title": "Mixi t Up",
+        "title": "Mix it Up",
         "dest": 106
       },
       {
@@ -8155,7 +8193,7 @@
         "dest": 10
       },
       {
-        "title": "I Arn a Quilter",
+        "title": "I Am a Quilter",
         "dest": 12
       },
       {
@@ -8229,63 +8267,82 @@
     "offset": "0",
     "toc": [
       {
-        "dest": 3
-      },
-      {
-        "dest": 6
-      },
-      {
-        "dest": 10
-      },
-      {
-        "dest": 12
-      },
-      {
-        "dest": 14
-      },
-      {
-        "dest": 16
-      },
-      {
-        "dest": 18
-      },
-      {
-        "dest": 28
-      },
-      {
-        "dest": 40
-      },
-      {
-        "dest": 48
-      },
-      {
-        "dest": 54
-      },
-      {
-        "dest": 64
-      },
-      {
-        "dest": 68
-      },
-      {
-        "dest": 76
-      },
-      {
-        "dest": 82
-      },
-      {
-        "dest": 88
-      },
-      {
-        "dest": 96
-      },
-      {
-        "dest": 104
-      },
-      {
-        "dest": 114
-      }
-    ],
+      "title": "Quilting Changes Everything",
+      "dest": 3
+  },
+  {
+      "title": "From the Editors",
+      "dest": 6
+  },
+  {
+      "title": "Contributors",
+      "dest": 10
+  },
+  {
+      "title": "I Arn a Quilter",
+      "dest": 12
+  },
+  {
+      "title": "Tips from Readers",
+      "dest": 14
+  },
+  {
+      "title": "Favorite Finds",
+      "dest": 16
+  },
+  {
+      "title": "World of Treasures",
+      "dest": 18
+  },
+  {
+      "title": "Log Cabin Stars",
+      "dest": 28
+  },
+  {
+      "title": "Ahead of the Curve",
+      "dest": 40
+  },
+  {
+      "title": "Friendship Album",
+      "dest": 48
+  },
+  {
+      "title": "Everything's Blooming",
+      "dest": 54
+  },
+  {
+      "title": "Color Courage",
+      "dest": 64
+  },
+  {
+      "title": "Wildest Dreams",
+      "dest": 68
+  },
+  {
+      "title": "Stepping Stones",
+      "dest": 76
+  },
+  {
+      "title": "Sew Your Seeds",
+      "dest": 82
+  },
+  {
+      "title": "Scattered Leaves",
+      "dest": 88
+  },
+  {
+      "title": "Woven Wonder",
+      "dest": 96
+  },
+  {
+      "title": "Back to Basics",
+      "dest": 104
+  },
+  {
+      "title": "Global Perspective",
+      "dest": 114
+  }]
+,
     "title": "AMQ-2009-10-100",
     "type": 1,
     "pageCount": 116
@@ -9038,7 +9095,12 @@
       {
         "title": "Caramel & Cocoa",
         "dest": 92
+      },
+      {
+        "title": "La Petite Fleur",
+        "dest": 100
       }
+      
     ],
     "title": "AMQ-2011-04-109",
     "type": 1,
@@ -9054,63 +9116,82 @@
     "offset": "0",
     "toc": [
       {
-        "dest": 3
-      },
-      {
-        "dest": 6
-      },
-      {
-        "dest": 10
-      },
-      {
-        "dest": 12
-      },
-      {
-        "dest": 14
-      },
-      {
-        "dest": 16
-      },
-      {
-        "dest": 22
-      },
-      {
-        "dest": 32
-      },
-      {
-        "dest": 44
-      },
-      {
-        "dest": 48
-      },
-      {
-        "dest": 58
-      },
-      {
-        "dest": 66
-      },
-      {
-        "dest": 74
-      },
-      {
-        "dest": 82
-      },
-      {
-        "dest": 92
-      },
-      {
-        "dest": 100
-      },
-      {
-        "dest": 110
-      },
-      {
-        "dest": 120
-      },
-      {
-        "dest": 130
-      }
-    ],
+      "Book Chapter ": "Quilting Changes Everything",
+      "Page Number": 3
+  },
+  {
+      "Book Chapter ": "From the Editors",
+      "Page Number": 6
+  },
+  {
+      "Book Chapter ": "I Am a Quilter",
+      "Page Number": 10
+  },
+  {
+      "Book Chapter ": "Favorite Finds",
+      "Page Number": 12
+  },
+  {
+      "Book Chapter ": "Tips from Readers",
+      "Page Number": 14
+  },
+  {
+      "Book Chapter ": "The Quilting Tradition of Making Do",
+      "Page Number": 16
+  },
+  {
+      "Book Chapter ": "Simply Remarkable",
+      "Page Number": 22
+  },
+  {
+      "Book Chapter ": "Twist on Tradition",
+      "Page Number": 32
+  },
+  {
+      "Book Chapter ": "Sweet Sachets",
+      "Page Number": 44
+  },
+  {
+      "Book Chapter ": "X's and O's",
+      "Page Number": 48
+  },
+  {
+      "Book Chapter ": "Flying Free",
+      "Page Number": 58
+  },
+  {
+      "Book Chapter ": "Yo-Yo Rows",
+      "Page Number": 66
+  },
+  {
+      "Book Chapter ": "Nine-Patch Delight",
+      "Page Number": 74
+  },
+  {
+      "Book Chapter ": "Added Interest",
+      "Page Number": 82
+  },
+  {
+      "Book Chapter ": "Embrace Your Curves",
+      "Page Number": 92
+  },
+  {
+      "Book Chapter ": "Attention to Detail",
+      "Page Number": 100
+  },
+  {
+      "Book Chapter ": "Batik to Nature",
+      "Page Number": 110
+  },
+  {
+      "Book Chapter ": "Back to Basics",
+      "Page Number": 120
+  },
+  {
+      "Book Chapter ": "Global Perspective",
+      "Page Number": 130
+  }]
+,
     "title": "AMQ-2011-06-110",
     "type": 1,
     "pageCount": 132
@@ -9871,60 +9952,78 @@
     "offset": "0",
     "toc": [
       {
-        "dest": 3
-      },
-      {
-        "dest": 6
-      },
-      {
-        "dest": 10
-      },
-      {
-        "dest": 12
-      },
-      {
-        "dest": 14
-      },
-      {
-        "dest": 16
-      },
-      {
-        "dest": 18
-      },
-      {
-        "dest": 23
-      },
-      {
-        "dest": 30
-      },
-      {
-        "dest": 38
-      },
-      {
-        "dest": 46
-      },
-      {
-        "dest": 56
-      },
-      {
-        "dest": 66
-      },
-      {
-        "dest": 76
-      },
-      {
-        "dest": 82
-      },
-      {
-        "dest": 88
-      },
-      {
-        "dest": 95
-      },
-      {
-        "dest": 106
-      }
-    ],
+      "Book Chapter ": "Quilting Changes Everything®",
+      "Page Number": 3
+  },
+  {
+      "Book Chapter ": "From the Editors",
+      "Page Number": 6
+  },
+  {
+      "Book Chapter ": "Tips from Readers",
+      "Page Number": 10
+  },
+  {
+      "Book Chapter ": "Social Life",
+      "Page Number": 12
+  },
+  {
+      "Book Chapter ": "Favorite Finds",
+      "Page Number": 14
+  },
+  {
+      "Book Chapter ": "I Am a Quilter",
+      "Page Number": 16
+  },
+  {
+      "Book Chapter ": "Color Inspiration",
+      "Page Number": 18
+  },
+  {
+      "Book Chapter ": "Ready, Set, Quilt",
+      "Page Number": 23
+  },
+  {
+      "Book Chapter ": "Butter Churn",
+      "Page Number": 30
+  },
+  {
+      "Book Chapter ": "Back to Nature",
+      "Page Number": 38
+  },
+  {
+      "Book Chapter ": "Mix Master",
+      "Page Number": 46
+  },
+  {
+      "Book Chapter ": "S'mores",
+      "Page Number": 56
+  },
+  {
+      "Book Chapter ": "Here Goes the Neighborhood",
+      "Page Number": 66
+  },
+  {
+      "Book Chapter ": "Cutting Edge",
+      "Page Number": 76
+  },
+  {
+      "Book Chapter ": "Sawtooth Surround",
+      "Page Number": 82
+  },
+  {
+      "Book Chapter ": "Way Around",
+      "Page Number": 88
+  },
+  {
+      "Book Chapter ": "Back to Basics",
+      "Page Number": 95
+  },
+  {
+      "Book Chapter ": "Live It, Love It",
+      "Page Number": 106
+  }]
+,
     "title": "AMQ-2013-02-120",
     "type": 1,
     "pageCount": 108
@@ -10729,66 +10828,87 @@
     "offset": "0",
     "toc": [
       {
+        "title": "From the Editor",
         "dest": 6
       },
       {
+        "title": "Social Life",
         "dest": 10
       },
       {
+        "title": "Tips from Readers",
         "dest": 12
       },
       {
+        "title": "Sneak Peek",
         "dest": 14
       },
       {
+        "title": "Quilting Changes Everything®",
         "dest": 16
       },
       {
+        "title": "Favorite Finds",
         "dest": 18
       },
       {
+        "title": "I Am a Quilter",
         "dest": 20
       },
       {
+        "title": "Staying Power",
         "dest": 22
       },
       {
+        "title": "Happy Halloween",
         "dest": 32
       },
       {
+        "title": "Little House on the Square",
         "dest": 40
       },
       {
+        "title": "Another Angle",
         "dest": 50
       },
       {
+        "title": "Fall’s Bounty",
         "dest": 59
       },
       {
+        "title": "Pieceful Waters",
         "dest": 64
       },
       {
+        "title": "Technique: Trimming for Foundation Piecing",
         "dest": 74
       },
       {
+        "title": "Autumn Quartet",
         "dest": 77
       },
       {
+        "title": "Technique: Tying a Quilt",
         "dest": 81
       },
       {
+        "title": "Rustic Stars",
         "dest": 82
       },
       {
+        "title": "Attention Getter",
         "dest": 90
       },
       {
+        "title": "The Secret’s in the Sashing",
         "dest": 96
       },
       {
+        "title": "Back to Basics",
         "dest": 106
       },
       {
+        "title": "Stitches to Savor",
         "dest": 114
       }
     ],
@@ -11056,7 +11176,7 @@
         "dest": 18
       },
       {
-        "title": "Stash Rx: Refi ll Two",
+        "title": "Stash Rx: Refill Two",
         "dest": 21
       },
       {
@@ -11322,7 +11442,7 @@
         "dest": 78
       },
       {
-        "title": "Piece & Play: Lesson 5",
+        "title": "Piece & Play: Lesson 6",
         "dest": 86
       },
       {
@@ -11420,8 +11540,8 @@
         "dest": 114
       }
     ],
-    "title": "AMQ-2016-02-138",
-    "type": 1,
+    "title": "QM-WINTER-2005",
+    "type": 2,
     "pageCount": 116
   },
   {
@@ -11530,8 +11650,8 @@
         "dest": 106
       }
     ],
-    "title": "AMQ-2016-04-139",
-    "type": 1,
+    "title": "QM-FALL-2006",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -11544,83 +11664,108 @@
     "offset": "0",
     "toc": [
       {
-        "dest": 3
-      },
-      {
-        "dest": 8
-      },
-      {
-        "dest": 12
-      },
-      {
-        "dest": 16
-      },
-      {
-        "dest": 22
-      },
-      {
-        "dest": 27
-      },
-      {
-        "dest": 28
-      },
-      {
-        "dest": 32
-      },
-      {
-        "dest": 36
-      },
-      {
-        "dest": 42
-      },
-      {
-        "dest": 46
-      },
-      {
-        "dest": 50
-      },
-      {
-        "dest": 54
-      },
-      {
-        "dest": 60
-      },
-      {
-        "dest": 65
-      },
-      {
-        "dest": 66
-      },
-      {
-        "dest": 72
-      },
-      {
-        "dest": 76
-      },
-      {
-        "dest": 80
-      },
-      {
-        "dest": 84
-      },
-      {
-        "dest": 86
-      },
-      {
-        "dest": 91
-      },
-      {
-        "dest": 101
-      },
-      {
-        "dest": 103
-      },
-      {
-        "dest": 106
-      }
-    ],
-    "title": "AMQ-2016-06-140",
-    "type": 1,
+      "title": "From The Editors",
+      "dest": 3
+  },
+  {
+      "title": "Getting To Know Amy Butler",
+      "dest": 8
+  },
+  {
+      "title": "Comfort Zone",
+      "dest": 12
+  },
+  {
+      "title": "Make It Personal",
+      "dest": 16
+  },
+  {
+      "title": "Red And White Romance",
+      "dest": 22
+  },
+  {
+      "title": "What Are Templates?",
+      "dest": 27
+  },
+  {
+      "title": "Prints Charming",
+      "dest": 28
+  },
+  {
+      "title": "Watercolors",
+      "dest": 32
+  },
+  {
+      "title": "Home And Hospitality",
+      "dest": 36
+  },
+  {
+      "title": "Tranquility",
+      "dest": 42
+  },
+  {
+      "title": "Lazy Days Tote",
+      "dest": 46
+  },
+  {
+      "title": "Hint Of Tint",
+      "dest": 50
+  },
+  {
+      "title": "I Spy",
+      "dest": 54
+  },
+  {
+      "title": "Pretty In Pink",
+      "dest": 60
+  },
+  {
+      "title": "Better Machine Applique",
+      "dest": 65
+  },
+  {
+      "title": "Calypso",
+      "dest": 66
+  },
+  {
+      "title": "Quilts Al Fresco",
+      "dest": 72
+  },
+  {
+      "title": "Splish Splash",
+      "dest": 76
+  },
+  {
+      "title": "Seasons For Change",
+      "dest": 80
+  },
+  {
+      "title": "Seams Right",
+      "dest": 84
+  },
+  {
+      "title": "City Blocks",
+      "dest": 86
+  },
+  {
+      "title": "Back To Basics",
+      "dest": 91
+  },
+  {
+      "title": "Reader Survey",
+      "dest": 101
+  },
+  {
+      "title": "Resources",
+      "dest": 103
+  },
+  {
+      "title": "Inspiration Abounds",
+      "dest": 106
+  }]
+,
+    "title": "QM-SUMMER-2006",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -11749,8 +11894,8 @@
         "dest": 106
       }
     ],
-    "title": "AMQ-2016-08-141",
-    "type": 1,
+    "title": "QM-SPRING-2006",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -11827,7 +11972,7 @@
         "dest": 66
       },
       {
-        "title": "Better Machine Applique",
+        "title": "Better Machine Appuque",
         "dest": 71
       },
       {
@@ -11867,8 +12012,8 @@
         "dest": 106
       }
     ],
-    "title": "AMQ-2016-10-142",
-    "type": 1,
+    "title": "QM-WINTER-2006",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -11977,8 +12122,8 @@
         "dest": 106
       }
     ],
-    "title": "AMQ-2016-12-143",
-    "type": 1,
+    "title": "QM-FALL-2007",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -12087,8 +12232,8 @@
         "dest": 106
       }
     ],
-    "title": "AMQ-2017-02-144",
-    "type": 1,
+    "title": "QM-SUMMER-2007",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -12193,8 +12338,8 @@
         "dest": 106
       }
     ],
-    "title": "AMQ-2017-04-145",
-    "type": 1,
+    "title": "QM-SPRING-2007",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -12303,8 +12448,8 @@
         "dest": 106
       }
     ],
-    "title": "AMQ-2017-06-146",
-    "type": 1,
+    "title": "QM-WINTER-2007",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -12401,7 +12546,7 @@
         "dest": 81
       },
       {
-        "title": "One.Piece Wonder",
+        "title": "One-Piece Wonder",
         "dest": 82
       },
       {
@@ -12421,8 +12566,8 @@
         "dest": 106
       }
     ],
-    "title": "AMQ-2017-08-147",
-    "type": 1,
+    "title": "QM-FALL-2008",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -12535,8 +12680,8 @@
         "dest": 106
       }
     ],
-    "title": "AMQ-2017-10-148",
-    "type": 1,
+    "title": "QM-SPRING-2008",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -12547,8 +12692,7 @@
     "filename": "0149.pdf",
     "tab": 2,
     "offset": "0",
-    "toc": [
-      {
+    "toc": [{
         "title": "From The Editor",
         "dest": 3
       },
@@ -12657,8 +12801,8 @@
         "dest": 106
       }
     ],
-    "title": "AMQ-2017-12-149",
-    "type": 1,
+    "title": "QM-SUMMER-2008",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -12671,80 +12815,104 @@
     "offset": "0",
     "toc": [
       {
+        "title ": "From The Editor",
         "dest": 3
       },
       {
+        "title ": "Getting To Know: Amy Schimler",
         "dest": 8
       },
       {
+        "title ": "From Me To You",
         "dest": 12
       },
       {
+        "title ": "Vision In Blue",
         "dest": 14
       },
       {
+        "title ": "Truly Gifted",
         "dest": 18
       },
       {
+        "title ": "Sew Easy",
         "dest": 22
       },
       {
+        "title ": "Frill Seeking",
         "dest": 30
       },
       {
+        "title ": "Cutting On The Bias",
         "dest": 35
       },
       {
+        "title ": "Good Cheer",
         "dest": 36
       },
       {
+        "title ": "Over The Top",
         "dest": 42
       },
       {
+        "title ": "Penguin Patrol",
         "dest": 48
       },
       {
+        "title ": "Warm Fuzzies",
         "dest": 54
       },
       {
+        "title ": "Get Scrappy",
         "dest": 58
       },
       {
+        "title ": "Snow Much Fun",
         "dest": 62
       },
       {
+        "title ": "P Is For Pillow",
         "dest": 66
       },
       {
+        "title ": "Cutting Triangles",
         "dest": 70
       },
       {
+        "title ": "Straight To The Point",
         "dest": 72
       },
       {
+        "title ": "Storybook Surprise",
         "dest": 78
       },
       {
+        "title ": "Winter Jewels",
         "dest": 82
       },
       {
+        "title ": "What Are Templates?",
         "dest": 83
       },
       {
+        "title ": "Embroidery Stitches",
         "dest": 94
       },
       {
+        "title ": "Mitering Borders",
         "dest": 96
       },
       {
+        "title ": "Back To Basics",
         "dest": 97
       },
       {
+        "title ": "Coming Soon",
         "dest": 106
       }
     ],
-    "title": "AMQ-2018-02-150",
-    "type": 1,
+    "title": "QM-WINTER-2008",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -12829,7 +12997,7 @@
         "dest": 78
       },
       {
-        "title": "Da5Sy Dazzler",
+        "title": "Daisy Dazzler",
         "dest": 84
       },
       {
@@ -12849,8 +13017,8 @@
         "dest": 106
       }
     ],
-    "title": "AMQ-2018-04-151",
-    "type": 1,
+    "title": "QM-FALL-2009",
+    "type": 2,
     "pageCount": 120
   },
   {
@@ -12947,8 +13115,8 @@
         "dest": 106
       }
     ],
-    "title": "AMQ-2018-06-152",
-    "type": 1,
+    "title": "QM-SPRING-2009",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -13057,8 +13225,8 @@
         "dest": 106
       }
     ],
-    "title": "AMQ-2018-08-153",
-    "type": 1,
+    "title": "QM-SUMMER-2009",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -13159,8 +13327,8 @@
         "dest": 106
       }
     ],
-    "title": "AMQ-2018-10-154",
-    "type": 1,
+    "title": "Winter 2009",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -13253,8 +13421,8 @@
         "dest": 98
       }
     ],
-    "title": "AMQ-2018-12-155",
-    "type": 1,
+    "title": "QM-FALL-2010",
+    "type": 2,
     "pageCount": 108
   },
   {
@@ -13351,7 +13519,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-WINTER-2005",
+    "title": "QM-SUMMER-2010",
     "type": 2,
     "pageCount": 108
   },
@@ -13461,7 +13629,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-FALL-2006",
+    "title": "QM-SPRING-2010",
     "type": 2,
     "pageCount": 108
   },
@@ -13567,7 +13735,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-SUMMER-2006",
+    "title": "QM-WINTER-2010",
     "type": 2,
     "pageCount": 108
   },
@@ -13661,7 +13829,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-SPRING-2006",
+    "title": "QM-FALL-2011",
     "type": 2,
     "pageCount": 108
   },
@@ -13675,70 +13843,91 @@
     "offset": "0",
     "toc": [
       {
-        "dest": 3
-      },
-      {
-        "dest": 8
-      },
-      {
-        "dest": 12
-      },
-      {
-        "dest": 20
-      },
-      {
-        "dest": 29
-      },
-      {
-        "dest": 34
-      },
-      {
-        "dest": 38
-      },
-      {
-        "dest": 40
-      },
-      {
-        "dest": 42
-      },
-      {
-        "dest": 48
-      },
-      {
-        "dest": 54
-      },
-      {
-        "dest": 58
-      },
-      {
-        "dest": 59
-      },
-      {
-        "dest": 70
-      },
-      {
-        "dest": 75
-      },
-      {
-        "dest": 76
-      },
-      {
-        "dest": 80
-      },
-      {
-        "dest": 86
-      },
-      {
-        "dest": 92
-      },
-      {
-        "dest": 98
-      },
-      {
-        "dest": 106
-      }
-    ],
-    "title": "QM-WINTER-2006",
+      "Book Chapter ": "From The Editors",
+      "Page Number": 3
+  },
+  {
+      "Book Chapter ": "Hot Stuff",
+      "Page Number": 8
+  },
+  {
+      "Book Chapter ": "Scrap Lab",
+      "Page Number": 12
+  },
+  {
+      "Book Chapter ": "Star-Spangled Summer",
+      "Page Number": 20
+  },
+  {
+      "Book Chapter ": "Island Breeze",
+      "Page Number": 29
+  },
+  {
+      "Book Chapter ": "Simple Frills",
+      "Page Number": 34
+  },
+  {
+      "Book Chapter ": "Pin Party!",
+      "Page Number": 38
+  },
+  {
+      "Book Chapter ": "What Are Templates?",
+      "Page Number": 40
+  },
+  {
+      "Book Chapter ": "Pick-It Fences",
+      "Page Number": 42
+  },
+  {
+      "Book Chapter ": "Bold Statement",
+      "Page Number": 48
+  },
+  {
+      "Book Chapter ": "Table Wear",
+      "Page Number": 54
+  },
+  {
+      "Book Chapter ": "Cutting On The Bias",
+      "Page Number": 58
+  },
+  {
+      "Book Chapter ": "Road Trip",
+      "Page Number": 59
+  },
+  {
+      "Book Chapter ": "Baby Steps",
+      "Page Number": 70
+  },
+  {
+      "Book Chapter ": "Better Machine Applique",
+      "Page Number": 75
+  },
+  {
+      "Book Chapter ": "A Toast To Coasters",
+      "Page Number": 76
+  },
+  {
+      "Book Chapter ": "Made In The Shade",
+      "Page Number": 80
+  },
+  {
+      "Book Chapter ": "Here's The Scoop",
+      "Page Number": 86
+  },
+  {
+      "Book Chapter ": "Soft & Simple",
+      "Page Number": 92
+  },
+  {
+      "Book Chapter ": "Back To Basics",
+      "Page Number": 98
+  },
+  {
+      "Book Chapter ": "Make It Tonight!",
+      "Page Number": 106
+  }]
+,
+    "title": "QM-SUMMER-2011",
     "type": 2,
     "pageCount": 108
   },
@@ -13836,7 +14025,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-FALL-2007",
+    "title": "QM-SPRING-2011",
     "type": 2,
     "pageCount": 108
   },
@@ -13938,7 +14127,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-SUMMER-2007",
+    "title": "QM-WINTER-2011",
     "type": 2,
     "pageCount": 108
   },
@@ -14036,7 +14225,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-SPRING-2007",
+    "title": "QM-FALL-2012",
     "type": 2,
     "pageCount": 108
   },
@@ -14130,7 +14319,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-WINTER-2007",
+    "title": "QM-SUMMER-2012",
     "type": 2,
     "pageCount": 108
   },
@@ -14224,7 +14413,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-FALL-2008",
+    "title": "QM-SPRING-2012",
     "type": 2,
     "pageCount": 108
   },
@@ -14326,7 +14515,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-SPRING-2008",
+    "title": "QM-WINTER-2012",
     "type": 2,
     "pageCount": 108
   },
@@ -14420,7 +14609,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-SUMMER-2008",
+    "title": "QM-FALL-2013",
     "type": 2,
     "pageCount": 108
   },
@@ -14518,7 +14707,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-WINTER-2008",
+    "title": "QM-SUMMER-2013",
     "type": 2,
     "pageCount": 108
   },
@@ -14620,7 +14809,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-FALL-2009",
+    "title": "QM-SPRING-2013",
     "type": 2,
     "pageCount": 108
   },
@@ -14634,73 +14823,95 @@
     "offset": "0",
     "toc": [
       {
+        "title": "From The Editors",
         "dest": 3
       },
       {
+        "title": "Hot Stuff",
         "dest": 8
       },
       {
+        "title": "Bookshelf",
         "dest": 10
       },
       {
+        "title": "Color Play",
         "dest": 12
       },
       {
+        "title": "Finish Line",
         "dest": 16
       },
       {
+        "title": "Scrap Lab",
         "dest": 20
       },
       {
+        "title": "What Are Templates?",
         "dest": 29
       },
       {
+        "title": "Frosty Friend",
         "dest": 30
       },
       {
+        "title": "Sampler Style",
         "dest": 36
       },
       {
+        "title": "Cutting On The Bias",
         "dest": 43
       },
       {
+        "title": "Sweet Tangerine",
         "dest": 44
       },
       {
+        "title": "Ocean View",
         "dest": 48
       },
       {
+        "title": "We ❤ Ornaments",
         "dest": 52
       },
       {
+        "title": "Dog On It",
         "dest": 58
       },
       {
+        "title": "Tree Tops",
         "dest": 62
       },
       {
+        "title": "’Round The Holidays",
         "dest": 68
       },
       {
+        "title": "Better Machine Appliqué",
         "dest": 75
       },
       {
+        "title": "Special Effects",
         "dest": 76
       },
       {
+        "title": "Nappy Bag",
         "dest": 82
       },
       {
+        "title": "Rail-Y Cute",
         "dest": 88
       },
       {
+        "title": "Ready, Set, Sew!",
         "dest": 94
       },
       {
+        "title": "Back To Basics",
         "dest": 98
       }
     ],
-    "title": "QM-SPRING-2009",
+    "title": "QM-WINTER-2013",
     "type": 2,
     "pageCount": 108
   },
@@ -14806,7 +15017,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-SUMMER-2009",
+    "title": "QM-FALL-2014",
     "type": 2,
     "pageCount": 108
   },
@@ -14920,7 +15131,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-WINTER-2009",
+    "title": "QM-SUMMER-2014",
     "type": 2,
     "pageCount": 108
   },
@@ -15030,7 +15241,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-FALL-2010",
+    "title": "QM-SPRING-2014",
     "type": 2,
     "pageCount": 108
   },
@@ -15136,7 +15347,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-SUMMER-2010",
+    "title": "QM-WINTER-2014",
     "type": 2,
     "pageCount": 108
   },
@@ -15238,7 +15449,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-SPRING-2010",
+    "title": "QM-FALL-2015",
     "type": 2,
     "pageCount": 108
   },
@@ -15340,7 +15551,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-WINTER-2010",
+    "title": "QM-SUMMER-2015",
     "type": 2,
     "pageCount": 108
   },
@@ -15446,7 +15657,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-FALL-2011",
+    "title": "QM-SPRING-2015",
     "type": 2,
     "pageCount": 108
   },
@@ -15544,7 +15755,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-SUMMER-2011",
+    "title": "QM-WINTER-2015",
     "type": 2,
     "pageCount": 108
   },
@@ -15614,8 +15825,8 @@
         "dest": 96
       }
     ],
-    "title": "QM-SPRING-2011",
-    "type": 2,
+    "title": "AMQ-2016-02-138",
+    "type": 1,
     "pageCount": 108
   },
   {
@@ -15628,62 +15839,80 @@
     "offset": "0",
     "toc": [
       {
+        "title ": "From the Editors",
         "dest": 6
       },
       {
+        "title ": "Sew in the Know",
         "dest": 10
       },
       {
+        "title ": "Tips from Readers",
         "dest": 16
       },
       {
+        "title ": "Trusting Her Instincts",
         "dest": 18
       },
       {
+        "title ": "10 Ways to Find Your Quilting Community",
         "dest": 26
       },
       {
+        "title ": "Happy Tiers",
         "dest": 30
       },
       {
+        "title ": "On the Rails",
         "dest": 36
       },
       {
+        "title ": "It All Adds Up",
         "dest": 47
       },
       {
+        "title ": "Grand Total",
         "dest": 48
       },
       {
+        "title ": "Plus Postage",
         "dest": 56
       },
       {
+        "title ": "All Afl utter",
         "dest": 62
       },
       {
+        "title ": "Bird & Bloom Needle Keeper",
         "dest": 70
       },
       {
+        "title ": "Star-Crossed",
         "dest": 74
       },
       {
+        "title ": "Winning Combination",
         "dest": 84
       },
       {
+        "title ": "Garden Fresh",
         "dest": 92
       },
       {
+        "title ": "Quilt Design Piece by Piece",
         "dest": 98
       },
       {
+        "title ": "Home Stretch",
         "dest": 102
       },
       {
+        "title ": "Back to Basics",
         "dest": 108
       }
     ],
-    "title": "QM-WINTER-2011",
-    "type": 2,
+    "title": "AMQ-2016-04-139",
+    "type": 1,
     "pageCount": 116
   },
   {
@@ -15752,8 +15981,8 @@
         "dest": 120
       }
     ],
-    "title": "QM-FALL-2012",
-    "type": 2,
+    "title": "AMQ-2016-06-140",
+    "type": 1,
     "pageCount": 132
   },
   {
@@ -15826,8 +16055,8 @@
         "dest": 100
       }
     ],
-    "title": "QM-SUMMER-2012",
-    "type": 2,
+    "title": "AMQ-2016-08-141",
+    "type": 1,
     "pageCount": 108
   },
   {
@@ -15904,8 +16133,8 @@
         "dest": 110
       }
     ],
-    "title": "QM-SPRING-2012",
-    "type": 2,
+    "title": "AMQ-2016-10-142",
+    "type": 1,
     "pageCount": 116
   },
   {
@@ -15970,8 +16199,8 @@
         "dest": 124
       }
     ],
-    "title": "QM-WINTER-2012",
-    "type": 2,
+    "title": "AMQ-2016-12-143",
+    "type": 1,
     "pageCount": 132
   },
   {
@@ -16072,7 +16301,7 @@
         "dest": 88
       }
     ],
-    "title": "QM-FALL-2013",
+    "title": "QM-SPRING-2016",
     "type": 2,
     "pageCount": 108
   },
@@ -16170,7 +16399,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-SUMMER-2013",
+    "title": "QM-SUMMER-2016",
     "type": 2,
     "pageCount": 108
   },
@@ -16256,7 +16485,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-SPRING-2013",
+    "title": "QM-FALL-2016",
     "type": 2,
     "pageCount": 108
   },
@@ -16354,7 +16583,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-WINTER-2013",
+    "title": "QM-WINTER-2016",
     "type": 2,
     "pageCount": 108
   },
@@ -16416,8 +16645,8 @@
         "dest": 106
       }
     ],
-    "title": "QM-FALL-2014",
-    "type": 2,
+    "title": "AMQ-2017-02-144",
+    "type": 1,
     "pageCount": 108
   },
   {
@@ -16430,50 +16659,64 @@
     "offset": "0",
     "toc": [
       {
+        "title": "From The Editors",
         "dest": 6
       },
       {
+        "title": "Tips From Readers",
         "dest": 10
       },
       {
+        "title": "Sew In The Know",
         "dest": 12
       },
       {
+        "title": "Cross Reference",
         "dest": 22
       },
       {
+        "title": "Flashback Quilt: Checkmate",
         "dest": 30
       },
       {
+        "title": "Points Of Interest",
         "dest": 36
       },
       {
+        "title": "Office Space",
         "dest": 46
       },
       {
+        "title": "Star Bursts",
         "dest": 60
       },
       {
+        "title": "String Theory",
         "dest": 72
       },
       {
+        "title": "Sew Giving",
         "dest": 82
       },
       {
+        "title": "Petal Power",
         "dest": 86
       },
       {
+        "title": "Signed, Sealed, Delivered",
         "dest": 96
       },
       {
+        "title": "Back To Basics",
         "dest": 106
       },
       {
+        "title": "Build Your Quilting Skills",
         "dest": 114
       }
     ],
-    "title": "QM-SUMMER-2014",
-    "type": 2,
+    "title": "AMQ-2017-04-145",
+    "type": 1,
     "pageCount": 116
   },
   {
@@ -16542,8 +16785,8 @@
         "dest": 130
       }
     ],
-    "title": "QM-SPRING-2014",
-    "type": 2,
+    "title": "AMQ-2017-06-146",
+    "type": 1,
     "pageCount": 132
   },
   {
@@ -16612,8 +16855,8 @@
         "dest": 106
       }
     ],
-    "title": "QM-WINTER-2014",
-    "type": 2,
+    "title": "AMQ-2017-08-147",
+    "type": 1,
     "pageCount": 108
   },
   {
@@ -16636,6 +16879,10 @@
       {
         "title": "Tips From Readers",
         "dest": 16
+      },
+      {
+        "title": "Creative Spirit",
+        "dest": 18
       },
       {
         "title": "Fall Harvest ",
@@ -16690,8 +16937,8 @@
         "dest": 114
       }
     ],
-    "title": "QM-FALL-2015",
-    "type": 2,
+    "title": "AMQ-2017-10-148",
+    "type": 1,
     "pageCount": 116
   },
   {
@@ -16776,8 +17023,8 @@
         "dest": 130
       }
     ],
-    "title": "QM-SUMMER-2015",
-    "type": 2,
+    "title": "AMQ-2017-12-149",
+    "type": 1,
     "pageCount": 132
   },
   {
@@ -16874,7 +17121,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-SPRING-2015",
+    "title": "QM-SPRING-2017",
     "type": 2,
     "pageCount": 108
   },
@@ -16976,7 +17223,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-WINTER-2015",
+    "title": "QM-SUMMER-2017",
     "type": 2,
     "pageCount": 108
   },
@@ -17094,13 +17341,13 @@
         "dest": 106
       }
     ],
-    "title": "QM-SPRING-2016",
+    "title": "QM-FALL-2017",
     "type": 2,
     "pageCount": 108
   },
   {
     "id": "198",
-    "year": 2017,
+    "year": 2018,
     "month": "Winter",
     "hasAttachment": 1,
     "filename": "0198.pdf",
@@ -17196,7 +17443,7 @@
         "dest": 106
       }
     ],
-    "title": "QM-SUMMER-2016",
+    "title": "QM-WINTER-2017",
     "type": 2,
     "pageCount": 108
   },
@@ -17234,8 +17481,8 @@
         "dest": 104
       }
     ],
-    "title": "QM-FALL-2016",
-    "type": 2,
+    "title": "AMQ-2018-02-150",
+    "type": 1,
     "pageCount": 108
   },
   {
@@ -17248,29 +17495,36 @@
     "offset": "0",
     "toc": [
       {
+        "title": "From The Editor",
         "dest": 4
       },
       {
+        "title": "Celebrating 25 Years!",
         "dest": 8
       },
       {
+        "title": "Sew In The Know",
         "dest": 12
       },
       {
+        "title": "Reader Tips",
         "dest": 20
       },
       {
+        "title": "From Our Readers",
         "dest": 22
       },
       {
+        "title": "Back To Basics",
         "dest": 106
       },
       {
+        "title": "Collector’S Corner",
         "dest": 112
       }
     ],
-    "title": "QM-WINTER-2016",
-    "type": 2,
+    "title": "AMQ-2018-04-151",
+    "type": 1,
     "pageCount": 116
   },
   {
@@ -17303,12 +17557,12 @@
         "dest": 124
       },
       {
-        "title": "Collector’S Corner",
+        "title": "Collector’s Corner",
         "dest": 128
       }
     ],
-    "title": "QM-SPRING-2017",
-    "type": 2,
+    "title": "AMQ-2018-06-152",
+    "type": 1,
     "pageCount": 132
   },
   {
@@ -17341,12 +17595,12 @@
         "dest": 100
       },
       {
-        "title": "Collector’S Corner",
+        "title": "Collector’s Corner",
         "dest": 104
       }
     ],
-    "title": "QM-SUMMER-2017",
-    "type": 2,
+    "title": "AMQ-2018-08-153",
+    "type": 1,
     "pageCount": 108
   },
   {
@@ -17379,11 +17633,11 @@
         "dest": 108
       },
       {
-        "title": "Collector’S Corner",
+        "title": "Collector’s Corner",
         "dest": 112
       }
     ],
-    "title": "QM-FALL-2017",
+    "title": "AMQ-2018-10-154",
     "type": 2,
     "pageCount": 116
   },
@@ -17417,12 +17671,12 @@
         "dest": 124
       },
       {
-        "title": "Collector’S Corner",
+        "title": "Collector’s Corner",
         "dest": 128
       }
     ],
-    "title": "QM-WINTER-2017",
-    "type": 2,
+    "title": "AMQ-2018-12-155",
+    "type": 1,
     "pageCount": 132
   },
   {
