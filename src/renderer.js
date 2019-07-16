@@ -284,7 +284,14 @@ const Home = {
           _.each(indexSearchResults, (r) => {
             let article = this.searchIndex.documentStore.getDoc(r.ref)
             if(!article.hasOwnProperty('dest')) {
-              article.dest = article.page
+              let pageOffset = 0
+
+              if(article.isssue == 133) {
+                pageOffset = 4
+              } else if(article.isssue > 37) {
+                pageOffset = 2
+              }
+              article.dest = article.page + pageOffset
             }
             articleBuffer.push(article)
           })
@@ -514,10 +521,7 @@ const EbookViewer = {
       askForBookmarkFolderName: false,
       bookmarkFolderName: null,
       selectedPage: 1,
-      pageSelectOptions: [
-        { "value": 1, "text": "Cover 1" },
-        { "value": 2, "text": "Cover 2" }
-      ],
+      pageSelectOptions: [],
       viewerCanvasRatio: 0
     }
   },
@@ -1217,16 +1221,12 @@ const EbookViewer = {
   },
   mounted: function () {
     console.log('Mounted [EbookViewer]');
-    let additionalPageSelectOptions = _.times(this.issue.pageCount - 2, (n) => {
+    this.pageSelectOptions = _.times(this.issue.pageCount, (n) => {
       return {
-        "value": n + 3,
+        "value": n + 1,
         "text": "Page " + (n + 1)
       }
     })
-
-    this.pageSelectOptions = _.concat(this.pageSelectOptions, additionalPageSelectOptions)
-    this.pageSelectOptions[this.issue.pageCount - 2].text = "Cover 3"
-    this.pageSelectOptions[this.issue.pageCount - 1].text = "Cover 4"
     
     const loadingTask = pdfjs.getDocument({
       url: "./assets/ebooks/" + this.issue.filename,

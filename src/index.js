@@ -124,8 +124,7 @@ ipcMain.on('fullTextSearch', (event, searchTerm) => {
     reference = _.drop(reference, 4)
     const magazine_type = parseInt(_.take(reference, 4).join(''), 10)
     const page = parseInt(_.takeRight(reference, 4).join(''), 10)
-    const pageDisplay = (page > 2) ? "p." + (page - 2) : "Cover " + page
-    const article_title = "Issue #" + issue + ", " + pageDisplay
+    const article_title = "Issue #" + issue + ", p." + page
 
     searchResults.push({
       id: r.ref,

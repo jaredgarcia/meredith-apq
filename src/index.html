@@ -193,7 +193,7 @@
                     {{ data.item.issue_month }} {{ data.item.issue_year }}
                   </template>
                   <template slot="page" slot-scope="data">
-                    {{ (data.item.dest < 3) ? "Cover " + data.item.dest : data.item.dest - 2}}
+                    {{ "Page " + data.item.dest }}
                   </template>
                   <template slot="action" slot-scope="data">
                     <router-link class="btn btn-sm customBtnColor" :to="{ name: 'ebook-viewer', params: { id: data.item.issue, page: data.item.dest }}">
