@@ -286,9 +286,9 @@ const Home = {
             if(!article.hasOwnProperty('dest')) {
               let pageOffset = 0
 
-              if(article.isssue == 133) {
+              if(article.issue == 132) {
                 pageOffset = 4
-              } else if(article.isssue > 37) {
+              } else if(article.issue > 37 && article.issue != 132) {
                 pageOffset = 2
               }
               article.dest = article.page + pageOffset
